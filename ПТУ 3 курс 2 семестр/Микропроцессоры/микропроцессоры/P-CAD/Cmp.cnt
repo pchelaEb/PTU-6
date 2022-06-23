@@ -1,0 +1,214 @@
+:Base Cmp.hlp
+:Title P-CAD 2001 Library Executive Help
+1 Welcome to P-CAD Library Executive=About_Library_Executive
+1 P-CAD Library Executive
+2 New Features=New_Features
+2 Library Executive Layout=Library_Executive_Layout
+2 Library Basics
+3 Libraries=Libraries
+3 Library Sets=Library_Sets
+3 Integrated, Pattern, and Custom Libraries=Integrated_Pattern_and_Custom_Libraries
+3 Library and Library Set Management=Library and Library Set Management
+3 Creating Libraries
+4 Creating a New Library=Creating_a_New_Library
+4 Creating or Updating a P-CAD Library=HIDM_MRP_SAVEASLIBRARY>main
+4 New Library Set=HIDM_SRC_ADDLIBRARYSET
+4 Drag and Drop Library Load=Drag_and_Drop_Library_Load
+4 Add Library=HIDM_LIBSET_ADDLIBRARY
+4 Custom Libraries=custom_libraries
+4 Library Creation Using Pattern and Symbol Editor=Library_Creation_Using_Pattern_and_Symbol_Editor
+3 Modifying Libraries
+4 Modifying Library Set Contents=Modifying_Library_Set_Contents
+4 Rename a Library Item=Renaming_a_Library_Item
+4 Copying Library Items=Copying_Library_Items
+4 Delete a Library Item=Deleting_a_Library_Item
+4 Delete Library Attributes=HIDD_ATTR_REMOVE
+4 Updating an Existing Library=Updating_an_Existing_Library
+4 Merging Libraries=Merging_Libraries
+4 Converting Libraries
+5 Converting Libraries=Converting_Libraries
+5 Tango-PCB Only (Library Conversion)=Tango_PCB_Only
+5 Tango-Schematic Only (Converting Libraries)=Tango_Schematic_Only
+5 Tango-PCB and Schematic (Converting Libraries)=Tango_PCB_and_Schematic
+3 Translating Libraries
+4 Translating Libraries=Translating_Libraries
+4 PDIF Translation=PDIF_Translation
+4 Translating PDIF Part Libraries=Translating_PDIF_Part_Libraries
+4 Translating PDIF Symbol Libraries=Translating_PDIF_Symbol_Libraries
+4 Master Designer to P-CAD PCB Layer Map=Master_Designer_to_P-CAD_PCB_Layer_Map
+4 Master Designer to P-CAD SCH Layer Map=Master_Designer_to_P-CAD_SCH_Layer_Map
+3 Verifying Libraries
+4 Verification=Verification
+4 Accessing the Verify Command=Accessing_the_Verify_Command
+4 Setting up the Verify Dialog=Setting_up_the_Verify_Dialog
+4 Verifying a P-CAD Library=Verifying_a_P-CAD_Library
+4 The Verification Report=The_Verification_Report
+2 Components, Patterns and Symbols
+3 Create a New component=Creating_a_New_Component
+3 Create an Alias=Creating_an_Alias
+3 Copying, Renaming, and using Aliases=Copying_Renaming_and_using_Aliases
+3 Jumper Components=Jumper_Components
+3 Pattern Libraries=pattern_libraries
+3 Merging Patterns=Merging_Patterns
+3 Components, Patterns, and Symbols=Components_Patterns_and_Symbols
+3 Finding a Component in the Component Libraries=Finding_a_Component_in_the_Component_Libraries
+3 Placing Components=Placing_Components
+2 Working with the Source Browser
+3 About the Source Browser=HIDD_SOURCES_BROWSER
+3 The Source Browser Interface=Source_Browser_Interface
+3 Browsing Components, Patterns, and Symbols=Browsing_Components_Patterns_and_Symbols
+3 Modifying Library Sets from the Source Browser=Modifying_Library_Sets_from_the_Source_Browser
+3 Accessing Other Features=Accessing_Other_Features
+3 Source Browser Shortcut Menu Commands=Source_Browser_Shortcut_Menu_Commands
+2 Importing Data
+3 Importing Data from an External Source=Importing_Libraries_from_an_External_Source
+3 Import a Separated List File=Importing_a_Comma_delimited_File
+3 Importing an MRP with a ComponentName=Importing_an_MRP_with_a_ComponentName
+3 Using Cross Link on Import=Using_Cross_Link_on_Import
+3 Using Map Fields on Import=Using_Map_Fields_on_Import
+3 Mapping Fields=Mapping_Fields
+3 Mapping Layers=Mapping_Layers
+2 Using Query
+3 Query Result Table Menu Commands=Query_Result_Table_Menu_Commands
+3 Column Commands=Column_Commands
+3 Making a Query=Making_a_Query
+3 Specify the Search Criteria=Specify_the_Search_Criteria
+3 Selecting Fields=Selecting_Fields
+3 Specifying Output=Specifying_Output
+3 Query Operators=Query_Operators
+3 And vs. Or=And_vs._Or
+3 Data Types=Data_Types
+3 Date and Time=Date_and_Time
+3 Executing a Query=Executing_a_Query
+3 Using Query Results=Using_Query_Results
+3 Using the Query Results Table=Use_the_Query_Results_Table
+2 Cross Linking
+3 Cross Linking=Cross_Linking
+3 Understanding Cross Linking=Understanding_Cross_Linking
+3 Using the Cross Link Command=Using_the_Cross_Link_Command
+2 Reports and Output
+3 Report=Reports_Query
+3 Generate a Report File=Generate_a_Report_File
+3 Reports and Output=Reports_and_Output
+3 Selecting Components, Patterns, and Symbols=Selecting_Components__Patterns__and_Symbols
+3 Generate the Difference Report=Generate_the_Difference_Report
+3 The Verification Report=The_Verification_Report
+2 Working in the Spreadsheet
+3 Using the Spreadsheet=Using_the_Spreadsheet
+3 Electrical Type=Electrical_Type
+3 Electrical Type Definitions=Electrical_Type_Definitions
+3 Entering Pin Equivalence Information=Entering_Pin_Equivalence_Information
+3 Creating Common Pins=Creating_Common_Pins
+3 Hidden Pins=Hidden_Pins
+3 Enumerate Down=Enumerate_Down
+3 Enumerate Up=Enumerate_Up
+3 Merging Patterns and Symbols in the Spreadsheet=Merging_Patterns_and_Symbols_in_the_Spreadsheet
+3 Copy Spreadsheet Selection=HIDM_EDIT_COPY
+3 Cut Spreadsheet Selection=HIDM_EDIT_CUT
+3 Paste Spreadsheet Selection=HIDM_EDIT_PASTE
+3 Undo Spreadsheet Change=HIDM_EDIT_UNDO
+2 Publishing Data
+3 Library Publisher=HIDD_LIBRARY_PUBLISHER
+3 Generating Publisher Output=Generating_Publisher_Output
+3 Formatting Options=Formatting_Options
+1 Library Executive Reference
+2 Shortcut Keys=Keys
+2 Series II Commands=HELP_SERIES2
+2 Master Designer Command Reference=Master_Designer_Command_Reference
+2 Important Layer Mapping Tips=Important_Layer_Mapping_Tips
+2 Main Menu Commands
+3 File Menu
+4 File Cross Link=File_Cross_Link
+4 File Exit=File_Exit
+4 File Import=File_Import
+4 File Map Fields=File_Map_Fields
+4 File Query=File_Query
+4 File Report=File_Report
+4 File Save To Library=HIDM_MRP_SAVEASLIBRARY
+4 File Verify=File_Verify
+3 Library Menu
+4 Library Alias=HIDM_LIBRARY_ALIAS
+4 Library Copy=HIDM_LIBRARY_COPY
+4 Library Delete=HIDM_LIBRARY_DELETE
+4 Library Merge Patterns=HIDM_LIBRARY_INTEGRATE
+4 Library New=HIDM_LIBRARY_NEW
+4 Library Pattern Graphics=Library_Pattern_Graphics
+4 Library Publisher=HIDM_LIBRARY_PUBLISHER
+4 Library Rename=HIDM_LIBRARY_RENAME
+4 Library Setup=HIDM_LIBRARY_SETUP
+4 Library Translate=HIDM_LIBRARY_TRANSLATE
+3 Component Menu
+4 Component New=HIDM_FILE_NEW
+4 Component Open=Component_Open
+4 Component Save=HIDM_FILE_SAVE
+4 Component Save As=Component_Save_As
+4 Component Validate=Component_Validate
+3 Pattern Menu
+4 Pattern New=Pattern_New
+4 Pattern Open=Pattern_Open
+3 Symbol Menu
+4 Symbol New=Symbol_New
+4 Symbol Open=Symbol_Open
+3 Edit Menu
+4 Edit Component Attr=Edit_Component_Attr
+4 Edit Copy Spreadsheet Selection=HIDM_EDIT_COPY
+4 Edit Cut Spreadsheet Selection=HIDM_EDIT_CUT
+4 Edit Paste Spreadsheet Selection=HIDM_EDIT_PASTE
+4 Edit Select Pattern=Edit_Select_Pattern
+4 Edit Select Symbols=Edit_Select_Symbols
+4 Edit Slide Selection Down=Edit_Slide_Selection_Down
+4 Edit Slide Selection Up=Edit_Slide_Selection_Up
+4 Edit Undo Spreadsheet Change=HIDM_EDIT_UNDO
+3 View Menu
+4 View Comma-delimited File=View_Comma-delimited_File
+4 View Component Info=View_Component_Info
+4 View Custom Toolbar=View_Custom_Toolbar
+4 View Pattern View=View_Pattern_View
+4 View Pins View=View_Pins_View
+4 View Prompt Line=View_Prompt_Line
+4 View Source Browser=View_Source_Browser
+4 View Symbol View=View_Symbol_View
+4 View Toolbar=View_Toolbar
+3 Utils Menu
+4 Utils Customize=Utils_Customize
+4 Utils P-CAD Pattern Editor=Utils_P-CAD_Pattern_Editor
+4 Utils P-CAD PCB=Utils_P-CAD_PCB
+4 Utils P-CAD Schematic=Utils_P-CAD_Schematic
+4 Utils P-CAD Symbol Editor=Utils_P-CAD_Symbol_Editor
+4 Utils Query=Utils_Query
+4 Utils ShortcutDirectory=Utils_ShortcutDirectory
+3 Help Menu
+4 Help Topics=Help_Topics
+4 How to Use Help=How_to_Use_Help
+4 About=About
+2 Dialogs
+3 A-H
+4 About P-CAD Library Executive dialog=About_P_CAD_Library_Executive_dialog
+4 Component Format Options dialog=HIDD_LP_COMPONENT_FORMAT
+4 Component Information dialog=HIDD_COMPONENT_INFO
+4 Component Open Dialog=HIDD_CMPOPEN
+4 Footer Format Options dialog=HIDD_LP_FOOTER_FORMAT
+3 I-P
+4 Library Alias Dialog=HIDD_LIBRARYALIASDLG
+4 Library Browse Dialog=HIDD_LIBRARYLISTDLG
+4 Library Copy Dialog=Library_Copy_Dialog
+4 Library Delete Dialog=HIDD_LIBRARYDELETEDLG
+4 Library Format Options dialog=HIDD_LP_LIBRARY_FORMAT
+4 Library Merge Patterns Dialog=Library_Merge_Patterns_Dialog
+4 Library Pattern Graphics Dialog=Library_Pattern_Graphics_Dialog
+4 Library Rename Dialog=HIDD_LIBRARYRENAMEDLG
+4 Library Setup Dialog=HIDD_LIBRARY_SETUP
+4 Library Translate dialog=Library_Translate_dialog
+4 Master Designer to P-CAD PCB Layer Mapping dialog=Master_Designer_to_P-CAD_PCB_Layer_Mapping_dialog
+4 Master Designer to P-CAD SCH Layer Mapping dialog=Master_Designer_to_P-CAD_SCH_Layer_Mapping_dialog
+4 Pattern Format Options Dialog=HIDD_LP_PATTERN_FORMAT
+4 Place Attribute/Attribute Properties Dialog=HIDD_ATTRPROPDLG
+3 Q-Z
+4 Report Dialog=HIDD_REPORT_DLG
+4 The Cross Link Dialog=HIDD_CROSS_LINK
+4 The Import Comma-delimited File Dialog=HIDD_MRP_IMPORT
+4 The Map Fields Dialog=HIDD_MRP_MAPKEY
+4 The Query Dialog=HIDD_FILTER_EXP
+4 Utils Customize Dialog=HIDD_TOOLS_CUSTOMIZE
+4 Verify Dialog=HIDD_VERIFY
+4 Viewer Dialog=Viewer_Dialog

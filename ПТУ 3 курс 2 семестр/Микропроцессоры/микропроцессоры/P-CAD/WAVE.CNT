@@ -1,0 +1,51 @@
+:Base Wave.hlp
+:Title P-CAD 2001 Wave Analyzer
+1 Welcome to P-CAD Wave Analyzer=WA_INTRO>main
+1 P-CAD Wave Analyzer
+2 WaveAnalyzer Commands
+3 Toolbar=TB>menu
+3 File Menu
+4 File Exit=FM_EXIT
+4 File Open=FM_FILE_OPEN
+4 File Page Setup=FM_PAGE_SETUP
+4 File Print=FM_PRINT
+4 File Save=FM_SAVE
+4 File Save As=FM_SAVE_AS
+3 Edit Menu
+4 Edit Clear Measurement Area=EM_CLEAR
+4 Edit Copy=EM_COPY
+4 Edit Delete All Waves=EM_DEL_ALL
+4 Edit Delete Selected Wave=EM_DEL_SEL
+4 Edit Rescale=EM_RESCALE
+4 Edit Redraw=EM_REDRAW
+4 Edit Zoom In=EM_ZOOM_IN
+4 Edit Zoom Origin=EM_ORIGIN
+4 Edit Zoom Out=EM_ZOOM_OUT
+3 Analyze Menu
+4 Analyze Baseline=AM_BASE
+4 Analyze Cartes=AM_CARTES
+4 Analyze Fall Time=AM_FALL
+4 Analyze FFT=AM_FFT
+4 Analyze Maximum=AM_MAX
+4 Analyze Minimum=AM_MIN
+4 Analyze Rise Time=AM_RISE
+4 Analyze Topline=AM_TOP
+3 Options Menu
+4 Options Coordinate System=OM_COORD_SYS
+4 Options Display=OM_DISPLAY
+4 Options Measurement Area=OM_MEASUREMENT
+4 Options Wave=OM_WAVE
+4 Options Wave Names=OM_WAVE_NAMES
+4 Options X-Axis=OM_X_AXIS
+4 Options Y-Axis=OM_Y_AXIS
+3 Help Menu
+4 Help About P-CAD Wave Analyzer=MH_ABOUT
+4 Help How to use Help=MH_USE_HELP
+4 Help P-CAD WaveAnalyzer Help Topics=MH_TOPICS
+2 Measurement Methods
+3 Rise Time=MEA_RT>main
+3 Fall Time=MEA_FT>main
+3 Minimum=MEA_MIN>main
+3 Maximum=MEA_MAX>main
+3 Base Line=MEA_BASE>main
+3 Top Line=MEA_TOP>main

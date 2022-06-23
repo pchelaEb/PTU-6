@@ -1,0 +1,112 @@
+:Base ACCELVL.hlp>main
+:Title P-CAD 2001 TIES/Viewdraw
+1 Welcome to P-CAD TIES/ViewDraw=About_ACCEL_TIES_ViewDraw
+1 P-CAD TIES/ViewDraw
+2 The Basics
+3 About the User Interface=About_the_User_Interface>main
+3 Workspace=Workspace
+3 Multiple Windows=Multiple_Windows
+3 Launching Other Applications=Launching_VL_TIES>main
+3 Translation Guidelines=Tip_and_Guidelines>main
+2 Project Configuration File
+3 About the Project Configuration File=About_the_Project_Configuration_File>main
+3 Editing the Configuration File=Editing_the_Configuration_File>(w95sec)
+3 Configuration File Sections=Keywords>main
+2 Netlist Generation
+3 Generating a Netlist=Generating_a_Netlist>(w95sec)
+3 Netlist Generation Notes=Netlist_Generation_Notes>(w95sec)
+2 Library Creation
+3 Creating a P-CAD Library=HID_UTILITIES_LIBRARYCREATE
+3 Using the Pattern Wizard=HID_TOOLS_PATTERNWIZARD
+2 Back Annotation
+3 Allowed Changes for Back Annotation=Allowed_Changes_for_Back_Annotation>main
+3 Back Annotation Process=Back_Annotation_Process>(w95sec)
+3 Backward Conversion Notes=Backward_Conversion_Notes>main
+2 Forward Annotation
+3 Forward Annotating to a P-CAD PCB Design=Forward_Annotating_to_a_PCB_Design>(w95sec)
+2 Net Class/Class-To-Class Definitions
+3 Net Class/Class-To-Class Definitions=HID_UTILITIES_NETCLASSES>main
+3 Net Class Attributes=Net_Class_Attributes>main
+3 Add a Net Class=Add_a_Net_Class
+3 Add a New Rule=Add_a_New_Rule
+3 Add a Class to Class Definition=Add_a_Class_to_Class_Definition
+3 Add a Class to Class Rule=Add_a_Class_to_Class_Rule
+3 Modify a Class to Class Definition=Modify_a_Class_to_Class_Definition
+3 Modify a Class to Class Rule=Modify_a_Class_to_Class_Rule
+3 Modify a Rule=Modify_a_Rule
+3 Delete a Net Class=Delete_a_Net_Class
+3 Delete a Rule=Delete_a_Rule
+3 Delete a Class to Class Definition=Delete_a_Class_to_Class_Definition
+3 Delete a Class to Class Rule=Delete_a_Class_to_Class_Rule
+3 Setting Up Net Classes=Setting_Up_Net_Classes
+3 Generating Net Class and Class To Class Rules=Generating_Net_Class_and_Class_To_Class_Rules
+3 Rename a Net Class=Rename_a_Net_Class
+3 P-CAD TIES Net Class Rules File=P-CAD_TIES_Net_Class_Rules_File
+3 Sample P-CAD TIES Net Class Rules File=Sample_P-CAD_TIES_Net_Class_Rules_File
+3 Viewdraw Net Class Considerations=Viewdraw_Net_Class_Considerations
+3 Viewdraw Net Class Definition Errors=Viewdraw_Net_Class_Definition_Errors
+3 Viewdraw Net Class Definitions=Viewdraw_Net_Class_Definitions
+1 TIES/ViewDraw Reference
+2 Main Menu Commands
+3 File Menu
+4 File Close=File_Close_command
+4 File Exit=File_Exit_command
+4 File Open=File_Open_command
+4 File Print=File_Print_command
+4 File Print Preview=File_Print_Preview_command
+4 File Print Setup=File_Print_Setup_command
+4 File Recent File=Recently_Used_File_List_(File_menu)
+4 File Save=File_Save_command
+4 File Save As=File_Save_As_command
+3 Edit Menu
+4 Edit Copy=ROR0V3
+4 Edit Cut=BZRVLKP
+4 Edit Find=Edit_Find_Command
+4 Edit Paste=A3DM9SS
+4 Edit Replace=Edit_Replace_Command
+4 Edit Undo=RP99IT
+3 View Menu
+4 View Back Annotation File=Back_Annotation_File_(View_menu)
+4 View ECO File=ECO_File_(View_menu)
+4 View Error File=Error_File_(View_menu)
+4 View Log File=Log_File_(View_menu)
+4 View Netlist File=Netlist_File_(View_menu)
+4 View Status Bar=Status_Bar_(View_menu)
+4 View Toolbar=Toolbar_(View_menu)
+3 Utilities Menu
+4 Utilities Back Annotate=Backward_Annotate_dialog
+4 Utilities Cross Probing=HID_UTILITIES_CROSSPROBING
+4 Utilities Forward Annotate ECOs=Utilities_Forward_Annotate_ECOs_dialog
+4 Utilities Generate Netlist=Generate_Netlist_(Utilities_menu)
+4 Utilities Library Create=Utilities_Library_Create_dialog
+4 Utilities Net Classes=Net_Class/Class-To-Class_Dialog
+3 Tools Menu
+4 Tools Customize=Customize_(Tools_menu)
+4 Tools P-CAD Library Executive=P-CAD_Library_Manager_(Tools_menu)
+4 Tools P-CAD PCB=P-CAD_PCB_(Tools_menu)
+4 Tools Viewlogic Project Manager=Viewlogic_Project_Manager_(Tools_menu)
+4 Tools Viewlogic ViewDraw=Viewlogic_ViewDraw_(Tools_menu)
+3 Window Menu
+4 Window All Open Windows=GMU_FR
+4 Window Arrange Icons=HX2UP3
+4 Window Cascade=FHBD0Z0
+4 Window Tile=BCARMS
+3 Help Menu
+4 Help About P-CAD TIES=About_P-CAD_TIES_(Help_menu)
+4 Help P-CAD TIES/ViewDraw Help Topics=Help_Topics_(Help_menu)
+2 Dialogs
+3 A-H
+4 Find Dialog=Find_Dialog
+3 I-P
+4 Open Dialog=A1S3MQH
+4 Print Dialog=D_KA7V1
+4 Print Setup Dialog=EU88ZT
+3 Q-Z
+4 Replace Dialog=Replace_Dialog
+4 Save As Dialog=OKDJ5B
+4 Utilities Generate Netlist dialog=Utilities_Generate_Netlist_dialog
+3 Dialog Tabs
+4 Class To Class Definitions Tab=Class_To_Class_Definitions_Tab
+4 Class To Class Rules Tab=Class_To_Class_Rules_Tab
+4 Net Class Rules Tab=Net_Class_Rules_Tab
+4 Net Classes Tab=Net_Classes_Tab

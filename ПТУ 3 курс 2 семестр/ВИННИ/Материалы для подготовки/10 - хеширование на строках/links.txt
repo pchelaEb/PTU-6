@@ -1,0 +1,2 @@
+http://e-maxx.ru/algo/string_hashes
+http://e-maxx.ru/algo/rabin_karp

@@ -1,0 +1,220 @@
+:Base symed.hlp
+:Title P-CAD 2001 Symbol Editor Help
+1 Welcome to the P-CAD Symbol Editor=Introducing_P-CAD_Symbol_Editor>main
+1 P-CAD Symbol Editor
+2 New Features=New_Features
+2 Key Features=Key_Features
+2 Symbol Editor Basics
+3 Opening Symbols
+4 Open a Symbol File=Open_a_Symbol_File
+4 Open a Symbol from a Library=Open_a_Symbol_from_a_Library
+3 Saving Symbols
+4 Save a Symbol to a Library=Saving_a_Symbol_to_a_Library
+4 Save File to Name and Location=Save_File_to_Name_and_Location
+3 Printing
+4 Print Preview=Print_Preview
+4 Print Sheets=Print_Sheets
+4 Printing the Current Window=Printing_the_Current_Window
+4 Scaling the Sheet to Fit a Page=Scaling_the_Sheet_to_Fit_a_Page
+3 Customizing Symbol Editor
+4 Autopan=Configure_Autopan
+4 AutoSave=AutoSave
+4 Colors=HIDD_DISPOPTN
+4 Defining a Print Region=Defining_a_Print_Region
+4 Displaying the Custom Toolbar=Displaying_the_Custom_Toolbar
+4 Executing a Custom Tool=Executing_a_Custom_Tool
+4 File Viewer=File_Viewer
+4 Grid Toggle Buttons=Grid_Toggle_Buttons
+4 Line Width Combo Box=Line_Width_Combo_Box
+4 Multiple Windows=Multiple_Windows
+4 Sheet Display Combo Box and Scroll Buttons=Layer_Display_Combo_Box_and_Scroll_Buttons
+4 Showing or Hiding Data Tips=Showing_or_Hiding_Data_Tips
+4 Status Information Area=Status_Information_Area
+4 Status Line=HIDD_STATUSBAR
+4 Units=Configure_Units
+4 workspace Size=workspace_Size
+4 X and Y Coordinates=X_and_Y_Coordinates
+4 Zoom Factor=Configure_Zoom_Factor
+4 Zoom through a Window=Zoom_through_a_Window
+2 Using Symbol Editor
+3 Jump to a Location=Jump_to_a_location
+3 Measure=Measure_Procedure
+3 Macros
+4 Editing Macro Files=Editing_Macro_Files
+4 Macro File Syntax=Macro_File_Syntax
+4 Macro Recording Tool=HIDD_EVENT_RECORD_DLG
+4 Recording a Macro=Recording_a_Macro
+4 Recording Efficient Macros=Recording_Efficient_Macros
+3 Libraries
+4 Create an Alias=Create_an_Alias
+4 Copy Symbols/Components=Copy_Symbols_Components
+4 Delete from a Library=Delete_from_a_Library
+4 Rename a Library Item=Rename_a_Library_Item
+3 Objects
+4 Selecting Objects=Selecting_Objects
+4 Duplicate an Object=Duplicating_an_Object
+4 Move and Copy Objects=Moving_and_Copying_Objects
+4 Paste Objects=Paste_Objects
+4 Resize Objects=Resizing_Objects
+4 Delete Objects=Delete_Objects
+4 Renumbering Pins=Renumbering_Pins
+4 Rotate and Flip=Rotate_and_Flip
+4 Rotate or Flip a Pin=Rotate_or_Flip_a_Pin
+4 Rotate or Flip an Attribute=Rotate_or_Flip_an_Attribute
+4 Selection Reference Point=Selection_Reference_Point
+4 When Objects Overlap=When_Objects_Overlap
+4 Placement
+5 Place a Pin=Place_a_Pin
+5 Place a Line=Place_a_Line
+5 Place an Arc=Place_an_Arc
+5 Place a Polygon=Place_a_Polygon
+5 Place a Selection Reference Point=Place_a_Selection_Reference_Point
+5 Place a Point=Place_a_Point
+5 Place Text=Placing_Text
+5 Place an Attribute=Place_an_Attribute
+5 Place an IEEE Symbol=Place_an_IEEE_Symbol
+3 Text
+4 Jump to Text=Jump_to_Text
+4 Rotate/Flip=Rotate_Flip_Text
+1 Symbol Editor Reference
+2 Main Menu Commands
+3 Symbol Menu
+4 Symbol Attributes=HIDM_FILE_ATTRIBUTES
+4 Symbol Close=HIDM_FILE_CLOSE
+4 Symbol Exit=HIDM_FILE_EXIT
+4 Symbol New=HIDM_FILE_NEW
+4 Symbol Open=HIDM_FILE_OPEN
+4 Symbol Print=HIDM_FILE_PRINT
+4 Symbol Print Setup=HIDM_FILE_PRINT_SETUP
+4 Symbol Recent Files=HID_FILE_MRU_FILE1
+4 Symbol Save and Symbol Save As=HIDM_FILE_SAVE_TO_LIB
+4 Symbol Save to File=HIDM_FILE_SAVE
+4 Symbol Save to File As=HIDM_FILE_SAVE_AS
+4 Symbol Symbol Wizard=HIDM_FILE_WIZARD
+3 Edit Menu
+4 Edit Copy=HIDM_EDIT_COPY
+4 Edit Copy Matrix=HIDM_EDIT_DUPLICATE
+4 Edit Copy to File=HIDM_EDIT_COPY_TO_FILE
+4 Edit Cut=HIDM_EDIT_CUT
+4 Edit Delete=HIDM_EDIT_DELETE
+4 Edit Deselect All=HIDM_EDIT_DESELECT_ALL
+4 Edit Highlight=HIDM_EDIT_HIGHLIGHT
+4 Edit Measure=HIDM_EDIT_MEASURE
+4 Edit Paste=HIDM_EDIT_PASTE
+4 Edit Paste from File=HIDM_EDIT_PASTE_FROM_FILE
+4 Edit Properties=HIDM_EDIT_PROPERTIES
+4 Edit Redo=HIDM_EDIT_REDO
+4 Edit Select=HIDM_EDIT_SELECT
+4 Edit Select All=HIDM_EDIT_SELECT_ALL
+4 Edit Undo=HIDM_EDIT_UNDO
+4 Edit Unhighlight=HIDM_EDIT_UNHIGHLIGHT
+4 Edit Unhighlight All=HIDM_EDIT_UNHIGHLIGHT_ALL
+3 View Menu
+4 View All=HIDM_VIEW_ALL
+4 View Center=HIDM_VIEW_CENTER
+4 View Command Toolbar=HIDM_VIEW_COMMAND_TOOLBAR
+4 View Custom Toolbar=HIDM_VIEW_CUSTOMTOOLBAR
+4 View Extent=HIDM_VIEW_EXTENT
+4 View Jump Location=HIDM_VIEW_JUMPLOC
+4 View Jump Text=HIDM_VIEW_JUMPTEXT
+4 View Last=HIDM_VIEW_LAST
+4 View Placement Toolbar=HIDM_VIEW_PLACEMENT_TOOLBAR
+4 View Prompt Line=HIDM_VIEW_PROMPT
+4 View Redraw=HIDM_VIEW_REDRAW
+4 View Snap to Grid=HIDM_VIEW_SNAP2GRID
+4 View Status Line=HIDM_VIEW_STATUS
+4 View Zoom In=HIDM_VIEW_ZOOMIN
+4 View Zoom Out=HIDM_VIEW_ZOOMOUT
+4 View Zoom Window=HIDM_VIEW_ZOOMWINDOW
+3 Place Menu
+4 Place Arc=HIDM_PLACE_ARC
+4 Place Attribute=HIDM_PLACE_ATTRIBUTE
+4 Place IEEE Symbol=HIDM_PLACE_IEEE
+4 Place Line=HIDM_PLACE_LINE
+4 Place Pin=HIDM_PLACE_PIN
+4 Place Polygon=HIDM_PLACE_POLYGON
+4 Place Ref Point=HIDM_PLACE_REFPOINT
+4 Place Text=HIDM_PLACE_TEXT
+3 Options Menu
+4 Options Block Selection=HIDM_OPTIONS_SELECTMASK
+4 Options Configure=HIDM_OPTIONS_CONFIG
+4 Options Current Line=HIDM_OPTIONS_CURRENTLINE
+4 Options Display=HIDM_OPTIONS_DISPLAY
+4 Options Grids=HIDM_OPTIONS_GRIDS
+4 Options Preferences=HIDM_OPTIONS_PREFERENCES
+4 Options Text Style=HIDM_OPTIONS_CURRENTTEXT
+3 Library Menu
+4 Library Alias=HIDM_LIBRARY_ALIAS
+4 Library Copy=HIDM_LIBRARY_COPY
+4 Library Delete=HIDM_LIBRARY_DELETE
+4 Library New=HIDM_LIBRARY_NEW
+4 Library Rename=HIDM_LIBRARY_RENAME
+3 Utils Menu
+4 Utils Customize=HIDM_UTILS_CUSTOMIZE
+4 Utils P-CAD Library Executive=HIDM_UTILS_LIBMANAGER
+4 Utils P-CAD Pattern Editor=HIDM_UTILS_PAT_ED
+4 Utils P-CAD PCB=HIDM_UTILS_PCB
+4 Utils P-CAD Schematic=HIDM_UTILS_SCHEMATIC
+4 Utils Renumber=HIDM_UTILS_RENUMBER
+4 Utils ShortcutDirectory=HIDM_UTILS_SHORTCUT_DIR
+4 Utils Validate=HIDM_UTILS_VALIDATE
+3 Macro Menu
+4 Macro Delete=HIDM_MACRO_DELETE
+4 Macro Record=HIDM_MACRO_RECORD
+4 Macro Rename=HIDM_MACRO_RENAME
+4 Macro Run=HIDM_MACRO_RUN
+4 Macro Setup=HIDM_MACRO_SETUP
+3 Window Menu
+4 Window All Open Windows=Window_All_Open_Windows
+4 Window Arrange Icons=HIDM_WINDOW_ARRANGE
+4 Window Cascade=HIDM_WINDOW_CASCADE
+4 Window New Window=HIDM_WINDOW_NEW
+4 Window Tile=HIDM_WINDOW_TILE_HORZ
+3 Help Menu
+4 Help About P-CAD Symbol Editor=HIDM_HELP_ABOUT
+4 Help How to Use Help=HIDM_HELP_USING
+4 Help P-CAD Symbol Editor Help Topics=HIDM_HELP_INDEX
+2 Dialogs
+3 A-H
+4 About P-CAD Symbol Editor Dialog=HIDD_ABOUTSYMED
+4 Add Text Style Dialog=HIDD_ADDTEXTDLG
+4 Attribute Dialog=HIDD_ATTRPROPDLG
+4 Attributes Dialog=HIDD_ATTRSSHEET
+4 Block Selection Dialog=HIDD_SELMASKDLG_SYMED
+4 Color Dialog=HIDD_SOLID_COLORS_DLG
+4 Display Colors/Print Options Dialogs=HIDD_DISPOPTN_SYMED
+4 Edit Copy Matrix Dialog=HIDD_DUPLICATEDLG
+4 File Print Dialog=HIDD_FILE_PRINT
+3 I-P
+4 Library Alias Dialog=HIDD_LIBRARYALIASDLG
+4 Library Browse Dialog=HIDD_LIBRARYLISTDLG
+4 Library Copy Dialog=HIDD_LIBRARYCOPYDLG
+4 Library Delete Dialog=HIDD_LIBRARYDELETEDLG
+4 Library Rename Dialog=HIDD_LIBRARYRENAMEDLG
+4 Macro Record Dialog=HIDD_MACRORECORDDLG
+4 Macro Setup Dialog=HIDD_MACRO_SET_UP
+4 Options Configure Dialog=HIDD_CFGOPTN_SYMED
+4 Options Text Style Dialog=HIDD_CURTEXTDLG
+4 Page Setup Dialog=HIDD_SETUP_PRINT_PARAMS
+4 Place Attribute Dialog=Place_Attribute_Dialog
+4 Place Pin Dialog=HIDD_PLACEPINDLG_SYMED
+4 Place Text/Text Properties Dialog=HIDD_EDA_TEXT1
+3 Q-Z
+4 Rename Style Dialog=HIDD_RENAMESTYLEDLG
+4 Symbol Save To Library dialog=HIDD_SYMBOLSAVETOLIBDLG
+4 Text Style Properties Dialog=HIDD_TTFTEXTSTYLEDLG
+4 Use the Options Current Line Dialog=Using_the_Options_Current_Line_Dialog
+4 Use the Options Text Style Dialog=Use_the_Options_Text_Style_Dialog
+4 Utils Customize Dialog=HIDD_TOOLS_CUSTOMIZE
+4 Utils Renumber dialog=HIDD_PIN_RENUMBER_DLG
+3 Main Object Properties Dialogs
+4 Arc Properties=HIDD_MODIFYARCDLG
+4 Attribute Properties=Attribute_Properties
+4 Line Properties=HIDD_MODIFYSCHLINEDLG
+4 Pin Properties=HIDD_MODIFYPINDLG_SYMED
+4 Polygon Properties=HIDD_MODIFYPOLYGON
+4 Text Properties=HIDD_MODIFYTEXTDLG
+2 Glossary
+3 alias=alias
+3 Data Tips=Data_Tips
+3 Orthogonal Modes=Configure_Orthogonal_Modes

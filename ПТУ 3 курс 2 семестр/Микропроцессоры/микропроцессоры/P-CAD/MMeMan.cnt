@@ -1,0 +1,31 @@
+:Base MMeMan.hlp
+:Title P-CAD 2001 Macromodel Editor
+1 Welcome to P-CAD Macromodel Editor=HELP_CONTENTS
+1 P-CAD Macromodel Editor
+2 Getting Started=GETTING_STARTED
+2 Model Window=MAIN_WIN_CLIENTWIN
+2 The Clientarea=MAIN_WIN_CLIENTAREA
+2 Menus and Procedures
+3 Main Menu Commands (Menubar)
+4 File Menu
+5 File Exit=MENUBAR_FILE_EXIT
+4 Edit Menu
+5 Edit Add=MENUBAR_EDIT_ADD
+5 Edit Close=MENUBAR_EDIT_CLOSE
+5 Edit Delete=MENUBAR_EDIT_DELETE
+5 Edit Open=MENUBAR_EDIT_OPEN
+5 Edit Save=MENUBAR_EDIT_SAVE
+5 Edit Save As=MENUBAR_EDIT_SAVEAS
+4 Window Menu
+5 Window Arrange Icons=MENUBAR_WINDOW_ARRANGE
+5 Window Cascade=MENUBAR_WINDOW_CASCADE
+5 Window Next=MENUBAR_WINDOW_NEXT
+4 Help Menu
+5 Help: About P-CAD Macromodel Editor=MENUBAR_HELP_ABOUT
+5 Help: How to use Help=MENUBAR_HELP_HOWTO
+5 Help: P-CAD Macromodel Editor Help Topics=MENUBAR_HELP_TOPICS
+3 Treeview
+4 The Treeview=MAIN_TREEVIEW
+4 The Tree Control=MAIN_WIN_TREECTRL>menu
+3 Macromodels
+4 Macromodels=MAIN_MACROMODELS

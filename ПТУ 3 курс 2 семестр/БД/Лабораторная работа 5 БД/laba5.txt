@@ -1,0 +1,99 @@
+create or replace procedure send_trip_alter(cod_tr trips.cod_trip%type, err out number)
+as
+tickets_number number;
+begin
+select tickets into tickets_number
+from trips
+where trips.cod_trip = cod_tr;
+if tickets_number > 0 then
+update trips set tickets = 0
+where trips.cod_trip = cod_tr;
+err:=0;	
+else
+  err:=1;
+end if;
+end;
+
+===================================================================
+
+create or replace trigger trig_1 after delete on trips for each row
+begin
+  if:new.tickets=0 then
+  if:old.tickets=0 then raise_application_error(-20000,'На рейс не продано ни одного билета!');
+  else
+   insert into sent_trips (id_trip, cod_trip, cod_route, cod_bus, cod_model, hour, minute, week_day, sent_day, fill_bus, tickets)
+   select   sent_trips_seq.nextval, :old.cod_trip, :old.cod_route, :old.cod_bus, cod_model, :old.hour, :old.minute, :old.week_day, sysdate, :old.tickets/places*100, :old.tickets
+   from buses join models using(cod_model);   
+  end if;
+end if;
+end;
+
+
+declare err number; 
+begin
+  send_trip_alter(6,err);
+  dbms_output.put_line('err=' || err);
+ end; 
+
+
+create or replace procedure send_trip_alter(cod_tr trips.cod_trip%type)
+as
+begin
+update trips set tickets = 0
+where trips.cod_trip = cod_tr;
+end;
+
+
+begin
+  send_trip_alter(6);
+  dbms_output.put_line('***');
+ end; 
+
+declare err number; 
+begin
+  send_trip(9,err);
+  dbms_output.put_line('err=' || err);
+ end; 
+
+
+begin
+  send_trip_alter(9);
+  dbms_output.put_line('***');
+ end; 
+
+-----------------------------------------
+
+create or replace trigger trig_1 after update on trips for each row
+begin
+	if:new.tickets=0 then
+	if:old.tickets=0 then raise_application_error(-20000,'На рейс не продано ни одного билета');
+	else
+		  insert into sent_trips (id_trip, cod_trip, cod_route, cod_bus, cod_model, hour, minute, week_day, sent_day, fill_bus, tickets)
+  select   sent_trips_seq.nextval,  :old.cod_trip, :old.cod_route, :old.cod_bus, cod_model, :old.hour, :old.minute, :old.week_day, sysdate, :old.tickets/places*100, :old.tickets
+  from buses join models using(cod_model);
+	end if;
+end if;
+end;
+/
+
+select * from trips where cod_trip=6;
+
+declare err number;
+begin
+	send_trip_alter(6,err);
+	dbms_output.put_line('err=' || err);
+end;
+
+
+create or replace procedure send_trip_alter(cod_tr trips.cod_trip%type)
+as
+begin
+  update trips set tickets = 0
+  where trips.cod_trip = cod_tr;
+end;
+/
+
+begin
+	send_trip_alter(6);
+	dbms_output.put_line('***');
+end;

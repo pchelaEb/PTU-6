@@ -1,0 +1,59 @@
+CREATE or replace Function route_points   (cod_tr trips.cod_trip%TYPE)
+RETURN  varchar 
+as
+cursor c is
+   Select  name_point from points, points_routes, trips, routes 
+   where points.cod_point = points_routes.cod_point and routes.cod_route = points_routes.cod_route and trips.cod_route = routes.cod_route and trips.cod_trip = cod_tr;
+   res            varchar(500);
+BEGIN
+    res:='';
+    for crec in c loop
+    res:=res||crec.name_point||'  ';
+    end loop;
+    RETURN res ; 
+END; 
+/
+
+select line, text from user_errors;  
+
+
+CREATE or replace Function route_points_1   (cod_tr trips.cod_trip%TYPE)
+RETURN  varchar 
+as
+    res            varchar(500);
+BEGIN
+    res:='';
+    for crec in (select name_point from points, points_routes, trips, routes 
+    where points.cod_point = points_routes.cod_point and routes.cod_route = points_routes.cod_route 
+    and trips.cod_route = routes.cod_route and trips.cod_trip = cod_tr) loop
+    res:=res||crec.name_point||'  ';    
+    end loop;
+    RETURN res ; 
+END; 
+/
+
+
+create or replace procedure send_trip(cod_tr trips.cod_trip%type, err out number)
+as
+tickets_number number;
+begin
+select tickets into tickets_number
+from trips
+where trips.cod_trip = cod_tr;
+if tickets_number=0 then
+  	err:=1;
+else
+  insert into sent_trips (id_trip, cod_trip, cod_route, cod_bus, cod_model, hour, minute, week_day, sent_day, fill_bus, tickets)
+  select   sent_trips_seq.nextval,  cod_trip, cod_route, cod_bus, cod_model, hour, minute, week_day, sysdate, tickets/places*100, tickets
+  from trips join buses using(cod_bus) join models using(cod_model)
+  where cod_trip=cod_tr;    
+  update trips set tickets = 0
+  where trips.cod_trip = cod_tr;
+  err:=0;
+end if;
+exception
+	when NO_DATA_FOUND then
+		err:=2;
+	when OTHERS then
+		err:=3;
+end;

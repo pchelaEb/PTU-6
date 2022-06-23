@@ -1,0 +1,68 @@
+
+create or replace trigger place
+before insert on models
+for each row
+begin
+  select 42 into :new.places from dual;
+end;
+
+create or replace function return_tickets (cod_r trips.cod_trip%type,
+               n_ticket number
+             )
+return number
+as err number;
+tick number;
+begin
+  err:=0;
+  select tickets into tick from trips
+  where cod_trip=cod_r;
+  if n_ticket>tick then
+    err:=1;
+  else
+    err:=0;
+    update trips set tickets=tickets-n_ticket
+    where cod_trip=cod_r;
+end if;
+return err;
+
+end;
+
+
+create or replace procedure return_tickets (cod_ro trips.cod_trip%type,
+                        cod_po points.cod_point%type,
+               n_tickets number,
+               s out number,
+               err out number)
+as
+ticks number;
+begin
+ s:=0;
+  select tickets into ticks from trips where cod_trip=cod_ro;
+  if n_tickets>ticks then
+    err:=1;
+  else
+    err:=0;
+    select km_prices.price*points.distance*n_tickets*0.9 into s
+    from km_prices,models,buses,trips,routes, points_routes, points
+    where km_prices.class=models.class and
+                        models.cod_model=buses.cod_model and buses.cod_bus=trips.cod_bus
+and trips.cod_route=routes.cod_route and routes.cod_route=points_routes.cod_route
+and points.cod_point=points_routes.cod_point and
+    points.cod_point=cod_po and trips.cod_trip=cod_ro;
+update trips set tickets=tickets-n_tickets
+    where cod_trip=cod_ro;
+  end if;
+exception
+  when NO_DATA_FOUND then
+    err:=2;
+end;
+
+
+
+create or replace procedure changenumber (cod_b buses.cod_bus%type, new_number varchar2)
+as
+begin
+    update buses set bus_number = new_number 
+    where cod_b=cod_bus;
+
+end;

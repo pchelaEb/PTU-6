@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    int j, count=0;
+    string s,a,b;
+    cin >> s;
+    for (int i=0; i<s.length(); i++)
+    {
+        j=i;
+        while (s[i]==s[j])
+        {
+            j++;
+        }
+        a=s.substr(i, j-i);
+        b=s.substr(j, a.length());
+        if (a.length()==b.length())
+        {
+            count++;
+        }
+    }
+    cout << count << endl;
+}

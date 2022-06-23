@@ -1,0 +1,838 @@
+lab 1
+A
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n, temp, sum = 1, k = 1;
+    cin >> n;
+    vector<int> a;
+    for(int i = 0; i < n; ++i){
+        cin >> temp;
+        a.push_back(temp);
+    }
+    for(int i = 1; i < a.size(); ++i){
+        if(a[i] >= a[i - 1]){
+            ++k;
+        }
+        else{
+            if(k > sum)
+                sum = k;
+            k = 1;
+        }
+    }
+    if(k > 1 && sum < k)
+        sum = k;
+    cout << sum;
+    return 0;
+}
+
+
+B
+#include<iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+int n,a,b,c,s=1,k;
+cin>>n>>a>>b>>c;
+ 
+for(int i=0;i<=n;i++)
+     for(int j=0;j<=n;j++){
+          k=n-a*i-b*j;
+	  if(k>=0&&k%c==0)
+	      s=max(s,(i+j+k/c));
+}
+cout<<s;
+}
+
+E
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int x = 0,y = 0,n,ans = 0;
+    cin >> n;
+    for(int i = 0 ; i < n ; i += 1){
+        x = y;
+        cin >> y;
+        if(y == x && y != 3){
+            y = 0;
+        }
+        if(y != x && y == 3){
+            y -= x;
+        }
+        if(y == 0){
+            ans += 1;
+        }
+    }
+    cout << ans;
+}
+
+lab 2
+A
+#include <iostream>
+#include <vector>
+ 
+using namespace std;
+ 
+vector<int> p;
+vector<int> s;
+ 
+int getRoat(int i)
+{
+    while (p[i]!=i) 
+    {
+        i = p[i];
+    }
+    return i;
+}
+ 
+void my_union(int i, int j)
+{
+    i = getRoat(i);
+    j = getRoat(j);
+    if (i != j)
+    {
+        if (s[i] > s[j])
+        {
+            swap(i,j);
+        }
+        s[j] += s[i];
+        p[i] = j;
+    }
+}
+ 
+int main()
+{
+    int n, m;
+    cin >> n >> m;
+    p.resize(n+1);
+    s.resize(n+1);
+ 
+    for (int i = 0; i < n; i++)
+    {
+        p[i] = i;
+        s[i] = 1;
+    }
+    for (int i=0; i<m; i++)
+    {
+        int a, b;
+        cin >> a >> b;
+        my_union(a,b);
+ 
+    }
+    int s = 0;
+    for (int i = 0; i < p.size(); i++)
+        {
+            if (p[i] == i)
+                s++;
+        }
+    cout << s;
+    return 0;
+}
+
+
+B
+#include <iostream>
+#include <vector>
+#include <stack>
+ 
+using namespace std;
+ 
+struct step
+{
+    int place;
+    int number;
+    int sum_place;
+};
+ 
+int get_root(int i, vector<int> &p)
+{
+    while (p[i] != i)
+        i = p[i];
+    return i;
+}
+ 
+bool unite(int i, int j, vector<int> &p, vector<int> &s, stack<step> &u)
+{
+    i = get_root(i, p);
+    j = get_root(j, p);
+    if (i != j) 
+    {
+        if (s[i] > s[j])
+            swap(i, j);
+        u.push({i, p[i], j});
+        s[j] += s[i];
+        p[i] = j;
+        return true;
+    }
+    u.push({-1,-1,-1});
+    return false;
+}
+ 
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+ 
+    int n, m;
+    cin >> n >> m;
+    vector<int> p(n), s(n, 1);
+    stack<step> undo;
+    for (int i = 0; i < n; i++)
+        p[i] = i;
+        
+    int ans = n;
+    
+    for (int i = 0; i < m; i++) 
+    {
+        int x, y;
+        std::cin >> x >> y;
+        x--; 
+        y--;
+        if (x != -1 && y != -1) 
+        {
+            if (unite(x, y, p, s, undo))
+                ans--;
+        }
+        else {
+            if (!undo.empty()) 
+            {
+                if (undo.top().number != -1) 
+                {
+                    p[undo.top().place] = undo.top().number;
+                    s[undo.top().sum_place] -= s[undo.top().place];
+                    ans++;
+                }
+                undo.pop();
+            }
+        }
+    }
+    
+    cout << ans << endl;
+    return 0;
+}
+
+lab 3
+A
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    int n, m;
+
+    cin >> n;
+    vector<int> vec(n);
+    cin >> m;
+    
+    for (int i = 0; i < 2 * m; ++i) {
+        int a;
+        cin >> a;
+        ++vec[a - 1];
+    }
+    
+    for (int i = 0; i < n; i++)
+        cout << vec[i] << endl;
+    
+}
+
+B
+#include <iostream>
+#include <vector>
+using namespace std;
+ 
+int graph(vector<vector<int>> &vec, vector<int> &v, int val){
+    int sum = 1;
+    v[val] = 1;
+    for (int temp : vec[val])
+    {   
+        if (v[temp] == 0) {
+            sum += graph(vec, v, temp);
+        } 
+        
+    }
+    return sum;
+}
+ 
+int main()
+{
+    int n, m, k, j;
+    cin >> n >>m;
+    vector<vector<int>> vec(n+1);
+    vector<int> v(n+1);
+    while (true) {
+        cin >> k;
+        if (k == 0)  break;
+        cin >> j;
+        vec[k].push_back(j);
+    }
+ 
+    if (n == graph(vec,v, m))
+        cout << "Yes";
+    else cout << "No";
+}
+
+lab4
+A
+#include <iostream>
+#include <vector>
+ 
+using namespace std;
+ 
+int main()
+{
+    int n, g, x, y, z;
+    int t = 1000;
+    cin >> n;
+    vector<vector<int>> v(n, vector<int>(n));
+    
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            cin >> v[i][j];
+        }
+    }
+    
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            if(i != j)
+            {
+                for(int k = 0; k < n; k++)
+                {
+                    if((k != j) && (k != i) && ((g=v[i][j]+v[j][k]+v[k][i]) < t))
+                    {
+                        t = g;
+                        z = i; 
+                        x = j; 
+                        y = k;
+                    }
+                }
+            }
+        }
+    }
+    
+    cout << x+1 << " " << y+1 << " " << z+1;
+    
+    return 0;
+}
+
+B
+#include<iostream>
+#include<vector>
+ 
+using namespace std;
+ 
+const int INF = 1000000000;
+ 
+int main()
+{
+    int n, m;
+    cin >> n;
+    vector<int> price(n);
+    for (int i = 0; i < n; ++i)
+        cin >> price[i];
+    
+    vector<vector<int>> g(n);
+    cin >> m;
+    for (int i = 0; i < m; ++i)
+    {
+        int u, v;
+        cin >> u >> v;
+        g[u - 1].push_back(v - 1);
+        g[v - 1].push_back(u - 1);
+    }
+    
+    vector <int> dist(n, INF);
+    dist[0] = 0;
+    vector<bool> used(n);
+    int min_dist = 0;
+    int min_vertex = 0;
+    
+    while (min_dist < INF)
+    {
+        used[min_vertex] = true;
+        int u = min_vertex;
+        for (auto v : g[u])
+            if (dist[u] + price[u] < dist[v])
+                dist[v] = dist[u] + price[u];
+        
+        min_dist = INF;
+        for (int v = 0; v < n; ++v)
+            if (!used[v] && dist[v] < min_dist)
+            {
+                min_dist = dist[v];
+                min_vertex = v;
+            }
+    }
+    
+    if (dist[n - 1] == INF)
+        cout << -1 << endl;
+    else
+        cout << dist[n - 1] << endl;
+}
+
+C
+#include <iostream>
+#include <vector>
+#include <algorithm>
+ 
+using namespace std;
+ 
+struct edge
+{
+    int from, to, cost;
+};
+ 
+const int INF = 1e9;;
+ 
+int main()
+{
+    int n;
+    cin >> n;
+    vector <edge> E;
+    
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            int x;
+            cin >> x;
+            if(x != 0 && x != 100000)
+            {
+                E.push_back({i,j,x});
+            }
+        }
+    }
+    int x ;
+    vector<int> d(n, INF), p(n, -1);
+    d[0] = 0;
+    
+    for(int i = 0; i < n; i++)
+    {
+        x = -1;
+        for(int j = 0; j < E.size(); j++)
+        {
+            int from = E[j].from;
+            int to = E[j].to;
+            int cost = E[j].cost;
+            
+            if(d[to] > d[from] + cost )
+            {
+                d[to] = max(d[from] + cost, -INF);
+                p[to] = from;
+                x = to;
+            }
+        }
+    }
+    if(x == -1)
+    {
+        cout << "NO" << endl;
+    }
+    else
+    {
+        int y = x;
+        for(int i = 0; i < n; i++)
+        {
+            y = p[y];
+        }
+        vector <int> path;
+        for(int cur = y;; cur = p[cur])
+        {
+            path.push_back(cur);
+            if(cur == y && path.size() > 1)
+            {
+                break;
+            }
+        }
+        reverse(path.begin(), path.end());
+        cout << "YES" << endl;
+    }
+    return 0;
+}
+
+lab5
+B
+#include <iostream>
+#include <vector>
+#include <queue>
+ 
+using namespace std;
+ 
+int main()
+{
+    int n;
+    cin >> n;
+    vector<vector<int>> g(n, vector<int>(n));
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
+            cin >> g[i][j];
+            
+    vector<int> ans(n, 0);
+    for (int i = 0; i < n; i++) 
+    {
+        queue<int> queue;
+        if (ans[i] == 0) 
+        {
+            ans[i] = 1;
+            for (int j = 0; j < n; j++) 
+            {
+                if (g[i][j] == 1) 
+                {
+                    queue.push(j);
+                    ans[j] = 2;
+                }
+            }
+            while (!queue.empty()) 
+            {
+                int c = queue.front();
+                queue.pop();
+                for (int j = 0; j < n; j++) 
+                {
+                    if (g[c][j] == 1 && ans[j] == 0) 
+                    {
+                        ans[j] = 3 - ans[c];
+                        queue.push(j);
+                    }
+                    else if (g[c][j] == 1 && ans[c] == ans[j]) 
+                    {
+                        cout << "NO" << endl;
+                        exit(0);
+                    }
+                }
+            }
+        }
+    }
+    cout << "YES" << endl;
+    for (int i: ans)
+        cout << ((i == 2) ? 2 : 1) << " ";
+    return 0;
+}
+
+C
+#include<iostream>
+#include<vector>
+#include<algorithm>
+#include<functional>
+ 
+using namespace std;
+ 
+int main()
+{
+	int n, m;
+	cin >> n >> m;
+	vector<vector<int>> edges(m, vector<int>(3));
+	
+	for (int i = 0; i < m; ++i)
+		cin >> edges[i][1] >> edges[i][2] >> edges[i][0];
+		
+	sort(edges.begin(), edges.end());
+	vector<int>comp(n + 1);
+	
+	for (int i = 1; i <= n; ++i)
+		comp[i] = i;
+		
+	int ans = 0;
+	int c = 0;
+	
+	for (auto&edge : edges)
+	{
+		int weight = edge[0];
+		int start = edge[1];
+		int end = edge[2];
+		
+		if (comp[start] != comp[end])
+		{
+			c++;
+			ans += weight;
+			int a = comp[start];
+			int b = comp[end];
+			for (int i = 1; i <= n; ++i)
+				if (comp[i] == b)
+					comp[i] = a;
+		}
+	}
+	if (c < n - 1)
+		ans = -1;
+		
+	cout << ans;
+}
+
+lab6
+A
+#include <iostream>
+#include <vector>
+ 
+using namespace std;
+ 
+int main()
+{
+    int n;
+    cin>>n;
+    int sum = 1;
+    int i = 1;
+    
+    while(i!=n){
+        i++;
+        sum+=2;
+    }
+    cout<<sum;
+    
+}
+
+C
+#include <iostream>
+ 
+using namespace std;
+ 
+int n, t[4*100000];
+ 
+void build (int a[], int v, int tl, int tr) 
+{
+	if (tl == tr)
+		t[v] = a[tl];
+	else 
+	{
+		int tm = (tl + tr) / 2;
+		build (a, v*2, tl, tm);
+		build (a, v*2+1, tm+1, tr);
+		t[v] = min(t[v*2],t[v*2+1]);
+	}
+}
+ 
+int sum (int v, int tl, int tr, int l, int r) 
+{
+	if (l > r)
+		return 1000000;
+	if (l == tl && r == tr)
+		return t[v];
+	int tm = (tl + tr) / 2;
+ 
+	return min(sum (v*2, tl, tm, l, min(r,tm)), sum (v*2+1, tm+1, tr, max(l,tm+1), r));
+}
+ 
+int main()
+{
+    cin>>n;
+    int v[100000];
+    for (int i=1; i<n+1; i++)
+    {
+        int a;
+        cin>>a;
+        v[i]=a;
+    }
+ 
+    build(v,1,1,n);
+ 
+ 
+    int m;
+    cin>>m;
+    for (int i=0; i<m; i++)
+    {
+        int t1,t2;
+        cin>>t1>>t2;
+        cout<<sum(1,1,n,t1,t2)<<endl;
+    }
+}
+
+lab7
+A
+#include<iostream>
+#include<map>
+using namespace std;
+int main(void){
+	int n, max = 0;
+	cin >> n;
+	string a, b, ans;
+	cin >> a;
+	map <string , int> m;
+	for(int i = 0; i < n - 1 ; i++){
+		b = a.substr(i,2);
+		m[b]++;
+		if(max < m[b]){
+			ans = b;
+			max = m[b];
+		}
+	}
+	cout << ans << '\n';
+	return 0;
+}
+
+B
+#include <iostream>
+#include <vector>
+ 
+using namespace std;
+ 
+vector<int> prefix_function (string s) 
+{
+	int n =  s.length();
+	vector<int> pi (n);
+	for (int i=1; i<n; i++) 
+	{
+		int j = pi[i-1];
+		while (j > 0 && s[j] != s[i])
+			j = pi[j-1];
+		pi[i] = j;
+		if (s[i] == s[j])
+		{
+            pi[i]++;
+		}
+	}
+	return pi;
+}
+ 
+ 
+int main()
+{
+    string f;
+    string d1;
+    string d2;
+    cin >> d2;
+    cin >> d1;
+    f = d1 + '$' + d2;
+ 
+    if (d2.length()>=d1.length())
+ 
+    {
+        f = f + d2.substr(0,d1.length()-1);
+    }
+    else
+    {
+        f = f + d2;
+    }
+ 
+    vector <int> p = prefix_function(f);
+ 
+    for (int i =d1.length()+1; i < f.length();i++)
+    {
+        if (p[i] == d1.length())
+            cout << i-2*d1.length() << " ";
+    }
+}
+
+lab9
+a
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cin >> n;
+    cout << "25" << endl;
+    return 0;
+}
+
+b
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+long long  abmodc
+    (
+        long long a,
+        long long b,
+        long long c
+    )
+{
+    a   %=  c;
+ 
+    if( b % 2 == 0 )
+    {
+        a   *=  a;
+        a   %=  c;
+        b   /=  2;
+        return  b == 0
+                    ?   1
+                    :    abmodc( a, b, c ) % c;
+    }
+    else
+    {
+        return   abmodc( a, b - 1, c ) % c * a % c;
+    }
+}
+int main(){
+    long long a; long long b; long long c;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    cout << abmodc(a, b, c);
+}
+
+
+1 практика 
+#include <iostream>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <string>
+typedef long long ll;
+using namespace std;
+ 
+bool is_pal(string s) {
+	for(int i = 0; i <= s.length()/2; i++) {
+		if(s[i] != s[s.length() - 1 - i]) return false;
+	}
+	return true;
+}
+ 
+ 
+int get_longest_pal_prefix(string s) {
+	int max_len = 0;
+	for(int i = 0; i < s.length(); i++) {
+		if (is_pal(s.substr(0, i + 1))) max_len = max(max_len, i + 1);
+	}
+	return max_len;
+}
+ 
+int main() {
+	int n; cin >> n;
+	for(int i = 0; i < n; i++) {
+		string s; cin >> s;
+ 
+		cout << get_longest_pal_prefix(s) << endl;
+	}
+}
+
+B
+#include <vector>
+#include <iostream>
+#include <iterator>
+#include <algorithm>
+#include <regex>
+
+using namespace std;
+
+int resh(string s){
+    string r_s = s;
+    reverse(r_s.begin(), r_s.end());
+    int r = 0;
+    int l_s = s.length();
+    for(int i = 0; i < l_s; i++){
+        for(int j = 0; j < l_s; j++){
+            string sfx = r_s.substr(0, j - i + 1);
+            reverse(sfx.begin(), sfx.end());
+            r += ((s.substr(i, j - i + 1) == s.substr(0, j - i + 1)) ^ (s.substr(i, j - i + 1) == sfx));
+        }
+    }
+    return r;
+}
+
+int main(){
+    int n;
+    cin >> n;
+    for(int i = 0; i < n; i++){
+        string s;
+        cin >> s;
+        cout << resh(s) << endl;
+    }
+}
+
+

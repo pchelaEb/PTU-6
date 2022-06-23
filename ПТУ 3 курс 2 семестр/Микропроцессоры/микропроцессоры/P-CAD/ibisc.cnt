@@ -1,0 +1,19 @@
+:Base ibisc.hlp
+:Title P-CAD 2001 IBIS Converter
+1 Welcome to P-CAD IBIS=IBIS_INTRODUCTION>main
+1 IBIS
+2 Converter Main Menu Commands
+3 Toolbar=TOOLBAR>menu
+3 Main Window=MAIN_WINDOW>menu
+3 File Menu
+4 File Exit=MENU_FILE_EXIT
+4 File Export=MENU_FILE_EXPORT
+4 File Open=MENU_FILE_OPEN
+4 File Report=MENU_FILE_REPORT
+4 File Strong/Typical/Weak Case Model Generation=MENU_FILE_MODEL_GENERATION
+3 View Menu
+4 View Bufferdata=MENU_VIEW_BUFFERDATA
+3 Help Menu
+4 Help P-CAD IBIS Converter Help Topics=MENU_HELP_TOPICS
+4 Help How to use Help=MENU_HELP_HELP
+4 Help About P-CAD IBIS Converter=MENU_HELP_ABOUT

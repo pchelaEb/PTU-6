@@ -1,0 +1,34 @@
+:Base rte.hlp
+:Title P-CAD 2001 Shape-Based Router Help
+1 Introduction to the Shape-Based Router=Introduction>main
+1 P-CAD Shape-Based Router
+2 Key Features=Key_Features>main
+2 Shape-Based Router Basics
+3 Opening, Saving and AutoSaving=Saving_and_AutoSaving>main
+3 Finding, Identifying and Highlighting=Dialog_Find>main
+3 Changing the View of the Board=View_Options>main
+3 Setting the Display Options=Dialog_DisplayOptions>main
+3 Editing the Net Attributes=Dialog_NetAttributes>main
+3 Printing=HELP_ID_PLOT>main
+2 Setting up the Shape-Based Router
+3 Router Setup Options=Dialog_AutorouterSetup>main
+3 Routing Parameters=HELP_ID_PARAMETERS>main
+3 Routing Passes=HELP_ID_PASSES>main
+3 Including Testpoints=HELP_ID_TESTPOINTS>main
+3 About the Routing Channel=RoutingChannel>main
+3 About Routing Contentions=Contentions
+2 Using the Shape-Based Router
+3 Transferring the Board to the Router=Transferring_the_Board>main
+3 Checking the Routing Density=Density_Map>main
+3 Autorouting the Board=AutoRouting>main
+3 Interactive Routing=Interactive_Routing>main
+3 Sketch Route Autorouter=SketchRoute>main
+3 Manual Routing=ManualRoute>main
+1 Shape-Based Router Reference
+2 Routing Reports=Dialog_ReportType>main
+2 Board Preparations=Preparing_the_PCB>main
+2 About P-CAD's Shape-Based Router=AboutAdvancedRoute
+2 Angled Direction By Layer - What Is It?=Angled_Direction_By_Layer>main
+2 Quality of Routing=QualityOfRouting>main
+2 When the Board will not Route=Board_will_not_Route>main
+2 Understanding the Component Placement=Component_Placement>main

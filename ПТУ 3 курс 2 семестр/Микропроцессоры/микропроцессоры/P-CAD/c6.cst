@@ -1,0 +1,287 @@
+#  Cost Set "C5"
+
+
+[PATTERN]
+*U     U Call:P TOGO=10
+
+[MAIN]
+*PR   A  Max:10  HigherPriority:20  HighestPriority Widest Shortest TOGO=10 Rebottle
+*W    A  Max:50  Wider:1.5            Widest   Shortest Closest TOGO=10 
+*H75  U  Max:100 Hot=75  HotEnds=1  Hottest  MostPins Shortest TOGO=10
+*SL   U  Max:50  Longer:50          LeastAngle Longest TOGO=10 Rebottle
+*ANG  U  Max:50  Angle<5            Longest  MostPins TOGO=10
+*H61  U  Max:100 Hot=61  HotEnds=1  Hottest  MostPins Shortest REMAP TOGO=10 Rebottle
+*H50  U  Max:100 Hot=50  HotEnds=1  Hottest  MostPins Shortest TOGO=10
+*H41  U  Max:100 Hot=41  HotEnds=1  Hottest  MostPins Shortest TOGO=10
+*H32  U  Max:100 Hot=32  HotEnds=1  Hottest  MostPins Shortest Rebottle
+*A    U  Max:100 MostPins Shortest REMAP
+
+[COMPLETION]
+*A   A   Call:C
+
+[ROUTEEDIT]
+*1   U   Call:EDIT
+
+
+#
+#    Global Assignments 
+#
+#        1    2   3    4    5     6    7     8    9   10  
+SQ=     40   50  50   60   60    70   80    90  100 9999
+V1=      0    0   0    0    0     0    0     0 9999
+V2=     50  100 250  300  500  9999
+V3=    100  200 350 9999
+via=   500  500 500  5400==00  700  800  850    900  950  999
+clean=1
+
+[EDIT]
+RW=5
+WW=20
+
+*Patt U   Selected  LeastAngle Shortest Closest Patt=1
+*U    U   Selected  Shortest Hotter=0  It=20  Rep=50 retry=2 hist=10 conf=200
+*F1   U   Failed  It=20  Rep=50 retry=2 hist=10 conf=200
+*F2   U   Failed  It=20  Rep=50 retry=2 hist=10 conf=50
+
+[P]
+MaxWW=500mil
+MaxWander=500mil
+RW=5
+WW=15
+BOTTLE=1
+*U     U  Selected  LeastAngle Shortest Closest Patt=1
+
+[0]
+RW=5
+WW=20
+SH=3
+Conf=150
+via=500 500 550 600 700 800 850 850 900 9999
+*H  U  Selected Hotter=0 It=20 Rep=0 retry=2 retry=2 hist=0
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C1   C   IT=4 Rep=0 retry=2 hist=0 conf=200
+*STR  R   NotStraightened  It=0 Rep=0 retry=2 hist=0 conf=200
+*F1   U   Failed It=20  Rep=0 retry=2 hist=0 conf=200
+*C3   C   It=4   Rep=0 retry=2 hist=1000 conf=200
+*C4   C   It=20  Rep=0 retry=2 hist=0 Conf=9999
+*A    U   Selected It=20  Rep=0 retry=2 hist=50 conf=200
+*C5   C   It=4   Rep=0 retry=2 hist=500 conf=200
+*Str  R   NotStraightened  It=0
+*C7   C   It=4   Rep=1000 retry=2 hist=1000
+*C8   C   It=20  Rep=0 retry=2 hist=500 Conf=9999
+
+[30]
+RW=5
+WW=20
+
+via=500 500 550 600 700 800 850 850 900 9999
+*H  U Selected  Hotter=0 It=20  Rep=0 retry=2 hist=0 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C1  C    It=4   Rep=0 retry=2 hist=0 conf=200
+*Str  R  NotStraightened   It=0 
+*F    U Failed  It=20  Rep=0 retry=2 hist=0 conf=200
+*C2   C    It=4   Rep=0 retry=2 hist=1000 conf=200
+*C3   C    It=20  Rep=0 retry=2 hist=0 Conf=9999
+
+via=500 500 550 600 700 800 850 850 900 9999
+*A   U Selected It=20  Rep=0 retry=2 hist=50 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C4  C    It=4   Rep=0 retry=2 hist=500 conf=200
+*C5  C    It=4   Rep=1000 retry=2 hist=1000 conf=200
+*C6  C    It=20  Rep=0 retry=2 hist=500 Conf=9999
+*L   C    It=20  Rep=0 retry=2 hist=500 Conf=9999
+
+[40]
+RW=5
+WW=20
+
+via=500 500 550 600 700 800 850 850 900 9999
+*H   U  Selected Hotter=0  It=20  Rep=0 retry=2 hist=0 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C1   C   It=4   Rep=0 retry=2 hist=0 conf=200
+*Str  R   NotStraightened   It=0 
+*F    U   Failed  It=20  Rep=0 retry=2 hist=0 conf=200
+*C2   C   It=4   Rep=0 retry=2 hist=1000 conf=200
+*C3   C   It=20  Rep=0 retry=2 hist=0 Conf=9999
+
+
+via=500 500 550 600 700 800 850 850 900 9999
+*A   U    Selected It=20  Rep=0 retry=2 hist=50 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C4  C    It=4   Rep=0 retry=2 hist=500 conf=200
+*C5  C    It=4   Rep=1000 retry=2 hist=1000 conf=200
+*L   C    It=20  Rep=0 retry=2 hist=500 Conf=9999
+
+[50]
+RW=5
+WW=20
+
+via=500 500 550 600 700 800 850 850 900 9999
+*H  U Selected Hotter=0  It=20  Rep=0 retry=2 hist=0 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C1   C   It=4   Rep=0 retry=2 hist=0 conf=200
+*Str  R   NotStraightened   It=0  
+*F    U   Failed  It=20  Rep=0 retry=2 hist=0 conf=200
+*C2   C   It=4   Rep=0 retry=2 hist=1000 conf=200
+*C3   C   It=20  Rep=0 retry=2 hist=0 Conf=9999
+
+via=500 500 550 600 700 800 850 850 900 9999
+*A    U   Selected It=20  Rep=0 retry=2 hist=50 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C4   C   It=4   Rep=0 retry=2 hist=500 conf=200
+*C5   C   It=4   Rep=1000 retry=2 hist=1000 conf=200
+*Last C   It=20  Rep=0 retry=2 hist=500 Conf=9999
+
+[60]
+
+via=500 500 550 600 700 800 850 850 900 9999
+*H    U   Selected  Hotter=0  It=20  Rep=0 retry=2 hist=0 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C1   C   It=4   Rep=0 retry=2 hist=0 conf=200
+*STR  R   NotStraightened   It=0   Rep=0 retry=2 hist=0 conf=200
+*F    U   Failed  It=20  Rep=0 retry=2 hist=0 conf=200
+*C3   C   It=4   Rep=0 retry=2 hist=1000 conf=200
+*C4   C   It=20  Rep=0 retry=2 hist=0 Conf=9999
+
+RW=5
+WW=15
+conf=200
+via=500 500 550 600 700 800 850 850 900 9999
+*A    U   Selected  It=20  Rep=0 retry=2 hist=0
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C5   C   It=4   Rep=0 retry=2 hist=500 conf=200
+*C6   C   It=4   Rep=1000 retry=2 hist=1000 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C7   C   It=20  Rep=0 retry=2 hist=500 Conf=9999
+
+RW=5
+WW=15
+
+via=500 500 550 600 700 800 850 850 900 9999
+*Last C   It=20  Rep=0 retry=2 hist=500 Conf=9999
+
+[70]
+RW=5
+WW=15
+
+via=500 500 550 600 700 800 850 850 900 9999
+*H    U   Selected Hotter=0  It=20  Rep=0 retry=2 hist=0 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C1   C   It=4   Rep=0 retry=2 hist=0 conf=200
+*Str  R   NotStraightened   It=0
+*F    U   Failed  It=20  Rep=0 retry=2 hist=0 conf=200
+*C2   C   It=4   Rep=0 retry=2 hist=1000 conf=200
+*C3   C   It=20  Rep=0 retry=2 hist=0 Conf=9999
+
+via=500 500 550 600 700 800 850 850 900 9999
+*A    U   Selected  It=20  Rep=0 retry=2 hist=50 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C4   C   It=4   Rep=0 retry=2 hist=500 conf=200
+*C5   C   It=4   Rep=1000 retry=2 hist=1000 conf=200
+*Last C   It=20  Rep=0 retry=2 hist=500 Conf=9999
+
+[80]
+RW=5
+WW=15
+conf=200
+via=500 500 550 600 700 800 850 850 900 9999
+*H    U   Selected  Hotter=0  It=20  Rep=0 retry=2 hist=0
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C1   C   It=4   Rep=0 retry=2 hist=0 conf=200
+*Str  R   NotStraightened   It=0 
+*F    U   Failed  It=20  Rep=0 retry=2 hist=0 conf=200
+*C2   C   It=4   Rep=0 retry=2 hist=1000 conf=200
+*C3   C   It=20  Rep=0 retry=2 hist=0 Conf=9999
+
+via=500 500 550 600 700 800 850 850 900 9999
+*A    U    Selected  It=20  Rep=0 retry=2 hist=50 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C4   C   It=4   Rep=0 retry=2 hist=500 conf=200
+*C5   C   It=4   Rep=1000 retry=2 hist=1000 conf=200
+*Last C   It=20  Rep=0 retry=2 hist=500 Conf=9999
+
+[90]
+RW=5
+WW=10
+
+via=500 500 550 600 700 800 850 850 900 9999
+*H    U   Selected  Hotter=0  It=20  Rep=0 retry=2 hist=0 conf=200
+
+via=500 500 550 600 700 800 850 850 900 9999
+*C1   C   It=14   Rep=0 retry=2 hist=0 conf=200
+*Str  R   NotStraightened   It=0
+*F    U   Failed  It=20  Rep=0 retry=2 hist=0 conf=200
+*C2   C   It=14   Rep=0 retry=2 hist=1000 conf=200
+*C3   C   It=20  Rep=0 retry=2 hist=0 Conf=9999
+
+RW=5
+WW=5 
+
+via=500 500 550 600 700 800 850 850 900 9999
+*A    U   Selected  It=20  Rep=0 retry=2 hist=50 conf=200
+
+Via=100 ... 500
+*C4   C   It=14   Rep=0 retry=2 hist=500 conf=200
+*C5   C   It=14   Rep=1000 retry=2 hist=1000 conf=200
+*Last C   It=20  Rep=0 retry=2 hist=500 Conf=9999
+
+[C]
+RW=2 
+WW=2 
+
+Via=100 ... 700
+*C1   C   It=15  Rep=5000 retry=2 hist=1000 conf=200
+*Str1 R   NotStraightened   It=0 
+
+WW=5 
+*U1   U   It=20 Rep=0 retry=2 hist=0 conf=200
+*C2   C   It=15  Rep=5000 retry=2 hist=1000 conf=200
+*C3   C   It=15  Rep=5000 retry=2 hist=1000 conf=200
+
+RW=5 
+WW=5 
+*U2   U   It=20 Rep=0 retry=2 hist=0 conf=100
+
+RW=2 
+WW=2 
+
+*Str2 R   NotStraightened   It=0 
+*C4   C   It=15  Rep=5000 retry=2 hist=1000 conf=200
+*C5   C   It=15  Rep=5000 retry=2 hist=1000 conf=200
+*LU   U   It=20 Rep=0 retry=2 hist=0 conf=50
+*C6   C   It=15  Rep=5000 retry=2 hist=1000 conf=200
+*C7   C   It=15  Rep=5000 retry=2 hist=1000
+*NC1  C   It=15  Rep=0 retry=2 hist=1000 Conf=9999
+*Str2 A   It=0 
+*C8   C   It=15  Rep=5000 retry=2 hist=1000 conf=200
+*C9   C   It=15  Rep=5000 retry=2 hist=1000
+*C10  C   It=15  Rep=5000 retry=2 hist=1000
+*C11  C   It=15  Rep=5000 retry=2 hist=1000
+*C12  C   It=15  Rep=5000 retry=2 hist=1000
+*C13  C   It=15  Rep=5000 retry=2 hist=1000
+*C14  C   It=15  Rep=5000 retry=2 hist=1000
+*C15  C   It=15  Rep=5000 retry=2 hist=1000
+*C16  C   It=15  Rep=5000 retry=2 hist=1000
+*NC2  C   It=15  Rep=0 retry=2 hist=1000 Conf=9999
+
+RW=5 
+WW=10 
+conf=200
+Via=100 ... 700
+*Last C   Longest  It=3  Rep=0 retry=2 hist=0
+
+[END]  

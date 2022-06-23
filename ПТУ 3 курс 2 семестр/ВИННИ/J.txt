@@ -1,0 +1,75 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef vector <vector <pair<int,int> > > graph;
+bool bfs(int n, int a, int b, const graph &gr, int Max, vector<int> &way) {
+    vector<int> where(n+1, 0);
+    vector<bool> used(n+1, false);
+    queue<int> q;
+    q.push(a);
+    used[a]=true;
+    while(!q.empty()){
+        int u = q.front(); q.pop();
+        for (int i=0; i<gr[u].size(); i++) {
+            if (used[gr[u][i].first]) {continue;}
+            if (gr[u][i].second < Max) {continue;}
+            int v = gr[u][i].first;
+            q.push(v);
+            used[v] = true;
+            where[v] = u;
+            if (v==b) {break;}
+        }
+    }
+    if (where[b]==0) {return false;}
+    way.resize(0);
+    while (b>0) 
+	{
+        way.push_back(b);
+        b = where[b];
+    }
+    reverse(way.begin(), way.end());
+    return true;
+}
+int main(){
+    int n, m, a, b;
+    cin >> n >> m >> a >> b;
+    graph gr(n+1);
+    set<int> values;
+    for (int i=1; i<=m; i++) {
+        int u, v, c1, c2;
+        cin >> u >> v >> c1 >> c2;
+        gr[u].push_back(make_pair(v, c1));
+        gr[v].push_back(make_pair(u, c2));
+        values.insert(c1);
+        values.insert(c2);
+    }
+	vector<int> vec(values.size());
+    vector<int> bestWay;
+    copy(values.begin(), values.end(), vec.begin());
+	int best = 0, left = 0, right = vec.size() - 1;
+	while(left <= right)
+	{
+		int mid = (left + right) / 2;
+		vector<int> way;
+		if(bfs(n, a, b, gr, vec[mid], way))
+		{
+			best = vec[mid];
+			left = mid + 1;
+			bestWay = way;
+			left = mid + 1;
+		}
+		else
+		{
+			right = mid - 1;
+		}	
+	}
+	cout << best << endl;
+	if(best > 0)
+	{
+		cout << a;
+		for(int i = 1; i < bestWay.size(); i++)
+		{
+			cout << " " << bestWay[i];
+		}
+	}
+	return 0;
+}

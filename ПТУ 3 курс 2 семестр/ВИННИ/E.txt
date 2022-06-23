@@ -1,0 +1,65 @@
+# Шоколадный обмен
+using System;
+using System.Collections.Generic;
+using System.Linq;
+ 
+namespace labs
+{
+    class HeapSort
+    {
+        
+        //метод бинарного поиска с использованием цикла
+        static long BinarySearch(List<long> array, long aliceNum,long aliceSum,long bobSum, int left, int right)
+        {
+            //пока не сошлись границы массива
+            while (left <= right)
+            {
+                //индекс среднего элемента
+                var middle = (left + right) / 2;
+ 
+                if (aliceSum-aliceNum+array[middle]==bobSum+aliceNum-array[middle])
+                {
+                    return array[middle];
+                }
+                else if (aliceNum < array[middle])
+                {
+                    //сужаем рабочую зону массива с правой стороны
+                    right = middle - 1;
+                }
+                else
+                {
+                    //сужаем рабочую зону массива с левой стороны
+                    left = middle + 1;
+                }
+            }
+            //ничего не нашли
+            return -1;
+        }
+        
+        static void Main(string[] args)
+        {
+            long n = Int32.Parse(Console.ReadLine());
+            List<long> arrAlice = Console.ReadLine().Split().Select(long.Parse).ToList();
+            long m = Int32.Parse(Console.ReadLine());
+            List<long> arrBob = Console.ReadLine().Split().Select(long.Parse).ToList();
+            string answer = null;
+            long sumAlice = arrAlice.Sum();
+            long sumBob = arrBob.Sum();
+            
+            foreach (long aliceCurr in arrAlice)
+            {
+                long res = BinarySearch(arrBob, aliceCurr,sumAlice,sumBob, 0 , arrBob.Count-1); 
+                if (res >= 0)
+                {
+                    answer = aliceCurr + " " + res;
+                    break;
+                }
+            }
+        
+            if (answer != null)
+                Console.WriteLine(answer);
+            else
+                Console.WriteLine(0+" "+0);
+            }
+    }
+}

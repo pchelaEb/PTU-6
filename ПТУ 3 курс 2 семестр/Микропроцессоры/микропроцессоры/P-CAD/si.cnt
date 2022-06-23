@@ -1,0 +1,71 @@
+:Base si.hlp
+:Title P-CAD 2001 SI Help
+1 Welcome to P-CAD Signal Integrity=SI_INTRODUCTION>main
+1 P-CAD SI
+2 Features=SI_FEATURES>main
+2 SI Commands
+3 SI Main Window
+4 Toolbar=TOOLBAR>menu
+4 Main Window=MAIN_WINDOW>main
+4 File Menu
+5 File Exit=MENU_FILE_EXIT
+5 File Get Nets=MENU_FILE_GET_NETS
+5 File Open=MENU_FILE_OPEN
+5 File Reports=MENU_FILE_REPORT
+5 File SULTAN Out=MENU_FILE_SULTAN_OUT
+4 Edit Menu
+5 Edit Components=MENU_EDIT_DESIGNATOR
+5 Edit Layer Stack=MENU_EDIT_LAYER_STACK
+5 Edit Nets=MENU_EDIT_SUPPLY_NETS
+5 Edit Take Over=MENU_EDIT_TAKE_OVER
+4 Simulation Menu
+5 Simulation Crosstalk=MENU_SIM_CROSSTALK
+5 Simulation Reflection=MENU_SIM_REFLECTION
+5 Simulation Screening=MENU_SIM_SCREENING
+5 Simulation Set Agressor Net=MENU_SIM_AGRESSOR
+5 Simulation Set Victim Net=MENU_SIM_VICTIM
+5 Simulation Termination Advisor=MENU_SIM_TERM_ADV
+4 Library Menu
+5 Library Import IBIS-File=MENU_LIB_IBISC
+5 Library Macromodel Editor=MENU_LIB_MMEDIT
+4 Options Menu
+5 Options Configure=MENU_OPT_CONFIG
+5 Options Simulator=MENU_OPT_SIMULATOR
+4 Help Menu
+5 Help About P-CAD SI=MENU_HELP_ABOUT
+5 Help How to use Help=MENU_HELP_HELP
+5 Help P-CAD SI Help Topics=MENU_HELP_TOPICS
+3 Si Screening Window
+4 Toolbar=SCR_TOOLBAR>menu
+4 Screening Window=SCR_WINDOW>main
+4 File Menu
+5 File Close=SCR_MENU_FILE_CLOSE
+5 File Report=SCR_MENU_FILE_REPORT
+5 File SDF Out=SCR_MENU_FILE_SDF
+4 Edit Menu
+5 Edit Delete=SCR_MENU_EDIT_DELETE
+5 Edit Invert Selection=SCR_MENU_EDIT_INVSEL
+5 Edit Select All=SCR_MENU_EDIT_SELALL
+4 View Menu
+5 View Arrange Nets by Average Impedance=SCR_ARR_AVIMP
+5 View Arrange Nets by Average Max. Impedance=SCR_ARR_MAXIMP
+5 View Arrange Nets by Average Min. Impedance=SCR_ARR_MINIMP
+5 View Arrange Nets by Base Value of Falling Edge=SCR_ARR_FALL_BASE
+5 View Arrange Nets by Component=SCR_ARR_COMP
+5 View Arrange Nets by Flighttime of Falling Edge=SCR_ARR_FALL_FLIGHT
+5 View Arrange Nets by Flighttime of Rising Edge=SCR_ARR_RISE_FLIGHT
+5 View Arrange Nets by Length=SCR_ARR_LEN
+5 View Arrange Nets by Max. Overshoot of Falling Edge=SCR_ARR_FALL_OVER
+5 View Arrange Nets by Max. Overshoot of Rising Edge=SCR_ARR_RISE_OVER
+5 View Arrange Nets by Max. UnderOvershoot of Rising Edge=SCR_ARR_FALL_UNDER
+5 View Arrange Nets by Max. Undershoot of Rising Edge=SCR_ARR_RISE_UNDER
+5 View Arrange Nets by Name=SCR_ARR_NAME
+5 View Arrange Nets by Segment=SCR_ARR_SEG
+5 View Arrange Nets by Slope of Falling Edge=SCR_ARR_FALL_SLOPE
+5 View Arrange Nets by Slope of Rising Edge=SCR_ARR_RISE_SLOPE
+5 View Arrange Nets by Top Value of Rising Edge=SCR_ARR_RISE_TOP
+5 View Impedance View=SCR_MENU_VIEW_IMP
+5 View Net Data View=SCR_MENU_VIEW_NET
+5 View Select Columns=SCR_MENU_VIEW_COLS
+5 View Timing View=SCR_MENU_VIEW_TIME
+5 View Voltage View=SCR_MENU_VIEW_VOLT

@@ -1,0 +1,67 @@
+#-----------------------------------------------------------------------------
+#
+#                   ACCEL TIES/ViewDraw Net Class Rules File
+#
+#               Copyright (C) 1998, by ACCEL Technologies, Inc.
+#
+#-----------------------------------------------------------------------------
+#
+# In Viewdraw:
+# -- --------
+# Attach NETCLASS attributes to Viewdraw nets to identify nets that belong to
+# the same net classes.  Then use a .NCR file such as this one to define net
+# class rules, net class - to - net class relationships, and net class - to -
+# net class rules.  Limit your net class names and rule names to 20 characters
+# or less, and try not to use special characters (certainly do not use "#").
+#
+#
+# In your project configuration file:
+# -- ---- ------- ------------- ----
+# Make certain that you specify passing of the NET attribute NETCLASS in the
+# General BeginAttPassList section.  Indicate where ACCEL TIES can find a .NCR
+# file by setting the value of the NetClassRulesFileName keyword.  If the
+# NetClassRulesFileName keyword is set to "default", or a file is specified,
+# but is missing, ACCEL TIES will look for a .NCR file in the same directory
+# path (and with the same base file name) as your project configuration file.
+#
+#
+# As an example:
+# -- -- -------
+# The following commented section contains a few net class and net class -
+# to - net class definitions with rules to help you get started.
+#
+#
+# Rules for net class MY_NET_CLASS_1 are defined here.
+# The nets that are members of MY_NET_CLASS_1 are specified by attaching
+# NETCLASS = MY_NET_CLASS_1 attributes to the proper nets in Viewdraw.
+# Net class rules will supersede any global rules that you have set, but not
+# individual net rules.
+#
+# NETCLASS MY_NET_CLASS_1
+#   Clearance           = 4mil
+#   LineToLineClearance = 6mil
+#   PadToLineClearance  = 6mil
+#   PadToPadClearance   = 6mil
+#   ViaToLineClearance  = 6mil
+#   ViaToPadClearance   = 6mil
+#   ViaToViaClearance   = 6mil
+#
+#
+# Rules for net class MY_NET_CLASS_2 are defined in a similar manner as for
+# MY_NET_CLASS_1.
+#
+# NETCLASS MY_NET_CLASS_2
+#   Clearance           = 8mil
+#   LineToLineClearance = 10mil
+#
+#
+# Net class - to - net class rules between nets belonging to MY_NET_CLASS_1
+# and MY_NET_CLASS_2 are defined here.
+# These rules will supersede all other rules.
+#
+# CLASSTOCLASS MY_NET_CLASS_1 MY_NET_CLASS_2
+#   Clearance           = 12mil
+#   LineToLineClearance = 14mil
+#   PadToLineClearance  = 16mil
+#   PadToPadClearance   = 16mil
+#

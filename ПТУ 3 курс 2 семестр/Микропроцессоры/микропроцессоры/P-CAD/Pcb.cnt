@@ -1,0 +1,698 @@
+:Base PCB.HLP
+:Title P-CAD 2001 PCB Help
+1 Welcome to P-CAD PCB=Introducing_P_CAD_PCB>main
+1 P-CAD PCB
+2 New Features=New_Features_PCB
+2 Key Features=Key_Features_in_P-CAD_PCB>main
+2 PCB Basics
+3 Memory Management=MemoryManagement
+3 PCB Layers
+4 Adding a Layer=Adding_a_Layer_PCB
+4 Adding a Layer Set=Adding_a_Layer_Set
+4 Deleting a Layer=Deleting_a_Layer_PCB
+4 Deleting a Layer Set=Deleting_a_Layer_Set
+4 Making a Layer the Current Layer=Making_a_Layer_the_Current_Layer_PCB
+4 Modifying a Layer Set=Modifying_a_Layer_Set
+3 Opening Files
+4 Opening a file=Opening_a_file_PCB
+4 Opening a P-CAD Binary File=Opening_a_P_CAD_Binary_File
+4 Opening a recently used file=Opening_a_recently_used_file_PCB
+4 P-CAD ASCII Files=Opening_an_ASCII_File
+3 Saving Files
+4 Saving a copy of a file=Saving_a_copy_of_a_file
+4 Saving a Pattern to a Library=Saving_a_Pattern_to_a_Library
+4 Saving ECOs=Save_ECOs
+3 Customizing P-CAD PCB
+4 Changing the UndoLimit=Changing_the_UndoLimit
+4 Choosing a Selection Color=Choosing_a_Selection_Color
+4 Displaying the custom toolbar=Displaying_the_custom_toolbar
+4 Grid Selection=GridSelection
+4 Grid Toggle Buttons=Grid_Toggle_Buttons
+4 Layer Display Combo Box and Scroll Buttons=Layer_Display_Combo_Box_and_Scroll_Buttons
+4 Line Width Combo Box=Line_Width_Combo_Box
+4 Modifying or Updating the Design View=Modifying_or_Updating_the_Design_View
+4 Multiple Windows=Multiple_Windows
+4 Setting the CTRL/SHIFT Behavior=Setting_the_CTRL_SHIFT_Behavior
+4 Setting the current zoom factor=Setting_the_current_zoom_factor
+4 Setting up a Library=Setting_up_a_Library
+4 Showing or hiding data tips=Showing_or_hiding_data_tips
+4 Showing or hiding points=Showing_or_hiding_points
+4 Starting a custom tool=Starting_a_custom_tool
+4 X and Y Coordinates=X_and_Y_Coordinates
+2 Documentation Tools
+3 Importing a Source File with a ComponentName=Importing_a_Source_File_with_a_ComponentName
+3 Importing or Exporting Notes=Importing_or_Exporting_Notes
+3 Modifying or Updating the Diagram=Modifying_or_Updating_the_Diagram
+3 Generating Output
+4 Generate Gerber Output=Generate_Gerber_Output
+4 Generate N/C Drill Output Files=Generate_N_C_Drill_Output_Files
+4 Generating Print Jobs
+5 Generating Print Jobs=Generating_Print_Jobs
+5 Previewing a Print Job=Previewing_a_Print_Job
+5 Printing the Current Window=Printing_the_Current_Window
+5 Printing the Current Display=Printing_the_Current_Display
+5 Scaling a Print Job to Fit a Page=Scaling_a_Print_Job_to_Fit_a_Page
+5 Setting up a Print Job=Setting_up_a_Print_Job
+4 Generating Reports
+5 Creating a Custom Report=Creating_a_Custom_Report
+5 Customizing a Standard Report=Customizing_a_Standard_Report
+5 Generating a Report=Generating_a_Report
+5 Report Selection Criteria=Report_Selection_Criteria
+5 Reports to Generate=Reports_to_Generate
+5 Setting Data Selection Options for Reports=Setting_Data_Selection_Options_for_Reports
+5 Setting Report Format Options=Setting_Report_Format_Options
+5 Setting Sort Options for Reports=Setting_Sort_Options_for_Reports
+3 Design Views
+4 Design Views=Design_View_Properties
+4 Placing a Design View=Placing_a_Design_View
+3 Details
+4 Creating a Detail File=Creating_a_Detail_File_PCB
+4 Design Details=HIDM_ADP_DETAIL
+4 Placing a Detail=Placing_a_Detail
+4 Modifying a Detail=Modifying_a_Detail
+3 Fields and Field Sets
+4 Field Sets=Field_Sets
+4 Modifying Field Sets=HIDD_DESIGNINFO_FIELDSETS
+3 Layer Stackup Diagrams
+4 Layer Stackup Diagram=HIDM_ADP_DIAGRAM
+4 Placing the Layer Stackup Diagram=Placing_the_Layer_Stackup_Diagram
+3 Tables
+4 Drill Table=Drill_Table
+4 Modifying or Updating a Table=Modifying_or_Updating_a_Table
+4 Notes and Revision Notes Table=Notes_and_Revision_Notes_Table
+4 Placing a Table=Placing_a_Table
+2 Using PCB
+3 Copying Information to your Design=Copying_Information_to_your_Design
+3 Using an External Source File=Using_an_External_Source_File
+3 Using the zoom window=Using_the_zoom_window
+3 Finding a Component in the Component Libraries=Using_the_Library_Index_Spreadsheet
+3 WebQuote
+4 Registering with the WebQuote facility for the first time=Registering_with_the_WebQuote_facility_for_the_first_time
+4 P-CAD Request For Quote (WebQuote)=P_CAD_Request_For_Quote_WebQuote_
+3 Design Technology Parameters
+4 Building the DTP Hierarchy=Building_the_DTP_Hierarchy_PCB>main
+4 Browsing the Contents of a DTP File=Browsing_the_Contents_of_a_DTP_File_PCB>main
+4 Creating and Opening Design Technology Parameters Files=Creating_and_Opening_Design_Technology_Parameters_Files
+4 Deleting Information from a DTP Tree=Deleting_Information_from_a_DTP_Tree_PCB>main
+4 Renaming a DTP Group or Item=Renaming_a_DTP_Group_or_Item_PCB
+3 Design Verification
+4 Copper Ties and DRC=Copper_Ties_and_DRC
+4 DRC Clearance Options=DRC_Clearance_Options
+4 DRC Errors=DRC_Errors
+4 Test Point Design Rules=Test_Point_Design_Rules
+4 Working with Design Rule Check=Working_with_Design_Rule_Check
+3 DXF
+4 File » Import » DXF Considerations=File_DXF_In_Considerations
+4 Items Supported by the File » Import » DXF Command=Items_Supported_by_the_File_DXF_In_Command
+4 Using the File » Import » DXF Command=Using_the_DXF_In_Command
+3 IDF
+4 Intermediate Design Files (IDF)=Intermediate_Design_Files_IDF_
+3 DDE Hotlinks
+4 cross probe=cross_probe
+4 DDE Hotlinks=DDE_Hotlinks
+3 Macros
+4 Editing Macro Files=Editing_Macro_Files
+4 Macro File Syntax=Macro_File_Syntax
+4 Macro Recording Tool=HIDD_EVENT_RECORD_DLG
+4 Recording a Macro=Recording_a_Macro
+4 Recording Efficient Macros=Recording_Efficient_Macros
+3 Routing
+4 Advanced Routing Techniques=Advanced_Routing_Techniques_PCB>main
+4 Attribute Description for Autorouting=Attribute_Description_for_Autorouting_PCB>main
+4 Backing Up PCB FIles=Backing_Up_PCB_Files_PCB>main
+4 Completing Your Design=Completing_Your_Design_PCB>main
+4 Improved Completion Rates=ImprovingCompletionRates
+4 Improving Performance=ImprovingPerformance
+4 Net Attributes=NetAttrsButton
+4 Off-grid Items=OffGridItems
+4 Routing Bias=Routing_Bias_PCB
+4 Selecting a Routing Tool=Selecting_a_Routing_Tool_PCB>main
+4 Surface Pads=SurfacePads
+4 InterRoute Gold
+5 Controlling Trace Placement=Controlling_Trace_Placement_PCB>main
+5 Creating Fanouts from non Net-Connected Component Pads=Creating_Fanouts_from_non_Net_Connected_Component_Pads
+5 Fanout Example=Fanout_Example_PCB
+5 interactive routing trace placement options=interactive_routing_trace_placement_options
+5 Maximum Hugging/Minimum Length=Maximum_Hugging_Minimum_Length
+5 Modifying Traces in Route InterRoute=Modifying_Traces_in_Route_InterRoute
+5 P-CAD InterRoute Gold=P-CAD_InterRoute_Gold>main
+5 Selecting an InterRoute Gold Tool=Selecting_an_InterRoute_Gold_Tool
+5 Terminating the Interactive Router=Terminating_the_Interactive_Router
+5 Using Bus Route=Using_Bus_Route
+5 Using Fanout Route=Using_Fanout_Route
+5 Visible Routing Area=Visible_Routing_Area_PCB>main
+5 MultiTrace
+6 MultiTrace Examples=MultiTrace_Examples
+6 Using MultiTrace=Using_MultiTrace
+5 Push Traces
+6 Push Traces=Push_Traces
+6 Push Traces Example=Push_Traces_Example_PCB
+6 Using Push Traces=Using_Push_Traces
+4 P-CAD Shape-Based Router
+5 Introduction=Introduction
+5 Key Features=Key_Features
+5 Shape-Based Router Basics
+6 Saving and AutoSaving=Saving_and_AutoSaving
+6 Find, Identify and Highlight=Dialog_Find
+6 Changing the View of the Board=View_Options
+6 Display Options=Dialog_DisplayOptions
+6 Net Attributes=Dialog_NetAttributes
+6 Printing=HELP_ID_PLOT
+5 Setting up the Shape-Based Router
+6 Router Setup Options=Dialog_AutorouterSetup
+6 Parameters=HELP_ID_PARAMETERS
+6 Routing Passes=HELP_ID_PASSES
+6 Testpoints=HELP_ID_TESTPOINTS
+6 Routing Channel=RoutingChannel
+6 Contentions=Contentions
+5 Using the Shape-Based Router
+6 Transferring the Board to the Router=Transferring_the_Board
+6 Density Map=Density_Map
+6 AutoRouting=AutoRouting
+6 Interactive Routing=Interactive_Routing
+6 Sketch Route Autorouter=SketchRoute
+6 Manual Routing=ManualRoute
+5 Shape-Based Router Reference
+6 Reports=Dialog_ReportType
+6 Board Preparations=Preparing_the_PCB
+6 About the Shape-Based Router=AboutAdvancedRoute
+6 Angled Direction By Layer - What Is It?=Angled_Direction_By_Layer
+6 Quality of Routing=QualityOfRouting
+6 When the Board will not Route=Board_will_not_Route
+6 Understanding the Component Placement=Component_Placement
+4 PRO Route
+5 P-CAD PRO Route=P-CAD PCB (6/400) PRORouteOption
+5 Prerouted Connections=PreRoutedConnections
+5 PRO Route 2/4 Router=PRORoute24Option
+5 PRO Route Line Width=PROLineWidthBox
+5 PRO Route Restart=RestartButton
+5 PRO Route Via Grid Multiple=PROViaGridMultiple
+5 PRO Route Route Grid=PRORoutingGridBox
+5 Route Options=PROOptionsBox
+5 Simultaneous Class Routing=Simaltaneous_Class_Routing_PCB>main
+4 Quick Route
+5 Any Node (2 vias)=Any_Node_2_vias
+5 Any Node (Maze)=Any_Node_Maze
+5 C Routes (2 vias)=C_Routes_2_vias_PCB>main
+5 L Routes (1 via)=L_Routes_1_via
+5 Quick Route=QuickRouteOption
+5 Quick Route Constraints=QuickConstraints
+5 Wide Line Routing=Wide_Line_Routing
+5 Z Routes (2 vias)=Z_Routes_2_vias_PCB>main
+4 SPECCTRA
+5 SPECCTRA Router=SPECCTRA_Router
+5 SPECCTRA Command Line Dialog=HIDD_PLACECONFIGCCTCMD
+3 Master Designer Files
+4 Master Designer Editors=Master_Designer_8_5_Commands
+4 Master Designer Utilities=Master_Designer_Utilities
+3 Working with Objects
+4 Adding / Removing Net Nodes=Adding_Removing_Net_Nodes
+4 Connecting Multiple Nets Using Copper Ties=Copper_Ties
+4 Create Nets From Free Copper=Create_Nets_From_Free_Copper_PCB
+4 Duplicating an object=Duplicating_an_object
+4 Fixing an Object in its design location=Fixing_an_Object_in_its_design_location
+4 Jumping to a location=Jumping_to_a_location
+4 Keepouts=Keepouts
+4 Moving an Object to a Layer=Moving_an_Object_to_a_Layer
+4 Rounding Corners of Polygonal Shapes=Rounding_Corners_of_Polygonal_Shapes
+4 Setting backoff smoothness=Setting_backoff_smoothness
+4 Placing Objects
+5 Autoplacement=Autoplacement
+5 Placing a Component=Placing_a_Component
+5 Placing a Connection=Placing_a_Connection
+5 Placing a Dimension=Placing_a_Dimension
+5 Placing a Field=Placing_a_Field
+5 Placing a glue dot=Placing_a_glue_dot
+5 Placing a Pad=Place_a_Pad
+5 Placing a pick and place point=Placing_a_pick_and_place_point
+5 Placing a Picture=Placing_a_Picture
+5 Placing a Plane=Placing_a_Plane
+5 Placing a reference point=Placing_a_reference_point
+5 Placing a Test Point=Placing_a_Test_Point
+4 Selecting Objects
+5 Selecting Objects Overview=Selecting_Objects
+5 Block Selecting Objects=Block_Selecting_Objects
+5 Defining Block Selection Criteria=Defining_Block_Selection_Criteria
+5 Defining Single Selection Criteria=Defining_Single_Selection_Criteria
+5 Example of Block Selection=Example_of_Block_Selection
+5 Selecting a Net=Selecting_a_Net
+5 Selecting All Objects=Selecting_All_Objects
+5 Selecting an Object=Selecting_an_Object
+5 Selecting Collocated Objects=Selecting_Collocated_Objects
+5 Selecting Contiguous Net Objects=Selecting_Contiguous_Net_Objects
+5 Selecting Multiple Objects=Selecting_Multiple_Objects
+5 Selecting Part of an Object=Selecting_Part_of_an_Object
+4 Cutting and Copying Objects
+5 Copying Objects to a Block or Picture File=Copying_Objects_to_a_Block_or_Picture_File_PCB
+5 Copying Objects to the Clipboard=Copying_Objects_to_the_Clipboard
+5 Copying Objects within a Design=Copying_Objects_within_a_Design
+5 Cutting Objects from Nets=Cutting_Objects_from_Nets
+5 Saving Items to a Clipboard File=Saving_Items_to_a_Clipboard_File
+4 Pasting Objects
+5 Edit Paste Commands=Edit_Paste_Commands_PCB
+5 Pasting Objects in PCB=Pasting_Objects_in_PCB
+5 Using Paste Circuit=Using_Paste_Circuit
+4 Components
+5 Alternate Patterns=Alternate_Patterns
+5 Exploding a Component=Exploding_a_Component
+5 Moving Components by RefDes=Moving_Objects_by_RefDes
+5 Pattern swapping=Pattern_swapping
+5 Replacing a Component=Replacing_a_Component
+5 Using Rooms to Organize Components=Using_Rooms_to_Organize_Components
+4 Pads
+5 current pad style=current_pad_style_1
+5 Deleting a Pad Style=Deleting_a_Pad_Style_PCB>main
+5 Polygonal Pad Shapes=HIDD_POLYPADSHAPE
+5 Purging Unused Pad Styles=Purging_Unsused_Pad_Styles
+5 Renaming a Pad Style=Renaming_a_Pad_Style
+5 Renumbering Pads=Renumbering_Pads
+5 Rotating or Flipping a Pad=Rotating_or_Flipping_a_Pad>main
+5 Setting a Pad Style Hole Range=Setting_a_Pad_Style_Hole_Range
+5 Split Plane Connectivity=Split_Plane_Connectivity
+5 Standard Pad Shapes and Thermal Spoke Pads=Standard_Pad_Shapes_and_Thermal_Spoke_Pads
+5 Viewing a Pad Style Hole Range=Viewing_a_Pad_Style_Hole_Range
+5 Viewing the Default Pad Style=Viewing_the_Default_Pad_Style
+4 Planes
+5 Plane Connections=PlaneConnections
+5 Plane Swell Option=Plane_Swell_Option
+5 Rotating and Flipping Split Planes=Rotating_and_Flipping_Split_Planes
+4 Vias
+5 Copying a Via Style=Copying_a_Via_Style_PCB
+5 current via style=current_via_style
+5 Deleting a Via Style=Deleting_a_Via_Style_PCB
+5 Modifying a Complex Via Style=Modifying_a_Complex_Via_Style_PCB
+5 Modifying a Simple Via Style=Modifying_a_Simple_Via_Style_PCB
+5 Modifying Via Properties=Modifying_Via_Properties
+5 Purging Unused Via Styles=Purging_Unused_Via_Styles_PCB
+5 Via Minimization=Via_Minimization
+5 Via Placement in Push Traces=Via_Placement_in_Push_Traces
+5 Viewing a Via Style=Viewing_a_Via_Style
+4 Text
+5 current text style=current_text_style
+5 Deleting a Text Style=Deleting_a_Text_Style
+5 Jumping to text=Jumping_to_text
+5 Purging Unused Text Styles=Purging_Unused_Text_Styles
+5 Renaming a Text Style=Renaming_a_Text_Style
+5 Using the Text Dialogs=Using_the_Text_Dialogs
+5 Viewing or Modifying a Text Style=Viewing_or_Modifying_a_Text_Style
+1 PCB Reference
+2 Add-in Programs and Interfaces
+3 PCAD Library Executive Features
+4 Verifying a Design=Verifying_a_Design
+4 Using the Embedded Query=Using_the_Embedded_Query
+2 Main Menu Commands
+3 Keyboard Shortcuts in P-CAD PCB=Keyboard_Shortcuts_in_P-CAD_PCB
+3 File Menu
+4 File Clear=HIDM_FILE_CLEAR_PCB
+4 File Close=HIDM_FILE_CLOSE_PCB
+4 File Design Info=HIDM_FILE_DESIGNINFO_PCB
+4 File Design Technology Parameters=HIDM_FILE_TECH_TEMPLATES
+4 File Exit=HIDM_FILE_EXIT_PCB
+4 File New=HIDM_FILE_NEW_PCB
+4 File Open=HIDM_FILE_OPEN_PCB
+4 File Print=HIDM_FILE_PRINT_PCB
+4 File Print Setup=HIDM_FILE_PRINT_SETUP
+4 File Reports=HIDM_FILE_REPORTS_PCB
+4 File Save=HIDM_FILE_SAVE_PCB
+4 File Save As=HIDM_FILE_SAVE_AS_PCB
+4 Export
+5 File Export DXF=HIDM_FILE_DXFOUT
+5 File Export Gerber=HIDM_FILE_GERBEROUT
+5 File Export IDF=File_Export_IDF
+5 File Export N/C Drill=HIDM_FILE_NCDRILL
+5 File Export P-CAD Shape Route=File_P_CAD_Shape_Route_Out
+5 File Export PDIF=HIDM_FILE_PDIFOUT
+5 File Export RFQ Format=File_Export_RFQ_Format
+4 Import
+5 File Import DXF=HIDM_FILE_DXFIN
+5 File Import Gerber=HIDM_FILE_GERBERIN
+5 File Import IDF=File_Import_IDF
+5 File Import P-CAD Shape Route=File_P_CAD_Shape_Route_In
+5 File Import PDIF=HIDM_FILE_PDIFIN
+3 Edit Menu
+4 Edit Align Components=HIDM_EDIT_ALIGN
+4 Edit Alter Component=HIDM_EDIT_MANGLE_PCB
+4 Edit Components=HIDM_EDIT_VIEWCOMP_PCB
+4 Edit Copy=HIDM_EDIT_COPY_PCB
+4 Edit Copy Matrix=HIDM_EDIT_DUPLICATE_PCB
+4 Edit Copy to File=HIDM_EDIT_COPY_TO_FILE_PCB
+4 Edit Cut=HIDM_EDIT_CUT_PCB
+4 Edit Delete=HIDM_EDIT_DELETE_PCB
+4 Edit Deselect All=HIDM_EDIT_DESELECT_ALL
+4 Edit Explode Component=HIDM_EDIT_EXPLODE_PCB
+4 Edit Fix=HIDM_EDIT_FIX_PCB
+4 Edit Highlight=HIDM_EDIT_HIGHLIGHT_PCB
+4 Edit Measure=HIDM_EDIT_MEASURE_PCB
+4 Edit Move by RefDes=HIDM_EDIT_MOVE_BY_REFDES_PCB
+4 Edit Move to Layer=HIDM_EDIT_MOVE_TO_LAYER
+4 Edit Nets=HIDM_EDIT_MODNETS
+4 Edit Paste Circuit=HIDM_EDIT_PASTE_CIRCUIT
+4 Edit Paste Circuit From File=HIDM_EDIT_PASTE_CIRCUIT_FROM_FILE
+4 Edit Paste from Clipboard=HIDM_EDIT_PASTE_PCB
+4 Edit Paste from File=HIDM_EDIT_PASTE_FROM_FILE_PCB
+4 Edit Paste Special=HIDM_EDIT_PASTE_SPECIAL
+4 Edit Paste to Layer=HIDM_EDIT_PASTE_TO_LAYER_PCB
+4 Edit Pattern Graphics=Edit_Pattern_Graphics
+4 Edit Properties=HIDM_EDIT_PROPERTIES_PCB
+4 Edit Redo=HIDM_EDIT_REDO_PCB
+4 Edit Rooms=HIDM_EDIT_ROOMS_PCB
+4 Edit Select=HIDM_EDIT_SELECT_PCB
+4 Edit Select All=HIDM_EDIT_SELECT_ALL
+4 Edit Select Highlighted=Edit_Select_Highlighted
+4 Edit Undo=HIDM_EDIT_UNDO_PCB
+4 Edit Unfix=HIDM_EDIT_UNFIX_PCB
+4 Edit Unfix All=HIDM_EDIT_UNFIXALL_PCB
+4 Edit Unhighlight=HIDM_EDIT_UNHIGHLIGHT_PCB
+4 Edit Unhighlight All=HIDM_EDIT_UNHIGHLIGHT_ALL_PCB
+3 View Menu
+4 View All=HIDM_VIEW_ALL
+4 View Center=HIDM_VIEW_CENTER
+4 View Command Toolbar=HIDM_VIEW_COMMAND_TOOLBAR
+4 View Custom Toolbar=HIDM_VIEW_CUSTOMTOOLBAR
+4 View DocTool Toolbar=HIDM_VIEW_ADP_TOOLBAR
+4 View Extent=HIDM_VIEW_EXTENT
+4 View Jump Location=HIDM_VIEW_JUMPLOC
+4 View Jump Text=HIDM_VIEW_JUMPTEXT
+4 View Last=HIDM_VIEW_LAST
+4 View Placement Toolbar=HIDM_VIEW_PLACEMENT_TOOLBAR
+4 View Prompt Line=HIDM_VIEW_PROMPT
+4 View Redraw=HIDM_VIEW_REDRAW
+4 View Route Toolbar=HIDM_VIEW_IROUTE_TOOLBAR
+4 View Snap to Grid=HIDM_VIEW_SNAP2GRID_PCB
+4 View Status Line=HIDM_VIEW_STATUS
+4 View Zoom In=HIDM_VIEW_ZOOMIN
+4 View Zoom Out=HIDM_VIEW_ZOOMOUT
+4 View Zoom Window=HIDM_VIEW_ZOOMWINDOW
+3 Place Menu
+4 Place Arc=HIDM_PLACE_ARC_PCB
+4 Place Attribute=HIDM_PLACE_ATTRIBUTE_PCB
+4 Place Autoplacement=HIDM_PLACE_AUTO
+4 Place Component=HIDM_PLACE_COMPONENT_PCB
+4 Place Connection=HIDM_PLACE_CONNECTION
+4 Place Copper Pour=HIDM_PLACE_POUR
+4 Place Cutout=HIDM_PLACE_CUTOUT
+4 Place Dimension=HIDM_PLACE_DIMENSION_PCB
+4 Place Keepout=HIDM_PLACE_KEEPOUT_PCB
+4 Place Field=HIDM_PLACE_FIELD
+4 Place Line=HIDM_PLACE_LINE_PCB
+4 Place Pad=HIDM_PLACE_PAD_PCB
+4 Place Plane=HIDM_PLACE_PLANE
+4 Place Point=HIDM_PLACE_REFPOINT_PCB
+4 Place Polygon=HIDM_PLACE_POLYGON_PCB
+4 Place Room=HIDM_PLACE_ROOM_PCB
+4 Place Text=HIDM_PLACE_TEXT_PCB
+4 Place Via=HIDM_PLACE_VIA
+4 Place View Log=HIDM_PLACE_VULOG
+3 Route Menu
+4 Route Autorouters=HIDM_ROUTE_AUTO
+4 Route Bus=HIDM_ROUTE_BUS
+4 Route Fanout=HIDM_ROUTE_FANOUT
+4 Route Interactive=HIDM_ROUTE_INTERACTIVE
+4 Route Manual=HIDM_ROUTE_MANUAL_PCB
+4 Route MultiTrace=HIDM_ROUTE_MULTIWIRE
+4 Route Miter=HIDM_ROUTE_MITER
+4 Route View Log=HIDM_ROUTE_VULOG
+3 Options Menu
+4 Options Configure=HIDM_OPTIONS_CONFIG_PCB
+4 Options Current Keepout=HIDM_OPTIONS_CURRENTKEEP_PCB
+4 Options Current Line=HIDM_OPTIONS_CURRENTLINE_PCB
+4 Options Current Radius=HIDM_OPTIONS_CURRENTRADIUS_PCB
+4 Options Design Rules=HIDM_OPTIONS_DESIGNRULES_PCB
+4 Options Display=HIDM_OPTIONS_DISPLAY_PCB
+4 Options Grids=HIDM_OPTIONS_GRIDS
+4 Options Layers=HIDM_OPTIONS_CURRENTLAY_PCB
+4 Options Net Classes=HIDM_OPTIONS_NETCLASSES_PCB
+4 Options Pad Style=HIDM_OPTIONS_CURRENTPAD_PCB
+4 Options Preferences=HIDM_OPTIONS_PREFERENCES_PCB
+4 Options Selection Mask=HIDM_OPTIONS_SELECTMASK_PCB
+4 Options Text Style=HIDM_OPTIONS_CURRENTTEXT_PCB
+4 Options Via Style=HIDM_OPTIONS_CURRENTVIA_PCB
+3 Library Menu
+4 Library Alias=HIDM_LIBRARY_ALIAS
+4 Library Archive Library=HIDM_LIBRARY_ARCHIVE
+4 Library Copy=HIDM_LIBRARY_COPY
+4 Library Delete=HIDM_LIBRARY_DELETE
+4 Library New=HIDM_LIBRARY_NEW
+4 Library Pattern Save As=HIDM_LIBRARY_ADD_PCB
+4 Library Query=HIDM_LIBRARY_QUERY
+4 Library Rename=HIDM_LIBRARY_RENAME
+4 Library Setup=HIDM_LIBRARY_SETUP_PCB
+4 Library Verify Design=HIDM_LIBRARY_VERIFYDESIGN
+3 DocTool Menu
+4 DocTool Mirror on Copy=HIDM_ADP_MIRROR_COPY
+4 DocTool Notes=HIDM_ADP_NOTES
+4 DocTool Place Design View=HIDM_ADP_DESIGN_VIEW
+4 DocTool Place Detail=HIDM_ADP_DETAIL
+4 DocTool Place Diagram=HIDM_ADP_DIAGRAM
+4 DocTool Place Table=HIDM_ADP_TABLE
+4 DocTool Place Picture=HIDM_ADP_METAFILE
+4 DocTool Titles=HIDM_ADP_TITLES
+4 DocTool Update=HIDM_ADP_UPDATE
+4 DocTool Update All=HIDM_ADP_UPDATE_ALL
+3 Utils Menu
+4 Utils Compare Netlist=HIDM_UTILS_NETLISTCOMP_PCB
+4 Utils Customize=HIDM_UTILS_CUSTOMIZE
+4 Utils DRC=HIDM_UTILS_DRC_PCB
+4 Utils Export ECOs=HIDM_UTILS_EXPORT_ECOS
+4 Utils Find Errors=HIDM_UTILS_FIND_ERRORS_PCB
+4 Utils Force Update=HIDM_UTILS_FORCE
+4 Utils Generate Netlist=HIDM_UTILS_NETLISTGEN
+4 Utils Import ECOs=HIDM_UTILS_IMPORT_ECOS
+4 Utils Load Netlist=HIDM_UTILS_NETLISTLOAD_PCB
+4 Utils Optimize Nets=HIDM_UTILS_NETLISTOPT
+4 Utils P-CAD AutoRFQ=Utils_P_CAD_AutoRFQ
+4 Utils P-CAD InterPlace/PCS=HIDM_UTILS_DCM
+4 Utils P-CAD Library Executive=HIDM_UTILS_LIBMANAGER_PCB
+4 Utils P-CAD Pattern Editor=HIDM_UTILS_PAT_ED
+4 Utils P-CAD Schematic=HIDM_UTILS_SCHEMATIC
+4 Utils P-CAD Signal Integrity=Utils_P_CAD_Signal_Integrity
+4 Utils P-CAD Symbol Editor=HIDM_UTILS_SYM_ED
+4 Utils Reconnect Nets=HIDM_UTILS_NETSRECON
+4 Utils Record ECOs=HIDM_UTILS_ECOSONOFF
+4 Utils Renumber=HIDM_UTILS_RENUMBER_PCB
+4 Utils Shortcut Directory=HIDM_UTILS_SHORTCUT_DIR
+4 Utils Trace Clean-up=HIDM_UTILS_NETSCLEAN
+3 Macro Menu
+4 Macro Delete=HIDM_MACRO_DELETE
+4 Macro Record=HIDM_MACRO_RECORD
+4 Macro Rename=HIDM_MACRO_RENAME
+4 Macro Run=HIDM_MACRO_RUN
+4 Macro Setup=HIDM_MACRO_SETUP
+3 Window Menu
+4 Window Arrange Icons=HID_WINDOW_ARRANGE
+4 Window Cascade=HID_WINDOW_CASCADE
+4 Window New Window=HID_WINDOW_NEW
+4 Window Tile=HID_WINDOW_TILE_HORZ
+3 Help Menu
+4 About P-CAD=HIDM_HELP_ABOUT
+4 How to Use Help=HID_HELP_USING
+4 P-CAD PCB Help Topics=HIDM_HELP_INDEX_PCB
+4 Series II Command Listing=HIDM_HELP_SERIES2
+2 Dialogs
+3 A-H
+4 About P-CAD dialog=About_P_CAD_dialog
+4 Add Text Style Dialog=HIDD_ADDTEXTDLG
+4 Aperture Assignments Dialog=HIDD_APERTURE_ASSIGNMENTS
+4 Attribute Dialog=HIDD_ATTRSSHEET_PCB
+4 Change Value Dialog=HIDD_CHANGEVALUEDLG
+4 Class Name Dialog=HIDD_TECH_CLASS_CLASS_NAMEDLG
+4 Command Line Button Dialog=HIDD_ROUTECONFIGCCTCMD
+4 Copy Pad Style Dialog=HIDD_COPYPADDLG
+4 Copy Via Style Dialog=HIDD_COPYVIADLG
+4 Create New Component Dialog=HIDD_TYPENAMEDLG_PCB
+4 Customize Reports Dialog=HIDD_REPORTS_SHEET_PCB
+4 Describe/Assign Apertures Dalog (Manual Assign)=HIDD_DESCRIBE_APERTURES
+4 Design Technology Parameters Dialog=HIDD_TECHTEMPLATE_DIALOG
+4 DTP Aperture Properties Dialog=DTP_Aperture_Properties_Dialog
+4 DTP Item Properties - Rules Dialog=DTP_Item_Properties_Rules
+4 DTP Layer Attributes dialog=DTP_Layer_Attributes_dialog
+4 DTP Layers Dialog=DTP_Layers_Dialog
+4 Design Verification dialog=HIDD_DESIGN_VERIFY
+4 Design View Dialogs=Design_View_Dialogs
+4 Detail Dialogs=HIDD_PLACEDETAILDLG
+4 Diagram Dialogs=HIDD_PLACEDIAGRAMDLG
+4 DO File Wizard Dialog=HIDD_ROUTEDOWIZDLG
+4 DO Wizard Dialog=HIDD_PLACEDOWIZDLG
+4 DocTool Place Design View Dialog=HIDD_PLACEDEDESIGNVIEWDLG
+4 Drill Symbol Assignments dialog=HIDD_SYMBOL_ASSIGNMENTS_PCB
+4 Edit Align Components Dialog=HIDD_ALIGNDLG
+4 Edit as Text Dialog=HIDD_PLACEDOWIZEDIT
+4 Edit Class to Class Definition dialog=HIDD_EDIT_CLASSTOCLASS_W_LAYERS_PCB
+4 Edit Copy Matrix Dialog=HIDD_DUPLICATEDLG
+4 Edit Layer Attributes dialog=HIDD_EDIT_NET_LAYER_ATTRS_PCB
+4 Edit Layer Rules dialog=HIDD_EDIT_NET_LAYER_RULES_PCB
+4 Edit Move by RefDes Dialog=HIDD_SELSTRING_DLG
+4 Edit Nets dialog=HIDD_MODIFYNETS_PCB
+4 Edit Paste Circuit Dialog=HIDD_EDIT_PASTE_CIRCUIT
+4 Edit Pattern Graphics Dialog=Edit_Pattern_Graphics_Dialog
+4 Edit Rooms Dialog=HIDD_EDIT_ROOMS_DLG_PCB
+4 Enter Name Dialog=HIDD_ENTERNAMEDLG
+4 Field Properties Dialog=Field_Properties_Dialog
+4 File DXF In Dialog=HIDD_DXFINDLG
+4 File DXF Out Dialog=HIDD_DXF_OUT
+4 File Export IDF dialog=File_Export_IDF_dialog
+4 File Gerber In Dialog=HIDD_FILEGERBERVIEW
+4 File Import IDF dialog=File_Import_IDF_dialog
+4 File PRF Out Dialog=File_PRF_Out_Dialog
+4 File Print Dialog=HIDD_FILE_PRINT_PCB
+4 File Reports Dialog=HIDD_CUSTOM_REPORTS_PCB
+4 File Save As Dialog=File_Save_As_Dialog
+4 Find Errors Dialog=HIDD_FINDERRORSDLG_PCB
+4 Gerber Format Dialog=HIDD_GERBER_FORMAT
+3 I-P
+4 Layer Clearance Dialog=HIDD_LAYERCLEARANCEDLG
+4 Layer Set Definition Dialog=HIDD_LAYERSETSDEFINITIONDLG
+4 Library Alias Dialog=HIDD_LIBRARYALIASDLG
+4 Library Browse Dialog=HIDD_LIBRARYLISTDLG
+4 Library Copy Dialog=HIDD_LIBRARYCOPYDLG
+4 Library Delete Dialog=HIDD_LIBRARYDELETEDLG
+4 Library Rename Dialog=HIDD_LIBRARYRENAMEDLG
+4 Library Setup Dialog=HIDD_LIBRARYSETUPDLG
+4 Line Keepout Properties Dialog=HIDD_MODIFYLINEKEEPOUT
+4 Load Netlist Warning Dialog=Load_Netlist_Warning_Dialog
+4 Macro Record Dialog=HIDD_MACRORECORDDLG
+4 Macro Rename dialog=HIDD_MACRORENDLG
+4 Macro Setup Dialog=HIDD_MACRO_SET_UP
+4 Merge Nets Dialog=HIDD_MERGENETDLG
+4 Net Class Definition Dialog=HIDD_NETCLASSDEFINITIONDLG
+4 Net Classes Dialog=HIDD_NETCLASSDLG_W_LAYERS_PCB
+4 Net Information Dialog=HIDD_PCBNETINFODLG
+4 Net Name Dialog=HIDD_NETNAMEDLG
+4 Netlist Compare Dialog=HIDD_NETLIST_COMP_DIALOG_PCB
+4 New Section Type Dialog=HIDD_NEWSECTIONDLG
+4 Open Progress Dialog=Open_Progress_Dialog
+4 Optimize Nets Progress Dialog=HIDD_OPTIMIZEDLGBOX
+4 Options Current Radius Dialog=HIDD_PCBCURRENTRADIUSDLG_PCB
+4 Options Design Rules dialog=HIDD_PCBDESIGNRULESPROPSHT_PCB
+4 Options Display dialog=Options_Display_Dialog
+4 Options Modify Hole Range Dialog=HIDD_PCBHOLERANGEDLG_PCB
+4 Options Text Style Dialog=HIDD_CURTEXTDLG
+4 Options Via Style Dialog=HIDD_CURVIADLG_PCB
+4 P-CAD to P-CAD PCB Layer Mapping Dialog=HIDD_PCBLAYERMAPDLG
+4 Pad Style (Complex)/View Default Pad Style Dialog=HIDD_PADSTYLECOMPLEXDLG_PCB
+4 Pad Style (Simple) Dialog=HIDD_PADSTYLESIMPLEDLG
+4 Pass Selection Dialog=HIDD_ROUTEPASSESDLG
+4 Pass Selection Dialog (Quick Route)=HIDD_ROUTEPASSESMACDLG
+4 Pattern Save As Dialog=HIDD_PATTERNSAVEASDLG_PCB
+4 Place Attribute/Attribute Properties Dialog=HIDD_ATTRPROPDLG
+4 Place Autoplacement Dialog=HIDD_PLACECONFIGDLG
+4 Place Component Dialog=HIDD_PLACECOMPDLG_PCB
+4 Place Dimension Dialog=HIDD_PLACEDIMENSIONDLG_PCB
+4 Place Point Dialog=HIDD_PLACEPOINTDLG_PCB
+4 Plane Layer Net Name Dialog=HIDD_PLANELAYERNETNAMEDLG
+4 Printer Colors dialog=Printer_Colors_dialog
+3 Q-Z
+4 Query Dialog=HIDD_QUERY
+4 Rename Style Dialog=HIDD_RENAMESTYLEDLG_PCB
+4 Report Configuration Dialog=Report_Configuration_Dialog
+4 Route Miter Dialog=HIDD_MITERDLG
+4 Save ECOs Dialog=HIDD_SAVEECODLG
+4 Select Fanout Dialog=HIDD_FANOUTMODE
+4 Select Layer dialog=HIDD_SELECT_LAYER_PCB
+4 Set by Attribute Dialog=HIDD_SELECTATTRDLG_PCB
+4 Setup Output Files Dialog (Gerber Out)=HIDD_SETUP_OUTPUT_FILES
+4 Setup Output Files Dialog (N/C Drill)=HIDD_SETUP_NCDRILL_FILES
+4 Setup Print Jobs dialog=HIDD_SETUP_PRINT_JOBS_PCB
+4 Severity Levels Dialog=HIDD_RULES_SEVERITY_LEVEL_PCB
+4 Statistics Dialog=HIDD_TECH_ITEM_STATS
+4 Swap Information Dialog=HIDD_SWAPINFODLG
+4 Table Dialogs=Table_Dialogs
+4 Text Dialogs=HIDD_EDA_TEXT1_PCB
+4 Tool Assignments Dialog=HIDD_TOOL_ASSIGNMENTS
+4 Using DXF Out Dialog=Using_DXF_Out_Dialog
+4 Using the Options Current Line Dialog=Using_the_Options_Current_Line_Dialog
+4 Utils Customize Dialog=HIDD_TOOLS_CUSTOMIZE
+4 Utils DRC Dialog=HIDD_UTILITIESDRC_PCB
+4 Utils Force Update Dialog=HIDD_FORCEUPDDLG
+4 Utils Generate Netlist Dialog=HIDD_NETLISTFILEDLG
+4 Utils Load Netlist Dialog=HIDD_PCBNETLISTFILEDLG
+4 Utils Optimize Nets Dialog=HIDD_PCBNETOPTIMIZEDLG
+4 Via Style (Complex) Dialog=HIDD_VIASTYLECOMPLEXDLG
+4 Via Style (Simple) Dialog=HIDD_VIASTYLESIMPLEDLG
+4 Viewer Dialog=HIDD_TABVIEW
+3 Main Object Properties Dialogs
+4 Arc Properties=HIDD_MODIFYARCDLG
+4 Attribute Properties=HIDD_MODATTRSTYLES_PCB
+4 Component Properties=HIDD_PATTERNPROPSHEET_PCB
+4 Connection Properties=HIDD_CONNPROPSHEET_PCB
+4 Copper Pour Properties=HIDD_PCBMODIFYCUPOURDLG_PCB
+4 Cutout Properties=HIDD_PCBMODIFYPOLYCUTOUTSHEET_PCB
+4 Detail Properties=Detail_Properties
+4 Diagram Properties=Diagram_Properties
+4 Dimension Properties=HIDD_DIMENSION_VIEW_DLG_PCB
+4 Field Properties=HIDD_FIELDPROPERTIESDLG_PCB
+4 Item Properties=Item_Properties
+4 Keepout Properties=HIDD_MODIFYKEEPOUTPAGE_PCB
+4 Line Properties=HIDD_MODIFYLINEDLG
+4 Pad Properties=HIDD_FREEPADPROPSHEET_PCB
+4 P-CAD Picture Properties=HIDD_METAFILEPROP
+4 Plane Properties=HIDD_PLANEPROPSHEET_PCB
+4 Polygon Properties=HIDD_MODIFYPOLYPROPSHEET_PCB
+4 Room Properties=HIDD_ROOM_PROPERTIES_DLG_PCB
+4 Table Properties=Table_Properties
+4 Test Point Properties=Test_Point_Properties
+4 Text Style Properties=HIDD_TTFTEXTSTYLEDLG
+4 Via Properties=HIDD_VIAPROPSHEET_PCB
+3 Specific Dialog Tabs
+4 Attributes Tab (Component Properties dialog)=FILE_DESIGN_INFO_Attrs
+4 Colors tab (Options Display dialog)=AFX_HIDD_COLOR
+4 Component Pins Tab (Component Properties dialog)=Component_Pin_Tab
+4 Component Tab (Component Properties dialog)=Component_Tab
+4 Connectivity Tab (Copper Pour Properties dialog)=Connectivity_Tab
+4 Fields Tab (Design Info dialog)=HIDD_DESIGNINFO_FIELDS_PCB
+4 Format Tab (Customize Reports dialog)=CUSTOMIZE_REPORT_Format
+4 General Tab (Design Info dialog)=FILE_DESIGN_INFO_General
+4 General Tab (Options Configure dialog)=OPTIONS_CONFIG_General
+4 Island Removal Tab (Copper Pour Properties dialog)=Island_Removal_Tab
+4 Keyboard Tab (Options Preferences dialog)=Keyboard_Tab
+4 Layers Tab (Options Layers dialog)=OPTIONS_LAYERS_Layers_PCB
+4 Manufacturing Tab (Options Configure dialog)=Manufacturing_Tab
+4 Miscellaneous tab (Options Display dialog)=HIDD_OPTION_MISC_PAGE_PCB
+4 Mouse Tab (Options Preferences dialog)=Mouse_Tab
+4 Net Tab (Copper Pour Properties dialog)=Net_Tab
+4 Notes Tab (Design Info dialog)=FILE_DESIGN_INFO_Notes
+4 Online DRC Tab (Options Configure dialog)=OPTIONS_CONFIG_OnlineDRC
+4 Pattern Graphics Tab (Component Properties dialog)=Pattern_Graphics_Tab
+4 Pattern Pads Tab (Component Properties dialog)=Pattern_Pads_Tab
+4 Route Tab (Options Configure dialog)=OPTIONS_CONFIG_Route
+4 Selection Tab (Customize Reports dialog)=CUSTOMIZE_REPORT_Selection
+4 Sets Tab (Options Layers dialog)=OPTIONS_LAYERS_Sets_PCB
+4 Sort Tab (Customize Reports dialog)=CUSTOMIZE_REPORT_Sort
+4 Statistics Tab (Design Info dialog)=FILE_DESIGN_INFO_Stats
+4 Style Tab (Copper Pour Properties dialog)=Style_Tab
+4 Titles Tab (Options Layers dialog)=OPTIONS_LAYERS_Titles_PCB
+2 Glossary
+3 *.bak=_bak
+3 alias=alias
+3 block file (*.blk)=block_file_blk_
+3 bounding outline=bounding_outline
+3 checked command=checked_command
+3 clipboard=clipboard
+3 Clipboard file=Clipboard_file
+3 color matrix=color_matrix
+3 color palette=HIDD_SOLID_COLORS_DLG_PCB
+3 command toolbar=command_toolbar
+3 Complex Pad Style=complex_pad_style
+3 Complex Via Style=complex_via_style
+3 components=components
+3 current block selection filters=current_block_selection_filters
+3 current highlight color=current_highlight_color
+3 current rotation increment=current_rotation_increment
+3 current zoom factor=current_zoom_factor
+3 Cutout=Cutout
+3 free-floating cursor=free_floating_cursor
+3 glue dots=glue_dots
+3 Libraries=Libraries
+3 Master Designer Command Reference=Master_Designer_Command_Reference
+3 meta file (*.wmf)=meta_file_wmf_
+3 pcb.ini=pcb_ini
+3 placement toolbar=placement_toolbar
+3 routing toolbar=routing_toolbar
+3 Selection Reference Point=Selection_Reference_Point
+3 shortcut menu=shortcut_menu
+3 Simple Pad Style=Simple_Pad_Style
+3 Simple Via Style=Simple_Via_Style
+3 snappy cursor=snappy_cursor
+3 Sub Select Command=Sub_Select_Command
+3 zoom cursor=zoom_cursor
+3 zoom window=zoom_window

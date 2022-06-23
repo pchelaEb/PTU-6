@@ -1,0 +1,55 @@
+
+CREATE or replace Function route_points   (codTrip  trips.cod_trip%type)
+RETURN  varchar
+as
+cursor c is
+   select points.name_point from points, trips, points_routes, routes
+   where trips.cod_trip = codTrip AND trips.cod_route = points_routes.cod_route AND points.cod_point = points_routes.cod_point GROUP BY points.name_point;
+   
+   res            varchar(10000); 
+   namePoint      points.name_point%type;
+
+
+BEGIN
+select routes.name_route into res from trips, routes where trips.cod_trip = codTrip 
+				AND trips.cod_route = routes.cod_route;
+    open c;  
+    loop
+        fetch c into namePoint;
+        EXIT WHEN NOT c%found;
+        res:=res||' '||namePoint;
+    end loop; CLOSE c;
+    RETURN res ; 
+END; 
+
+
+CREATE or replace Function route_points   (codTrip  trips.cod_trip%type)
+RETURN  varchar
+as
+res            varchar(10000); 
+
+BEGIN
+
+select routes.name_route into res from trips, routes where trips.cod_trip = codTrip 
+				AND trips.cod_route = routes.cod_route;
+
+for crec in (select points.name_point from points, trips, points_routes, routes
+   where trips.cod_trip = codTrip AND trips.cod_route = points_routes.cod_route AND points.cod_point = points_routes.cod_point GROUP BY points.name_point) loop
+res:=res||crec.name_point||'  ';
+    end loop;
+    RETURN res ;
+END; 
+
+
+
+Insert into a_models
+Select cod_model, name_model, sysdate, null from models
+
+Insert into a_buses
+Select cod_bus, bus_number, sysdate, null from buses;
+
+Insert into a_routes
+Select cod_route, name_route, sysdate, null from routes;
+
+Insert into a_trips
+Select cod_trip, sysdate, null from trips;

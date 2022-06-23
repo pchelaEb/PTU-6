@@ -1,0 +1,3 @@
+http://e-maxx.ru/algo/edmonds_karp
+(не пугайтесь заголовку, ошибка там всего одна и мелкая)
+http://e-maxx.ru/algo/kuhn_matching

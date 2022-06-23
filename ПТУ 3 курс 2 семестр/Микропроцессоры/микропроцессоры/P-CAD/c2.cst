@@ -1,0 +1,162 @@
+#  Cost Set "M1"
+
+#  This strategy is designed for multi-layer boards (6 or more layers)
+
+[PATTERN]
+*U     U Call:P TOGO=60
+
+[MAIN]
+# First route the high priority and wide track 
+*PR   A  Max:50  HigherPriority:20  HighestPriority Widest Shortest
+*W    A  Max:50  Wider:2            Widest Shortest Closest
+
+# Now route the extremes (very long or very hot or very short)
+*H90  U  Max:100 Hot=90  HotEnds=1  Hottest  MostPins   ToGo=30 Rebottle
+*S    U  Max:200 Length<202mil      Shortest LeastAngle MostPins
+*L    U  Max:100 Longer:50          LeastAngle Longest  ToGo=20 Rebottle
+*H80  U  Max:100 Hot=80  HotEnds=1  Hottest  MostPins   ToGo=20 Rebottle
+
+# Now route the rest of the board (starting with the long connections)
+*A    U  Max:100                    Longest MostPins LeastAngle Rebottle
+
+[COMPLETION]
+*C1   A   Call:C  Rebottle
+*C2   A   Call:C2 ReMap
+
+[ROUTEEDIT]
+*1   U   Call:EDIT
+
+
+#
+#    Global Assignments 
+#
+Clean=1
+CopperShare=3
+
+#
+#
+#    Iteration-based costs
+#
+# Iter#  1    2   3    4    5     6    7     8    9   10  
+SQ=     40   50  50   60   60    70   80    90  100 9999
+V1=      0    0   0    0    0     0    0     0 9999
+V2=     50  100 250  300  500  9999
+V3=    100  200 350 9999
+
+#
+#    Density-based costs
+#
+# Dense% 0   15   30   45   60   75   90  105  120  135
+RW =     4    4    4    5    6    8   10   15   15   20
+WW=     10   10   10   15   18   24   30   45   45   60
+Via=   500  500  500  600  700  800  850  900  950 9999
+
+[EDIT]
+*Patt U   Selected  LeastAngle Shortest Closest Patt=1
+*U    U   Selected  Shortest Hotter=0  It=20  Rep=50 retry=2 hist=10 conf=200
+*F1   U   Failed  It=20  Rep=50 retry=2 hist=10 conf=200
+*F2   U   Failed  It=20  Rep=50 retry=2 hist=10 conf=50
+
+[P]
+MaxWW=500mil
+MaxWander=500mil
+*U     U  Selected  LeastAngle Shortest Closest Patt=1
+
+[0]
+History=50
+Repeat=100
+
+*U    U  Selected It=20  Retry=1 Conf=150
+*C1   C           It=10  Retry=2 Conf=200
+*Str  R  NotStr   It=0
+*F1   U  Failed   It=20  Retry=2 Conf=100
+*C2   C           It=20  Retry=2 Conf=250
+*C3   C           It=8   Retry=2 Conf=9999
+*F2   U  Failed   It=20  Retry=1 Conf=50
+*C4   C           It=10  Retry=2 Conf=200
+*Str2 R  NotStr   It=0
+*C5   C           It=6   Rep=1000 Retry=2 Conf=100
+*Last C           It=20  Retry=2 Conf=9999
+
+[75]
+# Dense  0   15   30   45   60   75   90  105  120  135
+RW =     4    4    4    5    6    8   10   15   15   20
+WW=      6    6    8   10   12   16   20   30   30   40
+
+History=50
+Repeat=100
+*U    U  Selected It=20  Retry=1 Conf=150
+*C1   C           It=10  Retry=2 Conf=200
+*Str  R  NotStr   It=0
+*F1   U  Failed   It=20  Retry=2 Conf=100
+*C2   C           It=20  Retry=2 Conf=250
+*C3   C           It=8   Retry=2 Conf=9999
+*F2   U  Failed   It=20  Retry=1 Conf=50
+*C4   C           It=10  Retry=2 Conf=200
+*Str2 R  NotStr   It=0
+*C5   C           It=6   Rep=1000 Retry=2 Conf=100
+*Last C           It=20  Retry=2 Conf=9999
+
+[90]
+# Dense  0   15   30   45   60   75   90  105  120  135
+RW =     1    2    3    4    5    8   10   15   20   25
+WW =     1    2    3    4    5    8   10   15   20   25
+Via=500 ... 800
+History=100
+Repeat=50
+
+*U    U  Selected It=20  Retry=1 Conf=150
+*C1   C           It=10  Retry=2 Conf=200
+*Str  R  NotStr   It=0
+*F1   U  Failed   It=20  Retry=2 Conf=100
+*C2   C           It=20  Retry=2 Conf=250
+*C3   C           It=8   Retry=2 Conf=9999
+*F2   U  Failed   It=20  Retry=1 Conf=50
+*C4   C           It=10  Retry=2 Conf=200
+*Str2 R  NotStr   It=0
+*C5   C           It=6   Retry=2 Conf=100 Rep=1000
+*Last C           It=20  Retry=2 Conf=9999
+
+[C]
+# Dense  0   15   30   45   60   75   90  105  120  135
+RW =     1    2    3    4    5    8   10   15   20   25
+WW =     1    2    3    4    5    8   10   15   20   25
+Via=    500  500  550  500  550  500  550  500  950 9999
+
+*C1   C   It=15 Retry=2 conf=200 Hist=100 Repeat=9999 Sh=3
+*Str1 R   It=0  NotStraightened
+*U1   U   It=20 Retry=2 conf=200 Hist=100 Repeat=500
+*C2   C   It=15 Retry=2 conf=200 Hist=150 Repeat=300 Sh=5
+*C3   C   It=15 Retry=2 conf=200 Hist=250 Repeat=300
+*U2   U   It=20 Retry=2 conf=100
+*C3   C   It=15 Retry=2 conf=200 Hist=250 Repeat=300 Sh=2
+*Str2 R   It=0  NotStraightened
+*U2   U   It=20 Retry=2 conf=50 
+*C4   C   It=25 Retry=2 Conf=200
+*C5   C   It=20 Retry=2 Conf=250 Hist=1000 Rep=9999 Sh=3
+*UL   U   It=20 Retry=2 conf=25 
+*C6   C   It=10 Retry=2 Conf=250 Hist=1000 Rep=9999
+*Last C   It=20 Retry=2 Conf=9999
+
+[C2]
+# Dense  0   15   30   45   60   75   90  105  120  135
+RW =     1    2    3    4    5    8   10   12   15   20
+WW =     1    2    3    4    5    8   10   12   15   20
+Via=    500  500  500  550  500  500  500  500  950 9999
+
+*C1   C   It=15 Retry=2 conf=200 Hist=100 Repeat=9999
+*Str1 R   It=0  NotStraightened
+*U1   U   It=20 Retry=2 conf=200 Hist=100 Repeat=500
+*C2   C   It=15 Retry=2 conf=200 Hist=150 Repeat=300
+*C3   C   It=15 Retry=2 conf=200 Hist=250 Repeat=300
+*U2   U   It=20 Retry=2 conf=100
+*C3   C   It=15 Retry=2 conf=200 Hist=250 Repeat=300
+*Str2 R   It=0  NotStraightened
+*U3   U   It=20 Retry=2 conf=50 
+*C4   C   It=25 Retry=2 Conf=200
+*C5   C   It=20 Retry=2 Conf=250 Hist=1000 Rep=9999
+*UL   U   It=20 Retry=2 conf=25 
+*C6   C   It=10 Retry=2 Conf=250 Hist=1000 Rep=9999
+*Last C   It=20 Retry=2 Conf=9999
+
+[END]

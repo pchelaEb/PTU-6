@@ -1,0 +1,2 @@
+http://e-maxx.ru/algo/bfs
+http://e-maxx.ru/algo/dfs

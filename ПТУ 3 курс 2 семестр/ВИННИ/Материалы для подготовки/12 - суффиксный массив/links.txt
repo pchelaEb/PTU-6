@@ -1,0 +1,4 @@
+http://e-maxx.ru/algo/suffix_array
+
+Также тут:
+https://codeforces.com/edu/course/2

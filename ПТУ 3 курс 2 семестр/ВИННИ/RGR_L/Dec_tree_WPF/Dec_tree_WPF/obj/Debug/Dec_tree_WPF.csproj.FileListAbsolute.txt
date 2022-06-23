@@ -1,0 +1,17 @@
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\bin\Debug\Dec_tree_WPF.exe
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\bin\Debug\Dec_tree_WPF.pdb
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\Dec_tree_WPF.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\App.g.cs
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\Dec_tree_WPF_MarkupCompile.cache
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\Dec_tree_WPF_MarkupCompile.lref
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\MainWindow.baml
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\Dec_tree_WPF.g.resources
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\Dec_tree_WPF.Properties.Resources.resources
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\Dec_tree_WPF.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\Dec_tree_WPF.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\Dec_tree_WPF.exe
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\Dec_tree_WPF.pdb
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\bin\Debug\System.ValueTuple.dll
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\bin\Debug\System.ValueTuple.xml
+C:\Users\acer\source\repos\Dec_tree_WPF\Dec_tree_WPF\obj\Debug\Dec_tree_WPF.csproj.CopyComplete

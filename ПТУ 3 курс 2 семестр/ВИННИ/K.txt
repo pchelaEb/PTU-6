@@ -1,0 +1,49 @@
+#include <iostream>
+#include <vector>
+ 
+using namespace std;
+ 
+void search(long *mas, int b, int e, int x, int *low, int *high) {
+    if(b > e) return;
+    int mid = (e + b) / 2;
+    if(mas[mid] > x) search(mas, b, mid - 1, x, low, high);
+    else if(mas[mid] < x) search(mas, mid + 1, e, x, low, high);
+    else {
+       int l = mid;
+       int h = mid;
+       while(l > b && mas[l - 1] == x) l--;
+       while(h < e && mas[h + 1] == x) h++;
+       *low = l;
+       *high = h;
+    }
+}
+ 
+int main()
+{
+    vector<int> vec;
+    int n,k,temp;
+    int low = 0;
+    int high = 0;
+    cin>>n>>k;
+    long m[n];
+    int dop[k];
+    for(int i = 1; i<=n;i++){
+        cin>>m[i];
+    }
+
+    for(int i = 0; i<k;i++){
+        cin>>dop[i];
+    }
+
+    for(int i = 0; i<k;i++){
+        temp = dop[i];
+        search(m, 1, n, temp, &low, &high);
+        vec.push_back(low);
+        low = 0;
+        high = 0;
+    }
+    
+    for(int i = 0; i< vec.size();i++){
+        cout<<vec[i]<<" ";
+    }
+}

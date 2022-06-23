@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+
+using System.Linq;
+ 
+namespace Bit
+{
+    public class Program
+    {
+
+        public static void Main()
+        {
+            string str = Console.ReadLine();
+            char[] symbols = new[] {'a', 'e', 'i', 'o', 'u'};
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                int distance = 99999;
+                for (int j = 0; j < str.Length; j++)
+                {
+                    // проходимся по каждому элементу строки и сравниваем с другими
+                    // если значение str[j] является главным и расстояние от str[i] наименьшее, то записываем в переменную
+                    if (symbols.Contains(str[j]) && Math.Abs(i - j) < distance)
+                    {
+                        distance = Math.Abs(i - j);
+                    }
+                }
+
+                Console.Write(distance+" ");
+            }
+        }
+
+    }
+}

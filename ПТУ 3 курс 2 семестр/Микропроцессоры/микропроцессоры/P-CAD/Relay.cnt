@@ -1,0 +1,366 @@
+:Base Relay.HLP
+:Title P-CAD 2001 Relay Help
+1 Welcome to P-CAD Relay=Getting_Started_with_Relay>main
+1 P-CAD Relay
+2 Introduction to Relay
+3 What is P-CAD Relay?=What_is_P_CAD_Relay
+3 How can P-CAD Relay help you?=How_can_P_CAD_Relay_help_you_
+3 New Features=New_Features_Relay_version
+3 Key Features in P-CAD Relay=Key_Features_in_P_CAD_Relay
+3 Important Things to Remember=Important_Things_to_Remember
+2 Relay Basics
+3 Opening Files
+4 Opening a File=Opening_a_File_Relay_Version
+4 Opening a recently used file=Opening_a_recently_used_file_Relay_Version
+4 Opening a P-CAD ASCII File=Opening_a_P_CAD_ASCII_File_Relay_version
+3 Saving Files
+4 Saving a copy of a file=Saving_a_copy_of_a_file_Relay_version
+4 Saving a Pattern to a Library=Saving_a_Pattern_to_a_Library_Relay_version
+3 Customizing P-CAD Relay
+4 Changing the UndoLimit=Changing_the_UndoLimit_Relay_version
+4 Choosing a Selection Color=Choosing_a_Selection_Color
+4 Displaying the custom toolbar=Displaying_the_custom_toolbar
+4 Grid Toggle Buttons=Grid_Toggle_Buttons
+4 Layer Display Combo Box and Scroll Buttons=Layer_Display_Combo_Box_and_Scroll_Buttons_Relay_version
+4 Line Width Combo Box=Line_Width_Combo_Box
+4 Multiple Windows=Multiple_Windows_Relay_version
+4 Setting the CTRL/SHIFT Behavior=Setting_the_CTRL_SHIFT_Behavior
+4 Setting the current zoom factor=Setting_the_current_zoom_factor
+4 Setting up a Library=Setting_up_a_Library
+4 Showing or hiding data tips=Showing_or_hiding_data_tips_Relay_version
+4 Showing or hiding points=Showing_or_hiding_points_Relay_version
+4 Starting a custom tool=Starting_a_custom_tool
+4 X and Y Coordinates=X_and_Y_Coordinates
+2 Documentation Tools
+3 Printing
+4 Generating Print Jobs=Generating_Print_Jobs_Relay_version
+4 Previewing a Print Job=Previewing_a_Print_Job_Relay_version
+4 Printing the Current Display=Printing_the_Current_Display_Relay_version
+4 Printing the Current Window=Printing_the_Current_Window_Relay_version
+4 Scaling a Print Job to Fit a Page=Scaling_a_Print_Job_to_Fit_a_Page_Relay_version
+4 Setting up a Print Job=Setting_up_a_Print_Job_Relay_version
+3 Reports
+4 Creating a Custom Report=Creating_a_Custom_Report_Relay_version
+4 Customizing a Standard Report=Customizing_a_Standard_Report_Relay_version
+4 Generating a Report=Generating_a_Report_Relay_version
+4 Report Selection Criteria=Report_Selection_Criteria_Relay_version
+4 Reports to Generate=Reports_to_Generate_Relay_version
+4 Setting Data Selection Options for Reports=Setting_Data_Selection_Options_for_Reports_Relay_version
+4 Setting Report Format Options=Setting_Report_Format_Options_Relay_version
+4 Setting Sort Options for Reports=Setting_Sort_Options_for_Reports_Relay_version
+2 Using Relay
+3 Using the zoom window=Using_the_zoom_window
+3 Design Verification
+4 DRC Clearance Options=DRC_Clearance_Options_Relay_version
+4 DRC Errors=DRC_Errors_Relay_version
+4 Test Point Design Rules=Test_Point_Design_Rules_Relay_version
+4 Working with Design Rule Check=Working_with_Design_Rule_Check_Relay_version
+4 Copper Ties and DRC=Copper_Ties_and_DRC
+3 DDE Hotlinks
+4 cross probe=cross_probe_Relay_version
+4 DDE Hotlinks=DDE_Hotlinks_Relay_version
+3 Routing
+4 Using the Manual Route Tool=Using_the_Manual_Route_Tool
+4 Routing Bias=Routing_Bias_Relay_Version
+3 Working with Objects
+4 Duplicating an object=Duplicating_an_object
+4 Fixing an Object in its design location=Fixing_an_Object_in_its_design_location_Relay_version
+4 Jumping to a location=Jumping_to_a_location
+4 Rounding Corners of Polygonal Shapes=Rounding_Corners_of_Polygonal_Shapes_Relay_version
+4 Setting backoff smoothness=Setting_backoff_smoothness_Relay_version
+4 Placing Objects
+5 Placing a Component=Placing_a_Component_Relay_version
+5 Placing a Dimension=Placing_a_Dimension_Relay_version
+5 Placing a glue dot=Placing_a_Glue_Dot_Relay_version
+5 Placing a Pad=Placing_a_Pad_Relay_version
+5 Placing a pick and place point=Placing_a_pick_and_place_point_Relay_version
+5 Placing a reference point=Placing_a_Reference_Point_Relay_version
+5 Placing a Test Point=Placing_a_Test_Point_Relay_version
+4 Selecting Objects
+5 Selecting Objects=Selecting_Objects_Relay_version
+5 Block Selecting Objects=Block_Selecting_Objects_Relay_version
+5 Defining Block Selection Criteria=Defining_Block_Selection_Criteria_Relay_version
+5 Defining Single Selection Criteria=Defining_Single_Selection_Criteria_Relay_version
+5 Example of Block Selection=Example_of_Block_Selection_Relay_version
+5 Selecting a Net=Selecting_a_Net_Relay_version
+5 Selecting All Objects=Selecting_All_Objects
+5 Selecting an Object=Selecting_an_Object
+5 Selecting Collocated Objects=Selecting_Collocated_Objects_Relay_version
+5 Selecting Multiple Objects=Selecting_Multiple_Objects
+5 Selecting Part of an Object=Selecting_Part_of_an_Object
+4 Cutting and Copying Objects
+5 Copying Objects to a Block or Meta file=Copying_Objects_to_a_Block_or_Meta_file_Relay
+5 Copying Objects to the Clipboard=Copying_Objects_to_the_Clipboard_Relay_version
+5 Copying Objects within a Design=Copying_Objects_within_a_Design_Relay_version
+5 Saving Items to a Clipboard File=Saving_Items_to_a_Clipboard_File_Relay_version
+4 Components
+5 Alternate Patterns=Alternate_Patterns_Relay_version
+5 Exploding a Component=Exploding_a_Component_Relay_Version
+5 Moving Components by RefDes=Moving_Objects_by_RefDes
+5 Pattern swapping=Pattern_swapping
+5 Replacing a Component=Replacing_a_Component
+5 Using Rooms to Organize Components=Using_Rooms_to_Organize_Components_Relay_version
+4 Pads
+5 Renumbering Pads=Renumbering_Pads_Relay_version
+5 Rotating or Flipping a Pad=Rotating_or_Flipping_a_Pad_Relay_version
+5 Standard Pad Shapes and Thermal Spoke Pads=Standard_Pad_Shapes_and_Thermal_Spoke_Pads_Relay_version
+5 Viewing a Pad Style Hole Range=Viewing_a_Pad_Style_Hole_Range
+5 Viewing the Default Pad Style=Viewing_the_Default_Pad_Style_Relay_version
+4 Vias
+5 Modifying Via Properties=Modifying_Via_Properties
+5 Viewing Via Hole Ranges=Viewing_Via_Hole_Ranges_Relay_version
+5 Viewing Via Styles=Viewing_Via_Styles_Relay_version
+4 Text
+5 Adding a Text Style=Adding_a_Text_Style_Relay_version
+5 Deleting a Text Style=Deleting_a_Text_Style_Relay_version
+5 Jumping to text=Jumping_to_text
+5 Purging Unused Text Styles=Purging_Unused_Text_Styles_Relay_version
+5 Renaming a Text Style=Renaming_a_Text_Style_Relay_version
+5 Using the Text Dialogs=Using_the_Text_Dialogs_Relay_version
+5 Viewing or Modifying a Text Style=Viewing_or_Modifying_a_Text_Style_Relay_version
+1 Relay Reference
+2 Main Menu Commands
+3 Keyboard Shortcuts in P-CAD Relay=Keyboard_Shortcuts_in_P_CAD_Relay
+3 File Menu
+4 File New=File_New_Relay_version
+4 File Open=File_Open_Relay_Version
+4 File Close=File_Close_Relay_version
+4 File Save=File_Save_Relay_Version
+4 File Save As=File_Save_As_Relay_Version
+4 File Clear=File_Clear_Relay_version
+4 File Print=File_Print_Relay_version
+4 File Print Setup=HIDM_FILE_PRINT_SETUP
+4 File Reports=File_Reports_Relay_version
+4 File Design Info=File_Design_Info_Relay_version
+4 File Exit=File_Exit_Relay_version
+4 File Recent Files=HID_FILE_MRU_FILE1
+3 Edit Menu
+4 Edit Undo=Edit_Undo_Relay_version
+4 Edit Redo=Edit_Redo_Relay_version
+4 Edit Cut=Edit_Cut_Relay_version
+4 Edit Copy=Edit_Copy_Relay_version
+4 Edit Copy to File=Edit_Copy_to_File_Relay_version
+4 Edit Paste=Edit_Paste_Relay_version
+4 Edit Paste to Layer=Edit_Paste_to_Layer_Relay_version
+4 Edit Paste from File=Edit_Paste_from_File_Relay_version
+4 Edit Move by RefDes=Edit_Move_by_RefDes_Relay_version
+4 Edit Properties=Edit_Properties_Relay_version
+4 Edit Delete=Edit_Delete_Relay_version
+4 Edit Copy Matrix=Edit_Copy_Matrix_Relay_version
+4 Edit Explode Component=Edit_Explode_Component_Relay_version
+4 Edit Alter Component=Edit_Alter_Component_Relay_version
+4 Edit Select All=HIDM_EDIT_SELECT_ALL
+4 Edit Deselect All=HIDM_EDIT_DESELECT_ALL
+4 Edit Highlight=Edit_Highlight_Relay_version
+4 Edit Unhighlight=Edit_Unhighlight_Relay_version
+4 Edit Unhighlight All=Edit_Unhighlight_All_Relay_version
+4 Edit Select Highlighted=Edit_Select_Highlighted_Relay_version
+4 Edit Fix=Edit_Fix_Relay_version
+4 Edit Unfix=Edit_Unfix_Relay_version
+4 Edit Unfix All=Edit_Unfix_All_Relay_version
+4 Edit Rooms=Edit_Rooms_Relay_version
+4 Edit Components=Edit_Components_Relay_version
+4 Edit Nets=HIDM_EDIT_MODNETS
+4 Edit Measure=Edit_Measure_Relay_version
+4 Edit Select=Edit_Select_Relay_version
+3 View Menu
+4 View All=HIDM_VIEW_ALL
+4 View Center=HIDM_VIEW_CENTER
+4 View Command Toolbar=HIDM_VIEW_COMMAND_TOOLBAR
+4 View Custom Toolbar=HIDM_VIEW_CUSTOMTOOLBAR
+4 View Extent=HIDM_VIEW_EXTENT
+4 View Jump Location=HIDM_VIEW_JUMPLOC
+4 View Jump Text=HIDM_VIEW_JUMPTEXT
+4 View Last=HIDM_VIEW_LAST
+4 View Placement Toolbar=HIDM_VIEW_PLACEMENT_TOOLBAR
+4 View Prompt Line=HIDM_VIEW_PROMPT
+4 View Redraw=HIDM_VIEW_REDRAW
+4 View Snap to Grid=View_Snap_to_Grid_Relay_version
+4 View Status Line=HIDM_VIEW_STATUS
+4 View Zoom In=HIDM_VIEW_ZOOMIN
+4 View Zoom Out=HIDM_VIEW_ZOOMOUT
+4 View Zoom Window=HIDM_VIEW_ZOOMWINDOW
+3 Place Menu
+4 Place Component=Place_Component_Relay_version
+4 Place Pad=Place_Pad_Relay_Version
+4 Place Via=HIDM_PLACE_VIA
+4 Place Line=Place_Line_Relay_version
+4 Place Arc=Place_Arc_Relay_version
+4 Place Polygon=Place_Polygon_Relay_version
+4 Place Point=Place_Point_Relay_version
+4 Place Keepout=Place_Keepout_Relay_version
+4 Place Room=Place_Room_Relay_version
+4 Place Text=Place_Text_Relay_version
+4 Place Attribute=Place_Attribute_Relay_version
+4 Place Dimension=Place_Dimension_Relay_version
+3 Route Menu
+4 Route Manual=Route_Manual_Relay_version
+3 Options Menu
+4 Options Selection Mask=Options_Selection_Mask_Relay_version
+4 Options Configure=Options_Configure_Relay_version
+4 Options Grids=HIDM_OPTIONS_GRIDS
+4 Options Display=Options_Display_Relay_version
+4 Options Preferences=Options_Preferences_Relay_version
+4 Options Layers=Options_Layers_Relay_version
+4 Options Current Line=Options_Current_Line_Relay_version
+4 Options Current Keepout=Options_Current_Keepout_Relay_version
+4 Options Current Radius=Options_Current_Radius_Relay_version
+4 Options Design Rules=Options_Design_Rules_Relay_version
+4 Options Net Classes=Options_Net_Classes_Relay_version
+4 Options Pad Style=Options_Pad_Style_Relay_version
+4 Options Via Style=Options_Via_Style_Relay_version
+4 Options Text Style=Options_Text_Style_Relay_version
+3 Library Menu
+4 Library Setup=Library_Setup_Relay_version
+4 Library Pattern Save As=Library_Pattern_Save_As_Relay_version
+3 Utils Menu
+4 Utils Renumber=Utils_Renumber_Relay_version
+4 Utils DRC=Utils_DRC_Relay_version
+4 Utils Find Errors=Utils_Find_Errors_Relay_version
+4 Utils Load Netlist=Utils_Load_Netlist_Relay_version
+4 Utils Compare Netlist=Utils_Compare_Netlist_Relay_version
+4 Utils Shortcut Directory=HIDM_UTILS_SHORTCUT_DIR
+4 Utils P-CAD Schematic=HIDM_UTILS_SCHEMATIC
+4 Utils P-CAD Lib Mgr=Utils_P_CAD_Lib_Mgr_Relay_version
+4 Utils P-CAD InterPlace/PCS=HIDM_UTILS_DCM
+4 Utils P-CAD Signal Integrity=Utils_P_CAD_Signal_Integrity
+4 Utils Customize=HIDM_UTILS_CUSTOMIZE
+3 Window Menu
+4 Window Arrange Icons=HID_WINDOW_ARRANGE
+4 Window Cascade=HID_WINDOW_CASCADE
+4 Window New Window=HID_WINDOW_NEW
+4 Window Tile=HID_WINDOW_TILE_HORZ
+4 Window Open=Window_Open
+3 Help Menu
+4 P-CAD Relay Help Topics=P_CAD_Relay_Help_Topics
+4 How to Use Help=HID_HELP_USING
+4 About P-CAD=HIDM_HELP_ABOUT
+2 Dialogs
+3 A-H
+4 Add Text Style Dialog=HIDD_ADDTEXTDLG
+4 Attribute Dialog=Attribute_Dialog_Relay_version
+4 Change Value Dialog=HIDD_CHANGEVALUEDLG
+4 Create New Component Dialog=Create_New_Component_Dialog_Relay_version
+4 Customize Reports Dialog=Customize_Reports_Dialog_Relay_version
+4 Drill Symbol Assignments dialog=Drill_Symbol_Assignments_dialog_Relay_version
+4 Edit Class to Class Definition dialog=Edit_Class_to_Class_Definition_Dialog_Relay_version
+4 Edit Copy Matrix Dialog=HIDD_DUPLICATEDLG
+4 Edit Layer Attributes dialog=Edit_Layer_Attributes_Dialog_Relay_version
+4 Edit Layer Rules dialog=Edit_Layer_Rules_dialog_Relay_version
+4 Edit Move by RefDes Dialog=HIDD_SELSTRING_DLG
+4 Edit Nets dialog=Edit_Nets_dialog_Relay_version
+4 Edit Rooms Dialog=Edit_Rooms_Dialog_Relay_version
+4 Enter Name Dialog=HIDD_ENTERNAMEDLG
+4 Field Properties Dialog=Field_Properties_Dialog_Relay_version
+4 File Print Dialog=File_Print_Dialog_Relay_version
+4 File Reports Dialog=File_Reports_Dialog_Relay_version
+4 File Save As Dialog=File_Save_As_Dialog
+4 Find Errors Dialog=Find_Errors_Dialog_Relay_version
+3 I-P
+4 Library Browse Dialog=HIDD_LIBRARYLISTDLG
+4 Library Setup Dialog=HIDD_LIBRARYSETUPDLG
+4 Line Keepout Properties Dialog=HIDD_MODIFYLINEKEEPOUT
+4 Load Netlist Warning Dialog=Load_Netlist_Warning_Dialog
+4 Merge Nets Dialog=HIDD_MERGENETDLG
+4 Net Classes Dialog=Net_Classes_Dialog_Relay_version
+4 Net Class Definition Dialog=HIDD_NETCLASSDEFINITIONDLG
+4 Net Information Dialog=HIDD_PCBNETINFODLG
+4 Net Name Dialog=HIDD_NETNAMEDLG
+4 Netlist Compare Dialog=Netlist_Compare_Dialog_Relay_version
+4 Options Current Radius Dialog=Options_Current_Radius_Dialog_Relay_version
+4 Options Design Rules dialog=Options_Design_Rules_dialog_Relay_version
+4 Options Display dialog=Options_Display_dialog_Relay_version
+4 Options Modify Hole Range Dialog=Options_Modify_Hole_Range_Dialog_Relay_Version
+4 Options Text Style Dialog=HIDD_CURTEXTDLG
+4 Options Via Style dialog=Options_Via_Style_dialog_Relay_version
+4 Pad Style (Complex)/View Default Pad Style Dialog=Pad_Style_Complex_View_Default_Pad_Style_Dialog_Relay_version
+4 Pattern Save As Dialog=Pattern_Save_As_Dialog_Relay_version
+4 Place Attribute/Attribute Properties Dialog=HIDD_ATTRPROPDLG
+4 Place Component Dialog=Place_Component_Dialog_Relay_version
+4 Place Dimension Dialog=Place_Dimension_Dialog_Relay_version
+4 Place Point Dialog=Place_Point_Dialog_Relay_version
+4 Printer Colors dialog=Printer_Colors_dialog
+3 Q-Z
+4 Rename Style Dialog=Rename_Style_Dialog_Relay_version
+4 Select Layer dialog=Select_Layer_Dialog_Relay_version
+4 Set by Attribute Dialog=Set_by_Attribute_Dialog_Relay_version
+4 Setup Print Jobs dialog=Setup_Print_Jobs_Dialog_Relay_version
+4 Severity Levels Dialog=Severity_Levels_Dialog_Relay_version
+4 Text Dialogs=Text_Dialogs_Relay_version
+4 Using the Options Current Line Dialog=Using_the_Options_Current_Line_Dialog
+4 Utils Customize Dialog=HIDD_TOOLS_CUSTOMIZE
+4 Utils DRC Dialog=Utils_DRC_Dialog_Relay_version
+4 Utils Load Netlist Dialog=Utils_Load_Netlist_Dialog_Relay_version
+4 View Via Style Dialog=View_Via_Style_Dialog_Relay_version
+3 Main Object Properties Dialogs
+4 Arc Properties=HIDD_MODIFYARCDLG
+4 Attribute Properties=Attribute_Properties_Relay_version
+4 Component Properties=Component_Properties_Relay_version
+4 Connection Properties=Connection_Properties_Relay_version
+4 Copper Pour Properties=Copper_Pour_Properties_Relay_version
+4 Cutout Properties=Cutout_Properties_Relay_version
+4 Field Properties=Field_Properties_Relay_version
+4 Keepout Properties=Keepout_Properties_Relay_version
+4 Line Properties=HIDD_MODIFYLINEDLG
+4 Pad Properties=Pad_Properties_Relay_version
+4 Plane Properties=Plane_Properties_Relay_version
+4 Polygon Properties=Polygon_Properties_Relay_version
+4 Room Properties=Room_Properties_Relay_version
+4 Test Point Properties=Test_Point_Properties_Relay_version
+4 Text Style Properties=HIDD_TTFTEXTSTYLEDLG
+4 Via Properties=Via_Properties_Relay_version
+3 Specific Dialog Tabs
+4 Attributes Tab (Component Properties dialog)=Attributes_Tab_Relay_version
+4 Colors tab (Options Display dialog)=AFX_HIDD_COLOR
+4 Component Pins Tab (Component Properties dialog)=Component_Pins_Tab_Relay_version
+4 Component Tab (Component Properties dialog)=Component_Tab_Relay_version
+4 Connectivity Tab (Copper Pour Properties dialog)=Connectivity_Tab_Relay_version
+4 Format Tab (Customize Reports dialog)=Format_Tab_Relay_version
+4 General Tab (Design Info dialog)=FILE_DESIGN_INFO_General
+4 General Tab (Options Configure dialog)=General_Tab_in_Options_Configure
+4 Island Removal Tab (Copper Pour Properties dialog)=Island_Removal_Tab_Relay_version
+4 Keyboard Tab (Options Preferences dialog)=Keyboard_Tab_Relay_version
+4 Layers Tab (Options Layers dialog)=Layers_Tab_Relay_version
+4 Manufacturing Tab (Options Configure dialog)=Manufacturing_Tab_Relay_version
+4 Miscellaneous tab (Options Display dialog)=Miscellaneous_Tab_Relay_version
+4 Mouse Tab (Options Preferences dialog)=Mouse_Tab
+4 Online DRC Tab (Options Configure dialog)=Online_DRC_Tab_in_Options_Configure_Relay_version
+4 Pattern Graphics Tab (Component Properties dialog)=Pattern_Graphics_Tab_Relay_version
+4 Pattern Pads Tab (Component Properties dialog)=Pattern_Pads_Tab_Relay_Version
+4 Polygon Tab (Copper Pour Properties dialog)=Polygon_Tab_Relay_version
+4 Route Tab (Options Configure dialog)=Route_Tab_in_Options_Configure_Relay_version
+4 Selection Tab (Customize Reports dialog)=Selection_Tab_Relay_version
+4 Sets Tab (Options Layers dialog)=Sets_Tab_Relay_version
+4 Sort Tab (Customize Reports dialog)=Sort_Tab_Relay_version
+4 Statistics Tab (Design Info dialog)=FILE_DESIGN_INFO_Stats
+4 Style Tab (Copper Pour Properties dialog)=Style_Tab_relay_version
+2 Glossary
+3 *.bak=_bak
+3 block file (*.blk)=block_file_blk_
+3 bounding outline=bounding_outline
+3 checked command=checked_command
+3 clipboard=clipboard
+3 Clipboard file=Clipboard_file
+3 color matrix=color_matrix
+3 color palette=color_palette
+3 command toolbar=command_toolbar
+3 components=components
+3 current block selection filters=current_block_selection_filters
+3 current highlight color=current_highlight_color
+3 current pad style=current_pad_style_1
+3 current rotation increment=Current_rotation_increment_Relay_version
+3 current text style=current_text_style
+3 current via style=current_via_style
+3 current zoom factor=current_zoom_factor
+3 Cutout=Cutout
+3 free-floating cursor=free_floating_cursor
+3 glue dots=glue_dots
+3 Libraries=Libraries_Relay_version
+3 meta file (*.wmf)=meta_file_wmf_
+3 pcb.ini=pcb_ini
+3 placement toolbar=placement_toolbar
+3 shortcut menu=shortcut_menu
+3 snappy cursor=snappy_cursor
+3 Sub Select Command=Sub_Select_Command
+3 zoom cursor=zoom_cursor
+3 zoom window=zoom_window

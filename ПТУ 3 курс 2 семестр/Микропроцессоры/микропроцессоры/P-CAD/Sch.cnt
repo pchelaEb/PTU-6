@@ -1,0 +1,491 @@
+:Base SCH.HLP
+:Title P-CAD 2001 Schematic Help
+1 Welcome to P-CAD Schematic=Introducing_P-CAD_Schematic>main
+1 P-CAD Schematic
+2 New Features=New_Features
+2 Key Features=Key_Features
+2 Schematic Basics
+3 About the User Interface=About_the_User_Interface
+3 Schematic Sheets
+4 Schematic Sheets=Schematic_Sheets
+4 Adding a Sheet=Adding_a_Sheet
+4 Changing a Sheet Name=Changing_a_Sheet_Name
+4 Defining the Current Sheet=Defining_the_Current_Sheet
+4 Deleting a Sheet=Deleting_a_Sheet
+4 Reordering Sheets=Reordering_Sheets
+4 Tracking Nets across Sheets=Tracking_Nets_across_Sheets
+3 Opening Files
+4 Opening a File=Opening_a_File>main
+4 Opening a File Using the Drag-and-Drop Method=Opening_a_File_Using_the_Drag_and_Drop_Method
+4 Opening a Recently Used File=Opening_a_Recently_Used_File
+4 Opening a Tango Series II File=Opening_a_Tango_Series_II_File
+4 Opening an ASCII File=Opening_an_ASCII_File
+4 Opening Multi-Sheet Designs=Opening_Multi_Sheet_Designs
+3 Saving Files
+4 Saving a copy of the active design=Saving_a_copy_of_the_active_design
+4 Saving an ASCII File=Saving_an_ASCII_File>main
+4 Saving Pending ECOs=Saving_Pending_ECOs>main
+3 Customizing Schematic
+4 defining junction size=defining_junction_size
+4 Displaying the Custom Toolbar=Displaying_the_Custom_Toolbar
+4 Executing a Custom Tool=Executing_a_Custom_Tool
+4 Grid Toggle Buttons=Grid_Toggle_Buttons
+4 Line Width Combo Box=Line_Width_Combo_Box
+4 Multiple Windows=Multiple_Windows
+4 Selecting a current highlight color=Selecting_a_current_highlight_color
+4 Selecting a File Viewer=Selecting_a_File_Viewer
+4 Setting the current zoom factor=Setting_the_current_zoom_factor
+4 Sheet Display Combo Box and Scroll Buttons=Layer_Display_Combo_Box_and_Scroll_Buttons
+4 Showing or Hiding DataTips=Showing_or_Hiding_DataTips
+4 X and Y Coordinates=X_and_Y_Coordinates
+2 Documentation Tools
+3 Generating Output
+4 Generating Print Jobs
+5 Defining a Print Region=Defining_a_Print_Region
+5 Print Preview=Print_Preview
+5 Printing Sheets=Printing_Sheets>menu
+5 Printing the Current Window=Printing_the_current_window
+5 Printing tiled sheets=Printing_tiled_sheets
+5 Printing the selected region=Printing_the_selected_region
+5 Printing the design extent=Printing_the_design_extent
+5 Scaling print jobs to fit on a page=Scaling_print_jobs_to_fit_on_a_page
+4 Generating Netlists
+5 Resolving a hierarchy=Resolving_a_hierarchy
+5 Generating a netlist=Generating_a_netlist
+4 Generating Reports
+5 Adding a custom report=HIDD_REPORTCFGDLG
+5 Customizing a report=Customizing_a_report
+5 Net Connectivity Report=Net_Connectivity_Report
+5 Report Selection Criteria=Report_Selection_Criteria
+3 Title Sheets
+4 Title Sheets=Title_Sheets
+4 Using standard title sheets=Using_standard_title_sheets
+4 Using the global title sheet=Using_the_global_title_sheet
+4 Custom Title Sheets
+5 Creating custom title sheets=Creating_custom_title_sheets
+5 Using a custom title sheet=Using_a_custom_title_sheet
+3 Fields and Field Sets
+4 Fields and Field Sets=Fields_and_Field_Sets
+4 Field Sets
+5 Adding a Field Set=Adding_a_Field_Set
+5 Assigning Field Sets to Schematic Sheets=Assigning_Field_Sets_to_Schematic_Sheets
+5 Deleting a Field Set=Deleting_a_Field_Set
+5 Field Sets=Field_Sets
+4 Fields
+5 Adding a Custom Field=Adding_a_Custom_Field
+5 Changing Field Results=Changing_Field_Results
+5 Rotating or flipping a field=Rotating_or_flipping_a_field
+3 Sheet Connector Cross Referencing
+4 Annotating Sheet Connectors=Annotating_Sheet_Connectors
+4 Cross Referencing Sheet Connectors=Cross_Referencing_Sheet_Connectors
+4 Jumping to Sheet Connectors=Jumping_to_Sheet_Connectors
+4 Sheet Connector Tab=Sheet_Connector_Tab_Parts
+3 Tables
+4 Modifying Tables=Modifying_Tables
+4 Updating Tables=Updating_Tables
+4 Net Index Tables
+5 Net Index Table=Net_Index_Table
+5 Placing a Net Index Table=Placing_a_Net_Index_Table
+4 Note Tables
+5 Adding Notes to a Note Table=Adding_Notes_to_a_Note_Table
+5 Exporting Notes to a Text File=Exporting_Notes_to_a_Text_File
+5 Placing a Notes Table=Placing_a_Notes_Table
+5 Notes Table=Notes_Table
+5 Importing Text Files as Notes=Importing_Text_Files_as_Notes
+4 Power Tables
+5 Placing a Power Table=Placing_a_Power_Table
+5 Power Table=Power_Table
+4 Revision Note Tables
+5 Adding Revision Notes to a Table=Adding_Revision_Notes_to_a_Table
+5 Exporting Revision Notes to a Text File=Exporting_Revision_Notes_to_a_Text_File
+5 Importing Text Files as Revision Notes=Importing_Text_Files_as_Revision_Notes
+5 Placing a Revision Note Table=Placing_a_Revision_Note_Table
+5 Revision Note Table=Revision_Note_Table
+4 Spare Gate Tables
+5 Placing a Spare Gate Table=Placing_a_Spare_Gate_Table
+5 Spare Gate Table=Spare_Gate_Table
+2 Using Schematic
+3 Copying Information to your Design=Copying_Information_to_your_Design
+3 Duplicating objects=duplicating_objects>main
+3 Measuring=Measuring_Distances
+3 Merging Buses=Merging_Buses
+3 Using Paste Circuit=Using_Paste_Circuit
+3 Using the Zoom Window=Using_the_Zoom_Window
+3 Replacing component types=Replacing_Component_Types>main
+3 Using an External Source File=Using_an_External_Source_File
+3 Translating Tango Schematic Designs=TangoSchematicDesigns>(w95sec)
+3 Finding a Component in the Component Libraries=Finding_a_Component_in_the_Component_Libraries
+3 Design Technology Parameters
+4 Building the Hierarchy=Building_the_Hierarchy
+4 Browse the File's Contents=Browse_the_File_s_Contents
+4 Creating and Opening Design Technology Parameters Files=Creating_and_Opening_Design_Technology_Parameters_Files
+4 Deleting a Group, Section, or Item=Deleting_a_Group_Section_or_Item
+4 Renaming a Group or Item=Renaming_a_Group_or_Item
+3 Design Verification (ERC)
+4 Configuring ERC=Configuring_ERC
+4 ERC Error Annotation
+5 Block selecting ERC error indicators=Block_selecting_ERC_error_indicators
+5 Finding ERC Errors=Finding_ERC_Errors
+5 Fixing and deleting ERC errors=Fixing_and_deleting_ERC_errors
+5 Overriding ERC errors=Overriding_ERC_errors
+5 Overriding Error Displays=Overriding_Error_Displays
+5 Setting ERC Error Size=Setting_ERC_Error_Size
+3 DXF
+4 Creating DXF files for Schematic designs=Creating_DXF_files_for_Schematic_designs
+4 DXF In Notes=DXFInNotes
+4 DXF In translate to positive coordinates=DXFInpositivecoordinates
+4 DXF Out Considerations=DXFOutConsiderations
+4 Items supported for translation=Items_supported_for_translation
+4 Loading DXF Files=DXFInLoading
+3 DDE Hotlinks
+4 cross probe=cross_probe
+4 DDE Hotlinks=DDE_Hotlinks
+4 Highlight an Attached Net=Highlight_an_Attached_Net
+4 Part Highlight/Unhighlight=Part_Highlight_Unhighlight
+3 Macros
+4 Editing Macros=Editing_Macros
+4 Macro File Syntax=Macro_File_Syntax
+4 Macro Recording Tool=HIDD_EVENT_RECORD_DLG
+4 Recording a Macro=Recording_a_Macro
+4 Recording Efficient Macros=Recording_Efficient_Macros
+3 Parts, Symbols, and Libraries
+4 Parts
+5 Aligning parts to grid=Aligning_parts_to_grid>main
+5 Aligining parts horizontally or vertically=Aligining_parts_horizontally_or_vertically>main
+5 Creating a new part from an existing part=Creating_a_new_part_from_an_existing_part>main
+5 Exploding a part=Exploding_a_part>main
+5 Inserting Parts=Inserting_Parts
+5 Jumping to a part=Jumping_to_a_part>main
+5 Moving parts by RefDes=Moving_parts_by_RefDes
+5 Placing a Part=Place_a_Part
+4 Symbols
+5 Creating Symbols=Creating_Symbols
+5 Saving a Symbol to a Library=Saving_a_Symbol_to_a_Libraray
+4 Libraries
+5 Creating an alias=Creating_an_alias
+5 Copying Symbols or Components=Copying_symbols_or_components
+5 Deleting Library Items=Deleting_Library_Items
+5 Drag and Drop Library Load=Drag_and_Drop_Library_Load
+5 Renaming a Symbol/Component=Renaming_a_Symbol_Component
+5 Setting up a Library=Setting_up_a_Library
+3 Master Designer Files
+4 Design Considerations for Master Designer Files=Design_Considerations_for_Master_Designer_Files>main
+4 Import Considerations for Master Designer=Import_Considerations_for_Master_Designer>main
+4 Mapping Layers from Master Designer Files=HIDD_SCHLAYERMAPDLG
+4 Master Designer Command Reference=Master_Designer_Command_Reference
+4 Master Designer Editors=Master_Designer_8_5_Commands
+4 Master Designer Utilities=Master_Designer_Utilities
+4 Opening a Master Designer Binary File=Opening_a_Master_Designer_Binary_File>main
+4 Heterogeneous Components=Heterogeneous_Components
+4 Single versus multisheet designs=Single_versus_multisheet_designs
+3 PDIF Files
+4 Design Consideration for PDIF Files=Design_Consideration_for_PDIF_Files
+4 Import Considerations for PDIF Files=Import_Considerations_for_PDIF_Files
+4 Loading Multisheet PDIF designs=Loading_Multisheet_PDIF_designs
+4 PDIF File Cleanup Tips=PDIF_File_Cleanup_Tips
+4 PDIF Out Considerations=PDIF_Out_Considerations
+3 Text
+4 Using the Options Text Style Dialog=Using_the_Option_Text_Style_Dialog
+4 Using the Text Dialogs=Using_the_Text_Dialogs
+4 Jumping to Text=Jumping_to_Text
+3 Wires and Nets
+4 Wires
+5 Adding Wires to Nets=Adding_Wires_to_Nets
+5 Delete Wire=Delete_Wire
+5 Wire Widths=Wire_Widths
+4 Nets
+5 Nets=Nets
+5 Net Definitions=Net_Definitions
+5 Selecting Nets=Selecting_Nets
+5 Select Contiguous Nets=Select_Contiguous_Nets
+5 Copying a net=Net_Splitting>main
+5 Merging Nets=Merging_Nets
+5 Splitting a net=Splitting_a_Net>main
+5 Adding / Removing Net Nodes=Adding_Removing_Net_Nodes
+3 Schematic Simulation
+4 Simulating a Schematic Design=Simulating_a_Schematic_Design
+1 Schematic Reference
+2 Add-in programs & interfaces
+3 Interfaces=Interfaces
+3 P-CAD Viewer=P-CAD_Scout>main
+3 P-CAD Library Executive
+4 P-CAD Library Executive=P-CAD_Library_Executive>main
+4 Importing a Source File with a ComponentName=Importing_a_Source_File_with_a_ComponentName
+4 Linking with a Map File=Linking_with_a_Map_File
+4 Querying the Library for Parts=HIDD_QUERY
+4 Verifying a Design=Verifying_a_Design
+4 Using the Embedded Query=Using_the_Embedded_Query
+2 Main Menu Commands
+3 Keyboard Shortcuts=Keyboard_Shortcuts>main
+3 File Menu
+4 File Close=HIDM_FILE_CLOSE
+4 File Design Info=HIDM_FILE_DESIGNINFO
+4 File Design Technology Parameters=HIDM_FILE_TECH_TEMPLATES
+4 File DXF In=HIDM_FILE_DXFIN
+4 File DXF Out=HIDM_FILE_DXFOUT
+4 File Exit=HIDM_FILE_EXIT
+4 File New=HIDM_FILE_NEW
+4 File Open=HIDM_FILE_OPEN
+4 File PDIF In=HIDM_FILE_PDIFIN
+4 File PDIF Out=HIDM_FILE_PDIFOUT
+4 File Print=HIDM_FILE_PRINT
+4 File Print Setup=HIDM_FILE_PRINT_SETUP
+4 File Reports=HIDM_FILE_REPORTS
+4 File Save=HIDM_FILE_SAVE
+4 File Save As=HIDM_FILE_SAVE_AS
+3 Edit Menu
+4 Edit Align Parts=HIDM_EDIT_ALIGN
+4 Edit Attrs=Edit_Attrs
+4 Edit Copy=HIDM_EDIT_COPY
+4 Edit Copy Matrix=HIDM_EDIT_DUPLICATE
+4 Edit Copy to File=HIDM_EDIT_COPY_TO_FILE
+4 Edit Cut=HIDM_EDIT_CUT
+4 Edit Delete=HIDM_EDIT_DELETE
+4 Edit Deselect All=HIDM_EDIT_DESELECT_ALL
+4 Edit Explode Part=HIDM_EDIT_EXPLODE
+4 Edit Highlight=HIDM_EDIT_HIGHLIGHT
+4 Edit Measure=HIDM_EDIT_MEASURE
+4 Edit Move By RefDes=HIDM_EDIT_MOVE_BY_REFDES
+4 Edit Nets=HIDM_EDIT_MODNETS
+4 Edit Parts=HIDM_EDIT_PARTS
+4 Edit Paste Circuit=HIDM_EDIT_PASTE_CIRCUIT
+4 Edit Paste Circuit From File=HIDM_EDIT_PASTE_CIRCUIT_FROM_FILE
+4 Edit Paste From Clipboard=HIDM_EDIT_PASTE
+4 Edit Paste from File=HIDM_EDIT_PASTE_FROM_FILE
+4 Edit Properties=HIDM_EDIT_PROPERTIES
+4 Edit Redo=HIDM_EDIT_REDO
+4 Edit Select=HIDM_EDIT_SELECT
+4 Edit Select All=HIDM_EDIT_SELECT_ALL
+4 Edit Select Highlighted=HIDM_EDIT_SELECT_HIGHLIGHT
+4 Edit Undo=HIDM_EDIT_UNDO
+4 Edit Unhighlight=HIDM_EDIT_UNHIGHLIGHT
+4 Edit Unhighlight All=HIDM_EDIT_UNHIGHLIGHT_ALL
+3 View Menu
+4 View All=HIDM_VIEW_ALL
+4 View Ascend=HIDM_VIEW_ASCEND
+4 View Command Toolbar=HIDM_VIEW_COMMAND_TOOLBAR
+4 View Custom Toolbar=HIDM_VIEW_CUSTOMTOOLBAR
+4 View Descend=HIDM_VIEW_DESCEND
+4 View DocTool toolbar=HIDM_VIEW_ADP_TOOLBAR
+4 View Extent=HIDM_VIEW_EXTENT
+4 View Jump Location=HIDM_VIEW_JUMPLOC
+4 View Jump Text=HIDM_VIEW_JUMPTEXT
+4 View Last=HIDM_VIEW_LAST
+4 View Placement Toolbar=HIDM_VIEW_PLACEMENT_TOOLBAR
+4 View Prompt Line=HIDM_VIEW_PROMPT
+4 View Redraw=HIDM_VIEW_REDRAW
+4 View Snap to Grid=HIDM_VIEW_SNAP2GRID
+4 View Status Line=HIDM_VIEW_STATUS
+4 View Zoom In=HIDM_VIEW_ZOOMIN
+4 View Zoom Out=HIDM_VIEW_ZOOMOUT
+4 View Zoom Window=HIDM_VIEW_ZOOMWINDOW
+3 Place Menu
+4 Place Arc=HIDM_PLACE_ARC
+4 Place Attribute=HIDM_PLACE_ATTRIBUTE
+4 Place Bus=HIDM_PLACE_BUS
+4 Place Field=HIDM_PLACE_FIELD
+4 Place IEEE Symbol=HIDM_PLACE_IEEE
+4 Place Line=HIDM_PLACE_LINE
+4 Place Part=HIDM_PLACE_PART
+4 Place Pin=HIDM_PLACE_PIN
+4 Place Polygon=HIDM_PLACE_POLYGON
+4 Place Port=HIDM_PLACE_PORT
+4 Place Ref Point=HIDM_PLACE_REFPOINT
+4 Place Text=HIDM_PLACE_TEXT
+4 Place Wire=HIDM_PLACE_WIRE
+3 Rewire Menu
+4 Rewire Manual=HIDM_REWIRE_MANUAL
+3 Options Menu
+4 Options Block Selection=HIDM_OPTIONS_SELECTMASK
+4 Options Configure=HIDM_OPTIONS_CONFIG
+4 Options Current Line=HIDM_OPTIONS_CURRENTLINE
+4 Options Current Wire=HIDM_OPTIONS_CURRENTWIRE
+4 Options Design Rules=HIDM_OPTIONS_DESIGNRULES
+4 Options Display=HIDM_OPTIONS_DISPLAY
+4 Options Grids=HIDM_OPTIONS_GRIDS
+4 Options Net Classes=HIDM_OPTIONS_NETCLASSES
+4 Options Preferences=HIDM_OPTIONS_PREFERENCES
+4 Options Sheets=HIDM_OPTIONS_CURRENTSHEET
+4 Options Text Style=HIDM_OPTIONS_CURRENTTEXT
+3 Library Menu
+4 Library Alias=HIDM_LIBRARY_ALIAS
+4 Library Archive Library=HIDM_LIBRARY_ARCHIVE
+4 Library Copy=HIDM_LIBRARY_COPY
+4 Library Delete=HIDM_LIBRARY_DELETE
+4 Library New=HIDM_LIBRARY_NEW
+4 Library Query=HIDM_LIBRARY_QUERY
+4 Library Rename=HIDM_LIBRARY_RENAME
+4 Library Setup=HIDM_LIBRARY_SETUP
+4 Library Symbol Save As=HIDM_LIBRARY_ADD
+4 Library Verify Design=HIDM_LIBRARY_VERIFYDESIGN
+3 Utils Menu
+4 Utils Customize=HIDM_UTILS_CUSTOMIZE>main
+4 Utils ERC=HIDM_UTILS_ERC
+4 Utils Export ECOs=HIDM_UTILS_EXPORT_ECOS
+4 Utils Find Errors=HIDM_UTILS_FIND_ERRORS
+4 Utils Force Update=HIDM_UTILS_FORCE
+4 Utils Generate Netlist=HIDM_UTILS_NETLISTGEN
+4 Utils Import ECOs=HIDM_UTILS_IMPORT_ECOS
+4 Utils Module Wizard=HIDM_UTILS_MODULE_WIZARD
+4 Utils P-CAD InterPlace/PCS=HIDM_UTILS_DCM
+4 Utils P-CAD Lib Exec=HIDM_UTILS_LIBMANAGER
+4 Utils P-CAD Pattern Editor=HIDM_UTILS_PAT_ED>main
+4 Utils P-CAD PCB=HIDM_UTILS_PCB
+4 Utils P-CAD Symbol Editor=HIDM_UTILS_SYM_ED
+4 Utils Record ECOs=HIDM_UTILS_ECOSONOFF
+4 Utils Rename Net=HIDM_UTILS_RENWIREPORT
+4 Utils Renumber=HIDM_UTILS_RENUMBER
+4 Utils Resolve Hierarchy=HIDM_UTILS_RESOLVE_HIERARCHY
+4 Utils Shortcut Directory=HIDM_UTILS_SHORTCUT_DIR
+3 Simulate
+4 Simulate Run=Simulate_Run
+4 Simulate Setup=Simulate_Setup
+3 DocTool Menu
+4 DocTool Notes=HIDM_ADP_NOTES
+4 DocTool Place Table=HIDM_ADP_TABLE
+4 DocTool Titles=HIDM_ADP_TITLES
+4 DocTool Update=HIDM_ADP_UPDATE
+4 DocTool Update All=HIDM_ADP_UPDATE_ALL
+3 Macro Menu
+4 Macro Delete=HIDM_MACRO_DELETE
+4 Macro Record=HIDM_MACRO_RECORD
+4 Macro Rename=HIDM_MACRO_RENAME
+4 Macro Run=HIDM_MACRO_RUN
+4 Macro Setup=HIDM_MACRO_SETUP
+3 Window Menu
+4 Window Arrange Icons=HIDM_WINDOW_ARRANGE
+4 Window Cascade=HIDM_WINDOW_CASCADE
+4 Window New Window=HIDM_WINDOW_NEW
+4 Window Tile=HIDM_WINDOW_TILE_HORZ
+3 Help Menu
+4 About Schematic=HIDM_HELP_ABOUT
+4 Help P-CAD Schematic Help Topics=HIDM_HELP_INDEX
+4 How to Use Help=HIDM_HELP_USING
+4 Series II Commands=HIDM_HELP_SERIES2
+2 Dialogs
+3 A-H
+4 Add Text Style Dialog=HIDD_ADDTEXTDLG
+4 Attribute Dialog=HIDD_ATTRSSHEET
+4 Change Value Dialog=HIDD_CHANGEVALUEDLG
+4 Class to Class Name dialog=HIDD_TECH_CLASS_CLASS_NAMEDLG
+4 Custom Title Sheets dialog=HIDD_INDVTSHEETDLG
+4 Customize Report Dialog=HIDD_REPORTS_SHEET
+4 Design Technology Parameters Dialog=HIDD_TECHTEMPLATE_DIALOG
+4 Design Verification Dialog=HIDD_DESIGN_VERIFY
+4 Edit Align Parts Dialog=HIDD_ALIGNDLG
+4 Edit Copy Matrix Dialog=HIDD_DUPLICATEDLG
+4 Edit Move by RefDes Dialog=HIDD_SCHMVBYREFDDLG
+4 Edit Nets Dialog=HIDD_EDITNETDLG
+4 Edit Paste Circuit Dialog=HIDD_EDIT_PASTE_CIRCUIT
+4 File DXF In Dialog=HIDD_DXFINDLG
+4 File DXF Out Dialog=HIDD_DXF_OUT
+4 Find Errors Dialog=HIDD_FINDERRORSDLG
+4 File Reports Dialog=HIDD_CUSTOM_REPORTS
+4 File Print Dialog=HIDD_FILE_PRINT
+4 Heterogeneous Component Selection dialog=HIDD_SCHPDIFHDLG
+4 Hierarchy Navigator dialog=HIDD_HIERMODNAVGDLG
+3 I-P
+4 Library Alias Dialog=HIDD_LIBRARYALIASDLG
+4 Library Copy Dialog=HIDD_LIBRARYCOPYDLG
+4 Library Delete Dialog=HIDD_LIBRARYDELETEDLG
+4 Library Browse Dialog=HIDD_LIBRARYLISTDLG
+4 Library Rename Dialog=HIDD_LIBRARYRENAMEDLG
+4 Library Setup Dialog=HIDD_LIBRARYSETUPDLG
+4 Jump to a Location=HIDD_JUMPLOCATIONDLG
+4 Macro Record Dialog=HIDD_MACRORECORDDLG
+4 Macro Record (Temporary Macro) Button=Macro_Record_Temporary_Macro_Button
+4 Macro Setup Dialog=HIDD_MACRO_SET_UP
+4 Master Designer Cross-Reference File dialog=HIDD_SCHPDIFINDLG
+4 Merge Contiguous Nets Dialog=HIDD_MERGENETSDLG
+4 Module Wizard Dialog (1)=HIDD_HWZ_MAIN_DLG
+4 Module Wizard Dialog (2)=HIDD_HWZ_NEW_MOD_DLG
+4 Module Wizard Dialog (3)=HIDD_HWZ_INF_PLACE_DLG
+4 Module Wizard Dialog (4)=HIDD_HWZ_DONE_DLG
+4 Module Wizard Dialog (5)=HIDD_HWZ_REUSEMOD_DLG
+4 Module Wizard Dialog (6)=HIDD_HWZ_INF_REFDES_DLG
+4 Module Wizard Dialog (7)=HIDD_HWZ_INF_NEW_DLG
+4 Module Wizard Dialog (8)=HIDD_HWZ_INF_REUSE_DLG
+4 Net Class Definition Dialog=HIDD_NETCLASSDEFINITIONDLG
+4 Net Classes Dialog=HIDD_NETCLASSDLG
+4 Net Name Dialog=HIDD_NETNAMEDLG
+4 New Section Type Dialog=HIDD_NEWSECTIONDLG
+4 Open dialog box=Open_dialog_box
+4 Options Block Selection Dialog=HIDD_SELMASKDLG
+4 Options Configure Dialog=HIDD_CFGOPTN
+4 Options Current Wire Dialog=HIDD_SCHCURRENTWIREDLG
+4 Options Display dialog=Options_Display_Dialog
+4 Options Grids Dialog=HIDD_OPTIONGRIDDLG
+4 Options Text Style Dialog=HIDD_CURTEXTDLG
+4 Page Setup Dialog=HIDD_SETUP_PRINT_PARAMS
+4 Place Attribute Dialog=Place_Attribute_Dialog
+4 Place Part Dialog=HIDD_PLACEPARTDLG
+3 Q-Z
+4 Rename Group Dialog=HIDD_ENTERNAMEDLG
+4 Rename Style Dialog=HIDD_RENAMESTYLEDLG
+4 Rules Severity Level Dialog=HIDD_RULES_SEVERITY_LEVEL
+4 Save Component As Dialog=HIDD_CUSTOMSAVEAS
+4 Save ECOs Dialog=HIDD_SAVEECODLG
+4 Selection Mask Dialogs=Block_Select_Selection_Mask_Dialogs
+4 Set By Attribute=HIDD_SELECTATTRDLG
+4 Statistics Dialog=HIDD_TECH_ITEM_STATS
+4 Status Line=HIDD_STATUSBAR
+4 Symbol Save As Dialog=HIDD_SYMBOLSAVEASDLG
+4 Text Dialogs=HIDD_EDA_TEXT1
+4 Utils Customize Dialog=HIDD_TOOLS_CUSTOMIZE
+4 Utils Electrical Rules Check Dialog=HIDD_UTILITIESDRC
+4 Utils Force Update Dialog=HIDD_FORCEUPDDLG
+4 Utils Generate Netlist Dialog=HIDD_NETLISTFILEDLG
+4 Utils Rename Wire/Port Dialog=HIDD_RENAMEWIREPORTDLG
+4 Viewer Dialog=HIDD_TABVIEW
+4 View Jump Text dialog=HIDD_JUMPTEXTDLG
+3 Main Object Properties Dialogs
+4 Arc Properties=HIDD_MODIFYARCDLG
+4 Attribute Properties=Attribute_Properties
+4 Bus Connection Properties=HIDD_CHICKFOOTDLG
+4 Bus Properties=HIDD_MODBUSDLG
+4 Field Properties=HIDD_FIELDPROPERTIESDLG
+4 Item Properties=Item_Properties
+4 Line Properties (Line Selection Mask)=HIDD_MODIFYSCHLINEDLG
+4 Part Properties (Part Selection Mask)=HIDD_SYMBOLPROPSHEET
+4 Pin Properties (Pin Selection Mask)=HIDD_MODIFYPINDLG
+4 Polygon Properties=HIDD_MODIFYPOLYGON
+4 Port Properties (Port Selection Mask)=HIDD_PORTPROPSHT
+4 Table Properties=Table_Properties
+4 Text Style Properties=HIDD_TEXTSTYLEDLG
+4 Wire Properties (Wire Selection Mask)=HIDD_WIREPROPSHEET
+3 Specific Dialog Tabs
+4 File Design Info - Attributes Tab=HIDD_ATTRIBUTESSETUPDLG
+4 File Design Info - Fields Tab=HIDD_DESIGNINFO_FIELDS
+4 File Design Info - General Tab=HIDD_DESIGNINFO_GENERAL
+4 File Design Info - Notes Tab=Notes_Tab
+4 File Design Info - Statistics Tab=HIDD_DESIGNSTATISTICS
+4 Options Display - Colors Tab=HIDD_COLORS
+4 Options Display - Miscellaneous Tab=HIDD_OPTIONS_MISC_PAGE
+4 Options Preferences - Keyboard Tab=Keyboard_Tab
+4 Options Preferences - Mouse Tab=Mouse_Tab
+2 Glossary
+3 alias=alias
+3 bounding outline=bounding_outline
+3 Clipboard=Clipboard
+3 color palette=HIDD_SOLID_COLORS_DLG>main
+3 components=components
+3 (Contiguous Net)=_Contiguous_Net
+3 current highlight color=current_highlight_color
+3 current zoom factor=current_zoom_factor
+3 Currently defined sheets=MOD3_CURSHEETS
+3 custom toolbar=custom_toolbar
+3 DataTips=DataTips
+3 free-floating cursor=free_floating_cursor
+3 (Global Net)=_Global_Net
+3 Orthogonal Modes=Orthogonal_Modes
+3 Overwrite Warning=HIDD_TECHITEM_OVERWRITE_BOX
+3 Paste Behavior=Paste_Behavior
+3 patterns=patterns>main
+3 read-only=read_only
+3 Sch.ini=Sch_ini
+3 Selective Component Type Replacement=Selective_Component_Type_Replacement
+3 Selection Mask Parameters=Block_Select_Selection_Mask_Parameters
+3 Selection Reference Point=Selection_Reference_Point
+3 snappy cursor=snappy_cursor
+3 (Sub-Nets)=_Sub_Nets
+3 symbols=symbols

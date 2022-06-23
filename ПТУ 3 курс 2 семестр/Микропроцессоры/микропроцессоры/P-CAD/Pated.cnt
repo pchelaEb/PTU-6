@@ -1,0 +1,314 @@
+:Base pated.hlp
+:Title P-CAD 2001 Pattern Editor Help
+1 Welcome to the P-CAD Pattern Editor=Introducing_P-CAD_Pattern_Editor>info
+1 P-CAD Pattern Editor
+2 New Features=New_Features
+2 Key Features=Key_Features>main
+2 Pattern Editor Basics
+3 Opening Patterns
+4 Open a Pattern File=Open_a_Pattern_File
+4 Open a Pattern from a Library=Open_a_Pattern_from_a_Library
+3 Saving Patterns
+4 Save a Pattern to a Library=Save_a_Pattern_to_a_Library
+4 Save File to Name and Location=Save_File_to_Name_and_Location
+3 Printing
+4 Generating print jobs=Generating_Print_Jobs
+4 Print Jobs=Print_Jobs
+4 Print Job Selections=Print_Job_Selections
+4 Print Preview=HID_FILE_PRINT_PREVIEW
+4 Print Region=Rrint_Region
+4 Printing the Current Display=Printing_the_Current_Display
+4 Printing the current window=Printing_the_Current_Window
+4 Scaling to Fit Page=Scaling_to_Fit_Page
+3 Customizing Pattern Editor
+4 Colors=HIDD_DISPOPTN
+4 Displaying the Custom Toolbar=Displaying_the_Custom_Toolbar
+4 Executing a Custom Tool=Executing_a_Custom_Tool
+4 Grid Toggle Buttons=Grid_Toggle_Buttons
+4 Layer Display Combo Box and Scroll Buttons=Layer_Display_Combo_Box_and_Scroll_Buttons
+4 Line Width Combo Box=Line_Width_Combo_Box
+4 Multiple Windows=Multiple_Windows
+4 Showing or Hiding Data Tips=Showing_or_Hiding_Data_Tips
+4 Status Information Area=Status_Information_Area
+4 Status Line=HIDD_STATUSBAR
+4 X and Y Coordinates=X_and_Y_Coordinates
+4 Zoom through a Window=Zoom_through_a_Window
+2 Using Pattern Editor
+3 Jump to a Location=Jump_to_a_location
+3 Measure=Measure_Procedure
+3 Design Technology Parameters
+4 Browse the File's Contents=Browse_the_File_s_Contents
+4 Building the Hierarchy=Building_the_Hierarchy
+4 Copying Information to your Design=Copying_Information_to_your_Design
+4 Creating and Opening Design Technology Parameters Files=Creating_and_Opening_Design_Technology_Parameters_Files
+4 Deleting a Group, Section, or Item=Deleting_a_Group_Section_or_Item
+4 Renaming a Group or Item=Renaming_a_Group_or_Item
+3 Layers
+4 Adding a layer=Adding_a_Layer
+4 Add or Modify a Layer Set=Add_or_Modify_a_Layer_Set
+3 Macros
+4 Editing Macros=Editing_Macros
+4 Macro File Syntax=Macro_File_Syntax
+4 Macro Recording Tool=HIDD_EVENT_RECORD_DLG
+4 Recording a macro=Recording_a_Macro
+4 Recording Efficient Macros=Recording_Efficient_Macros
+3 Libraries
+4 Copying patterns/components=Copy_Patterns_Components
+4 Create an Alias=Create_an_Alias
+4 Delete from a Library=Delete_from_a_Library
+3 Objects
+4 Pattern Graphics=Pattern_Graphics
+4 Add, Remove and Rename Pattern Graphics=Add_Remove_and_Rename_Pattern_Graphics
+4 Test Point Design Rules=Test_Point_Design_Rules
+4 Placing Objects
+5 Place a Line=Place_a_Line
+5 Placing a pad=HIDD_PADTOOL
+5 Place a Point=Place_a_Point
+5 Place a Polygon=Place_a_Polygon
+5 Place a Selection Reference Point=Place_a_Selection_Reference_Point
+5 Place an Arc=Place_an_Arc
+5 Place an Attribute=Place_an_Attribute
+5 Placing a Test Point=Placing_a_Test_Point
+4 Selecting Objects
+5 Selecting objects=Selecting_Objects
+5 Defining Block Selection Criteria=Defining_Block_Selection_Criteria
+5 Defining Single Selection Criteria=Defining_Single_Selection_Criteria
+5 When Objects Overlap=When_Objects_Overlap
+5 Selecting Collocated Objects=Selecting_Collocated_Objects
+5 Selection Reference Point=Selection_Reference_Point
+4 Moving Objects
+5 Moving and copying objects=Moving_and_Copying_Objects
+5 Move an Object=Move_an_Object_Layer
+5 Move to Layer Restrictions=Move_to_Layer_Restrictions
+4 Manipulating Objects
+5 Duplicating an object=Duplicating_an_Object
+5 Paste Objects=Paste_Objects
+5 Resizing objects=Resizing_Objects
+5 Delete Objects=Delete_Objects
+5 Rotate and Flip=Rotate_and_Flip
+5 Rotate or Flip a Pad=Rotate_or_Flip_a_Pad
+5 Rotate or Flip an Attribute=Rotate_or_Flip_an_Attribute
+5 Display or Hide a Point=Display_or_Hide_a_Point
+4 Pads
+5 Rounding Corners of Polygonal Shapes=Rounding_Corners_of_Polygonal_Shapes
+5 Complex Pad Style=complex_pad_style
+5 Deleting a pad style=Deleting_a_Pad_Style
+5 Polygonal Pad Shapes=HIDD_POLYPADSHAPE
+5 Purging unused pad styles=Purging_Unsused_Pad_Styles
+5 Renumbering pads=Renumbering_Pads
+5 Set a Pad Style Hole Range=Setting_a_Pad_Style_Hole_Range
+5 Simple Pad Style=Simple_Pad_Style
+5 Viewing the default pad style=Viewing_the_Default_Pad_Style
+4 Vias
+5 Changing via properties=Changing_Via_Properties
+5 Complex Via Style=complex_via_style
+5 Simple Via Style=Simple_Via_Style
+5 Via Properties Query Fields=Via_Properties_Query_Fields
+5 Via Styles=ViaStyleButton
+5 Via Styles Button=Via_Styles_Button
+4 Text
+5 Adding a text style=HIDD_ADDTEXTDLG
+5 Jump to Text=Jump_to_Text
+5 Placing text=Placing_Text
+5 Using the Options Text Style Dialog=Using_the_Options_Text_Style_Dialog
+5 Rotate/Flip=Rotate_Flip_Text
+1 Pattern Editor Reference
+2 Main Menu Commands
+3 Pattern Menu
+4 Pattern Add Pattern Graphics=Add_Pattern_Graphics_Pattern_Menu_
+4 Pattern Attributes=HIDM_FILE_ATTRIBUTES
+4 Pattern Clear=HIDM_FILE_CLEAR
+4 Pattern Close=HIDM_FILE_CLOSE
+4 Pattern Design Technology Parameters=HIDM_FILE_TECH_TEMPLATES
+4 Pattern Exit=HIDM_FILE_EXIT
+4 Pattern New=HIDM_FILE_NEW
+4 Pattern Open=HIDM_FILE_OPEN
+4 Pattern Pattern Wizard=HIDM_FILE_WIZARD
+4 Pattern Print=HIDM_FILE_PRINT
+4 Pattern Print Setup=HIDM_FILE_PRINT_SETUP
+4 Pattern Recent Files=HID_FILE_MRU_FILE1
+4 Pattern Remove Pattern Graphics=Remove_Pattern_Graphics_Pattern_Menu_
+4 Pattern Rename Pattern Graphics=Rename_Pattern_Graphics_Pattern_Menu_
+4 Pattern Save and Pattern Save As=HIDM_FILE_SAVE_TO_LIB
+4 Pattern Save to File=HIDM_FILE_SAVE
+4 Pattern Save to File As=HIDM_FILE_SAVE_AS
+3 Edit Menu
+4 Edit Copy=HIDM_EDIT_COPY
+4 Edit Copy Matrix=HIDM_EDIT_DUPLICATE
+4 Edit Copy to File=HIDM_EDIT_COPY_TO_FILE
+4 Edit Cut=HIDM_EDIT_CUT
+4 Edit Delete=HIDM_EDIT_DELETE
+4 Edit Deselect All=HIDM_EDIT_DESELECT_ALL
+4 Edit Highlight=HIDM_EDIT_HIGHLIGHT
+4 Edit Measure=HIDM_EDIT_MEASURE
+4 Edit Move to Layer=HIDM_EDIT_MOVE_TO_LAYER
+4 Edit Paste=HIDM_EDIT_PASTE
+4 Edit Paste from File=HIDM_EDIT_PASTE_FROM_FILE
+4 Edit Paste To Layer=HIDM_EDIT_PASTE_TO_LAYER
+4 Edit Properties=HIDM_EDIT_PROPERTIES
+4 Edit Redo=HIDM_EDIT_REDO
+4 Edit Select=HIDM_EDIT_SELECT
+4 Edit Select All=HIDM_EDIT_SELECT_ALL
+4 Edit Undo=HIDM_EDIT_UNDO
+4 Edit Unhighlight=HIDM_EDIT_UNHIGHLIGHT
+4 Edit Unhighlight All=HIDM_EDIT_UNHIGHLIGHT_ALL
+3 View Menu
+4 View All=HIDM_VIEW_ALL
+4 View Center=HIDM_VIEW_CENTER
+4 View Command Toolbar=HIDM_VIEW_COMMAND_TOOLBAR
+4 View Custom Toolbar=HIDM_VIEW_CUSTOMTOOLBAR
+4 View Extent=HIDM_VIEW_EXTENT
+4 View Jump Location=HIDM_VIEW_JUMPLOC
+4 View Jump Text=HIDM_VIEW_JUMPTEXT
+4 View Last=HIDM_VIEW_LAST
+4 View Next Pattern Graphics=Next_Pattern_Graphics_View_Menu_
+4 View Placement Toolbar=HIDM_VIEW_PLACEMENT_TOOLBAR
+4 View Previous Pattern Graphics=Previous_Pattern_Graphics_View_Menu_
+4 View Prompt Line=HIDM_VIEW_PROMPT
+4 View Redraw=HIDM_VIEW_REDRAW
+4 View Snap to Grid=HIDM_VIEW_SNAP2GRID
+4 View Status Line=HIDM_VIEW_STATUS
+4 View Zoom In=HIDM_VIEW_ZOOMIN
+4 View Zoom Out=HIDM_VIEW_ZOOMOUT
+4 View Zoom Window=HIDM_VIEW_ZOOMWINDOW
+3 Place Menu
+4 Place Arc=HIDM_PLACE_ARC
+4 Place Attribute=HIDM_PLACE_ATTRIBUTE
+4 Place Glue Point=HIDM_PLACE_GLUPOINT
+4 Place Keepout=HIDM_PLACE_KEEPOUT
+4 Place Line=HIDM_PLACE_LINE
+4 Place Pad=HIDM_PLACE_PAD
+4 Place Pick Point=HIDM_PLACE_PICKPOINT
+4 Place Polygon=HIDM_PLACE_POLYGON
+4 Place Ref Point=HIDM_PLACE_REFPOINT
+4 Place Test Point=Test_Point_Place_Menu_
+4 Place Text=HIDM_PLACE_TEXT
+4 Place Via=HIDM_PLACE_VIA
+3 Options Menu
+4 Options Configure=HIDM_OPTIONS_CONFIG
+4 Options Current Keepout=HIDD_CURRENTKEEPOUTDLG
+4 Options Current Line=HIDM_OPTIONS_CURRENTLINE
+4 Options Current Radius=HIDM_OPTIONS_CURRENTRADIUS
+4 Options Display=HIDM_OPTIONS_DISPLAY
+4 Options Grids=HIDM_OPTIONS_GRIDS
+4 Options Layers=HIDM_OPTIONS_CURRENTLAY
+4 Options Pad Style=HIDM_OPTIONS_CURRENTPAD
+4 Options Preferences=HIDM_OPTIONS_PREFERENCES
+4 Options Selection Mask=HIDM_OPTIONS_SELECTMASK
+4 Options Text Style=HIDM_OPTIONS_CURRENTTEXT
+4 Options Via Style=HIDM_OPTIONS_CURRENTVIA
+3 Library Menu
+4 Library Alias=HIDM_LIBRARY_ALIAS
+4 Library Copy=HIDM_LIBRARY_COPY
+4 Library Delete=HIDM_LIBRARY_DELETE
+4 Library New=HIDM_LIBRARY_NEW
+4 Library Rename=HIDM_LIBRARY_RENAME
+3 Utils Menu
+4 Utils Customize=HIDM_UTILS_CUSTOMIZE
+4 Utils Orientations=Orientations_Command_Utils_Menu_
+4 Utils P-CAD Library Executive=HIDM_UTILS_LIBMANAGER
+4 Utils P-CAD PCB=HIDM_UTILS_PCB
+4 Utils P-CAD Schematic=HIDM_UTILS_SCHEMATIC
+4 Utils P-CAD Symbol Editor=HIDM_UTILS_SYM_ED
+4 Utils Renumber=HIDM_UTILS_RENUMBER
+4 Utils ShortcutDirectory=HIDM_UTILS_SHORTCUT_DIR
+4 Utils Validate=HIDM_UTILS_VALIDATE
+3 Macro Menu
+4 Macro Delete=HIDM_MACRO_DELETE
+4 Macro Record=HIDM_MACRO_RECORD
+4 Macro Rename=HIDM_MACRO_RENAME
+4 Macro Run=HIDM_MACRO_RUN
+4 Macro Setup=HIDM_MACRO_SETUP
+3 Windows Menu
+4 Window All Open Windows=Window_All_Open_Windows
+4 Window Arrange Icons=HIDM_WINDOW_ARRANGE
+4 Window Cascade=HIDM_WINDOW_CASCADE
+4 Window New Window=HIDM_WINDOW_NEW
+4 Windows Tile=HIDM_WINDOW_TILE_HORZ
+3 Help Menu
+4 Help About P-CAD Pattern Editor=HIDM_HELP_ABOUT
+4 Help How to Use Help=HIDM_HELP_USING
+4 Help P-CAD Pattern Editor Help Topics=HIDM_HELP_INDEX
+2 Dialogs
+3 A-H
+4 About P-CAD Pattern Editor dialog=HIDD_ABOUTPATED
+4 Add Pattern Graphics Dialog=Add_Pattern_Graphics_Dialog
+4 Attribute Dialog=HIDD_ATTRPROPDLG
+4 Attributes Dialog=HIDD_ATTRSSHEET
+4 Change Attribute Value Dialog=Change_Value_Dialog
+4 Class Name Dialog=HIDD_TECH_CLASS_CLASS_NAMEDLG
+4 Color Dialog=HIDD_SOLID_COLORS_DLG
+4 Copy Pad Style Dialog (Adding a Pad Style)=HIDD_COPYPADDLG
+4 Copy Via Style Dialog (Adding a Via Style)=Copy_Via_Style_Dialog_Adding_a_Via_Style_
+4 Design Technology Parameters Dialog=HIDD_TECHTEMPLATE_DIALOG
+4 DTP Item Properties - Rules Dialog=DTP_Item_Properties_Rules_Dialog
+4 DTP Layer Attributes Dialog=DTP_Layer_Attributes_Dialog
+4 DTP Layers Dialog=DTP_Layers_Dialog
+4 Edit Copy Matrix Dialog=HIDD_DUPLICATEDLG
+4 Edit Net Layer Rules Dialog=Edit_Layer_Rules_Dialog
+4 Enter Name Dialog=HIDD_ENTERNAMEDLG
+4 File Print Dialog=HIDD_FILE_PRINT
+3 I-P
+4 Layer Clearance Dialog=HIDD_LAYERCLEARANCEDLG
+4 Layer Set Definition Dialog=HIDD_LAYERSETSDEFINITIONDLG
+4 Library Alias Dialog=HIDD_LIBRARYALIASDLG
+4 Library Browse Dialog=HIDD_LIBRARYLISTDLG
+4 Library Copy Dialog=HIDD_LIBRARYCOPYDLG
+4 Library Delete Dialog=HIDD_LIBRARYDELETEDLG
+4 Library Rename Dialog=HIDD_LIBRARYRENAMEDLG
+4 Macro Record Dialog=HIDD_MACRORECORDDLG
+4 Macro Setup Dialog=HIDD_MACRO_SET_UP
+4 New Section Type Dialog=HIDD_NEWSECTIONDLG
+4 Options Configure Dialog=HIDD_PCBCONFIGDLG_PAT_ED
+4 Options Current Radius Dialog=HIDD_PCBCURRENTRADIUSDLG
+4 Options Display (Misc) Dialog=HIDD_DISPOPTNMISC_PAT_ED
+4 Options Display/Printer Colors Dialog=HIDD_DISPOPTN_PAT_ED
+4 Options Modify Hole Range Dialog=HIDD_PCBHOLERANGEDLG
+4 Options Text Style Dialog=HIDD_CURTEXTDLG
+4 Pad Style (Complex) Dialog=HIDD_PADSTYLECOMPLEXDLG
+4 Pad Style (Simple) Dialog=HIDD_PADSTYLESIMPLEDLG
+4 Pattern Save To Library dialog=HIDD_PATTERNSAVETOLIBDLG
+4 Place Attribute Dialog=Place_Attribute_Dialog
+4 Place Text/Text Selection/Text Properties Dialog=HIDD_EDA_TEXT1
+3 Q-Z
+4 Remove Pattern Graphics Dialog=Remove_Pattern_Graphics_Dialog
+4 Rename Pattern Graphics Dialog=Rename_Pattern_Graphics_Dialog
+4 Rename Style Dialog=HIDD_RENAMESTYLEDLG
+4 Set by Attribute Dialog=Set_by_Attribute_Dialog
+4 Setup Print Jobs dialog=HIDD_SETUP_PRINT_JOBS
+4 Statistics Dialog=HIDD_TECH_ITEM_STATS
+4 Use the Options Current Line Dialog=Using_the_Options_Current_Line_Dialog
+4 Utils Customize Dialog=HIDD_TOOLS_CUSTOMIZE
+4 Utils Orientations Dialog=Utils_Orientations_Dialog
+4 Utils Renumber dialog=HIDD_PAD_RENUMBER_DLG
+4 Via Style (Complex) Dialog=HIDD_VIASTYLECOMPLEXDLG
+4 Via Style (Simple) Dialog=HIDD_VIASTYLESIMPLEDLG
+3 Main Object Properties Dialogs
+4 Arc Properties=HIDD_MODIFYARCDLG
+4 Attribute Properties=HIDD_MODATTRSTYLES
+4 Item Properties=Item_Properties
+4 Keepout Properties Dialog=HIDD_MODIFYKEEPOUTDLG
+4 Line Keepout Properties Dialog=HIDD_MODIFYLINEKEEPOUT
+4 Line Properties=HIDD_MODIFYLINEDLG
+4 Pad Properties=HIDD_FREEPADPROPSHEET
+4 Polygon Keepout Properties/Selection Mask Dialog=HIDD_MODIFYKEEPOUTSHEET
+4 Polygon Properties/Polygon Selection Mask=HIDD_MODIFYPOLYPROPSHEET_PAT_ED
+4 Test Point Properties=Test_Point_Properties
+4 Text Style Properties Dialog=HIDD_TTFTEXTSTYLEDLG
+4 Via Properties=HIDD_VIAPROPSHEET
+2 Glossary of Terms
+3 alias=alias
+3 copper tie=Copper_Tie
+3 Cutout=Cutout
+3 Data Tips=Data_Tips
+3 Fillet=Fillet
+3 Layers=Layers
+3 Layer Sets=Layer_Sets
+3 Mirror=Mirror
+3 Object Checkbox=Object_Checkbox
+3 Plane Swell Option=Plane_Swell_Option
+3 Print Adjustments=Print_Adjustments
+3 Print Job Name=Print_Name
+3 Rotate=Rotate
+3 Standard Pad Shapes and Thermal Spoke Pads=Standard_Pad_Shapes_and_Thermal_Spoke_Pads
+3 Test Point=Test_Point

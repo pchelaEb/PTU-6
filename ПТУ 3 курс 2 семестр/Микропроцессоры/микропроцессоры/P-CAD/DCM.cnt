@@ -1,0 +1,212 @@
+:Base DCM.HLP
+:Title P-CAD 2001 InterPlace/PCS Help
+1 Welcome to P-CAD InterPlace/PCS=InterPlace_Basics
+1 P-CAD InterPlace/PCS
+2 New Features=New_Features
+2 Using InterPlace
+3 Using the Placement Interface
+4 Multiple Design Windows=Multiple_Design_Windows
+4 Showing or Hiding Data Tips=Showing_or_Hiding_Data_Tips
+4 Visible Placement Area=Visible_Placement_Area
+4 Viewing the Visible Placement Area=Viewing_the_Visible_Placement_Area
+4 Working with Components
+5 Working with Components=Working_with_Components
+5 Automatic Net Optimization=Net_Optimization_Constraint
+5 Fixing a Component=Fixing_a_Component
+5 Moving Components by RefDes=Moving_Components_by_RefDes
+5 Selection Reference Point=Selection_Reference_Point
+5 Using the Block Selection Options Command=Using_the_Block_Selection_Options_Command
+5 Using the Clustering Tool=Using_the_Clustering_Tool
+5 Using the Discrete Placement Tool=Using_the_Discrete_Placement_Tool
+3 Using the Design Manager
+4 Design Manager View=Design_Manager_View
+4 Accessing the Design Manager View=Accessing_the_Design_Manager_View
+4 Common Commands in Design Manager=Common_Commands_in_Design_Manager
+4 Selecting Items in Design Manager=Selecting_Items_in_Design_Manager
+4 Placing Components=Placing_Components
+4 Organizing Components=Organizing_Components
+4 Grouping Components=Grouping_Components
+4 Jump to a Component=Jump_to_a_Component
+4 Jump to a Location=Jump_to_a_location
+4 Align Horizontally or Vertically=Align_Horizontally_or_Vertically
+4 Align to Grid=Align_to_Grid
+4 Design Manager Pages
+5 Accessing Design Manager Pages=Accessing_Design_Manager_Pages
+5 Design Manager Class-to-Class Page=Design_Manager_Class_to_Class_Page
+5 Design Manager Components Page=Design_Manager_Components_Page
+5 Design Manager Net Class Page=Design_Manager_Net_Class_Page
+5 Design Manager Nets Page=Design_Manager_Nets_Page
+5 Design Manager Partitions Page=Design_Manager_Partitions_Page
+5 Design Manager Rooms Page=Design_Manager_Rooms_Page
+2 Using the Parametric Constraint Solver
+3 Using the Constraint Editor
+4 Accessing the Constraint Editor=Accessing_the_Constraint_Editor
+4 The Constraint Editor View=Constraint_Editor_View
+4 Using the Constraint View=Using_the_Constraint_View
+4 Viewing the Constraint Editor=Viewing_the_Constraint_Editor
+4 Working with the Constraint Editor=Working_with_the_Constraint_Editor
+4 The Precedence View=The_Precedence_View
+4 Viewing the Precedence View=Viewing_the_Precedence_View
+4 Understanding Constraints
+5 What is a Constraint?=What_is_a_Constraint
+5 Constraint Names=Constraint_Names
+5 Constraint Domains=constraint_domains
+5 Constraint Categories=Constraint_Categories
+5 Constraint Data Types=Constraint_Data_Types
+5 Constraint Referencing=Constraint_Referencing
+5 Constraint Units=Constraint_Units
+5 Constraint Precedence Categories=Constraint_Precedence_Categories
+5 Constraint Mismatches=Constraint_Mismatches
+3 Using Expressions
+4 Expressions=Expressions
+4 Syntax Examples=Syntax_Examples
+2 Interapplication Functions
+3 Launching IPL and PCS=Launching_IPL_and_PCS
+3 What's loaded?=What_s_loaded
+3 Locking the Design=Locking_the_Design
+3 Saving Updates to a Design=Saving_Updates_to_a_Design
+3 Constraints and Rules Checking=Constraints_and_Rules_Checking
+3 Cross Probing Between Applications=Cross_Probing_Between_Applications
+3 DDE Hotlinks=DDE_Hotlinks
+3 Engineering Change Orders=Engineering_Change_Orders
+3 Constraint Transfers
+4 Constraint Transfer on Close=Constraint_Transfer_on_Close
+4 Constraint Transfer on Load=Constraint_Transfer_on_Load
+4 Design Technology Parameters
+5 Browse the File's Contents=Browse_the_File_s_Contents
+5 Building the Hierarchy=Building_the_Hierarchy
+5 Copying Information to Your Design=Copying_Information_to_Your_Design
+5 Creating and Opening Design Technology Parameter Files=Creating_and_Opening_Design_Technology_Parameter_Files
+5 Deleting a Group Section or Item=Deleting_a_Group_Section_or_Item
+5 Design Technology Parameter Files Organization=Design_Technology_Parameter_Files_Organization
+5 Item Properties=Item_Properties
+5 Renaming a Group or Item=Renaming_a_Group_or_Item
+1 InterPlace/PCS Reference
+2 PCS Expression Reference
+3 PCS References=PCS_References
+3 Constants=Constants
+3 Data Types=Data_Types
+3 Data Types by Constraint=Data_Types_by_Constraint
+3 Functions=Functions
+3 Grammar=Grammar
+3 Illegal Cases (Error Messages)=Illegal_Cases_Error_Messages
+3 Limits=Limits
+3 Operators=Operators
+3 Postfix Mode=Postfix_Mode
+3 Reserved Keywords=Reserved_Keywords
+3 Supported Units=Supported_Units
+2 InterPlace Toolbars
+3 InterPlace Toolbars=The_Toolbars
+3 Command Toolbar=Command_Toolbar
+3 Layout View Board Control Toolbar=Layer_Controls
+3 VPA Toolbar=VPA_Toolbar
+2 Layout View Commands
+3 File Menu
+4 File Close=HIDM_FILE_CLOSE
+4 File Design Technology Parameters=HIDM_FILE_TECH_TEMPLATES
+4 File Exit=HIDM_FILE_EXIT
+4 File Load PCB Design=HIDM_FILE_PCB_OPEN
+4 File Load Schematic Design=HIDM_FILE_SCH_OPEN
+4 File Reports=HIDM_FILE_REPORTS
+4 File Update PCB=HIDM_FILE_UPDATE
+4 File Update Schematic=HIDM_FILE_UPDATE_SCH
+3 Edit Menu
+4 Edit Align Components=HIDM_EDIT_ALIGN
+4 Edit Cluster By=HIDM_EDIT_CLUSTER_BY_REFDES
+4 Edit Deselect All=HIDM_EDIT_DESELECT_ALL
+4 Edit Discrete Placement=HIDM_EDIT_BYPASS_CAPS
+4 Edit Fix Components=HIDM_EDIT_FIX_COMPONENTS
+4 Edit Highlight=HIDM_EDIT_HIGHLIGHT
+4 Edit Measure=HIDM_EDIT_MEASURE
+4 Edit Move by RefDes=HIDM_EDIT_MOVE_BY_REFDES
+4 Edit Place On=HIDM_EDIT_PLACEON_TOP
+4 Edit Properties=HIDM_EDIT_PROPERTIES
+4 Edit Redo=Edit_Redo
+4 Edit Rotate To=HIDM_EDIT_ROTATE_0
+4 Edit Select=HIDM_EDIT_SELECT
+4 Edit Select All=HIDM_EDIT_SELECT_ALL
+4 Edit Select Highlighted=Edit_Select_Highlighted
+4 Edit Swap Components=HIDM_EDIT_SWAP
+4 Edit Undo=HIDM_EDIT_UNDO
+4 Edit Unfix Components=HIDM_EDIT_UNFIX_COMPONENTS
+4 Edit Unhighlight=HIDM_EDIT_UNHIGHLIGHT
+4 Edit Unhighlight All=HIDM_EDIT_UNHIGHLIGHT_ALL
+3 View Menu
+4 View All=HIDM_VIEW_ALL
+4 View Center=HIDM_VIEW_CENTER
+4 View Command Toolbar=HIDM_VIEW_COMMAND_TOOLBAR
+4 View Constraint Editor=HIDM_VIEW_CONSTRAINT_EDIT
+4 View Design Manager=HIDM_VIEW_DESIGN_MANAGER
+4 View Extent=HIDM_VIEW_EXTENT
+4 View Jump Location=HIDM_VIEW_JUMPLOC
+4 View Last=HIDM_VIEW_LAST
+4 View Layout View Options Toolbar=HIDM_VIEW_OPTIONS_TOOLBAR
+4 View Prompt Line=HIDM_VIEW_PROMPT
+4 View Redraw=HIDM_VIEW_REDRAW
+4 View Snap to Grid=HIDM_VIEW_SNAP2GRID
+4 View Status Line=HIDM_VIEW_STATUS
+4 View VPA Toolbar=HIDM_VIEW_VCA_TOOLBAR
+4 View Zoom In=HIDM_VIEW_ZOOMIN
+4 View Zoom Out=HIDM_VIEW_ZOOMOUT
+4 View Zoom Window=HIDM_VIEW_ZOOMWINDOW
+3 Options Menu
+4 Options Block Selection=HIDM_OPTIONS_SELECTMASK
+4 Options Configure=HIDM_OPTIONS_CONFIG
+4 Options Design Rules=HIDM_OPTIONS_DESIGN_RULES
+4 Options Display=HIDM_OPTIONS_DISPLAY
+4 Options Grids=HIDM_OPTIONS_GRIDS
+4 Options Preferences=HIDM_OPTIONS_PREFERENCES
+3 Window Menu
+4 Window All Open Windows=Window_All_Open_Windows
+4 Window Arrange Icons=HIDM_WINDOW_ARRANGE
+4 Window Cascade=HIDM_WINDOW_CASCADE
+4 Window New Window=HIDM_WINDOW_NEW
+4 Window Tile=HIDM_WINDOW_TILE_HORZ
+3 Help Menu
+4 Help P-CAD InterPlace/PCS Help Topics=HIDM_HELP_INDEX
+4 Help How to Use Help=HIDM_HELP_USING
+4 Help About P-CAD InterPlace/PCS=HIDM_HELP_ABOUT
+2 Right Mouse Commands
+3 Constraint Editor=Constraint_Editor_Right_Mouse_Commands
+3 Design Manager=Design_Manager_Right_Mouse_Commands
+3 Layout View=Layout_View_Right_Mouse_Commands
+2 Shortcuts and Special Keys
+3 In InterPlace=Keys
+3 In the Parametric Constraint Solver=Shortcut_and_Special_Use_Keys_PCS_
+2 Dialogs
+3 A-H
+4 About P-CAD InterPlace/PCS Dialog=About_P_CAD_InterPlace_PCS_Dialog
+4 Add Constraint Dialog=HIDD_ADDCONSTRAINTDLG
+4 Attributes Dialog=HIDD_ATTRSSHEET
+4 Change Attribute Value Dialog=Change_Attribute_Value_Dialog
+4 Class Name Dialog=HIDD_TECH_CLASS_CLASS_NAMEDLG
+4 Color Dialog=HIDD_SOLID_COLORS_DLG
+4 Component Properties Dialog=Component_Properties_Dialog
+4 Component Selection Mask Dialog=Component_Selection_Mask_Dialog
+4 Constraint Mismatch Dialog=HIDD_CONSTRAINT_ERROR_DLG
+4 Design Technology Parameters Dialog=HIDD_TECHTEMPLATE_DIALOG
+4 Discrete Placement Dialog=HIDD_BYPASS_CAPS_DLG
+4 DTP Item Properties - Rules Dialog=DTP_Item_Properties_Rules_Dialog
+4 Edit Align Components Dialog=HIDD_ALIGNDLG
+4 Edit Move by RefDes Dialog=HIDD_DCMMOVEREFDESDLG
+4 Edit Net Layer Rules Dialog=Edit_Net_Layer_Rules_Dialog
+4 File Reports Dialog=HIDD_FILE_REPORTS_DLG
+3 I-P
+4 Jump Location Dialog=HIDD_JUMPLOCATIONDLG
+4 Layer Clearance Dialog=HIDD_LAYERCLEARANCEDLG
+4 Name Dialog=HIDD_ENTERNAMEDLG
+4 New Section Type Dialog=HIDD_NEWSECTIONDLG
+4 Options Block Selection Dialog=HIDD_SELMASKDLG
+4 Options Configure Dialog=HIDD_CFGOPTN
+4 Options Design Rules Dialog=HIDD_DESIGNRULESPROPSHT>(w95sec)
+4 Options Display Dialog=HIDD_OPTIONS_DISPLAY_SHEET
+4 Options Grids Dialog=HIDD_OPTIONGRIDDLG
+4 Options Preferences Dialog=HIDD_DCMPREFDLG
+4 Overwrite Warning Dialog=HIDD_TECHITEM_OVERWRITE_BOX
+4 P-CAD DBX Dialog=P_CAD_DBX_Dialog
+4 Place Attribute/Attribute Properties Dialog=HIDD_ATTRPROPDLG
+3 Q-Z
+4 Select Layer Name Dialog=Select_Layer_Name_Dialog
+4 Set By Attribute Dialog=Set_By_Attribute_Dialog
+4 Show Net Connections On Drag=HIDM_DMV_NET_SHOW_CONNECTIONS_ON_DRAG
+4 Statistics Dialog=HIDD_TECH_ITEM_STATS
